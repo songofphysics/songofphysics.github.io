@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Sangeet Srinivasan. <a href="https://qi.uni-koeln.de/">Quantum Information Group</a>. <a href="https://ml4q.de/">Matter and Light for Quantum Computing</a>.
 
