@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Sangeet Srinivasan. <a href="https://qi.uni-koeln.de/">Quantum Information Group</a>. <a href="https://ml4q.de/">Matter and Light for Quantum Computing</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>3.321 Pohligstraße 3,</p>
+    <p>50969 Cologne, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently a graduate student pursuing a Master of Science in Physics at the Bonn-Cologne Graduate School of Physics and Astronomy. I am working on my master's thesis in the field of quantum algorithms in continuous variables (CV) in the cluster of excellence ML4Q (Matter and Light for Quantum Computing) and the Institute for Theoreical Physics at the University of Cologne. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in and around this buzzword called "quantum," in particular with quantum computing (QC) and algorithms. My current work focuses on Quantum and Quantum-Inspired Neural Networks. I have previously worked with ZX calculus as well. I have also done projects with Tensor Network methods such as Matrix Product States and Operators; and Density Matrix Renormalization Groups. I have also worked with extensive Monte Carlo Markov Chain Analysis and Inference; and Agent Based Models such as the Asymmetric Simple Exclusion Process. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Besides these, I thoroughly enjoy teaching and coming up with clean and enjoyable scripts for students to read about different topics from. I would also potentially like to dabble in quantum foundations research sometime in the future. Although, the stuff I'd like to dabble in the most is travelling the world and tasting different cuisines. My weeb degenerate energy levels can be found in [subreddit](https://www.reddit.com/r/anime/). 
