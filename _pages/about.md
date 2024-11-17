@@ -8,9 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>3.321 Pohligstraße 3,</p>
-    <p>50969 Cologne, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

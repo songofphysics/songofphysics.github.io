@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sangeet Srinivasan",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "sangeet@thp.uni-koeln.de",
+    "phone": "(+49) 159-0617-6035",
+    "url": "https://songofphysics.github.io/",
+    "summary": "Aspiring physicist and educator from India.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Pohligstraße 3",
+      "postalCode": "50354",
+      "city": "Cologne",
+      "countryCode": "DE",
+      "region": "North-Rhine Westphalia"
     },
     "profiles": [
       {
@@ -24,19 +24,21 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Institute for Theoretical Physics, University of Cologne",
+      "position": "Scientific Assistant (WHB)",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "April 2023",
+      "endDate": "September 2024",
+      "summary": "Teaching Assistant for several courses at both graduate and undergraduate levels.",
+      "highlights": ["Advanced Quantum Mechanics", 
+                    "Mathematics for Students of Physics I", 
+                    "Computational Physics (with Julia)"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
+      "organization": "Bonn-Cologne Graduate School Weekend Seminar",
+      "location": "DPG Physikzentrum Bad Honnef, Germany",
       "position": "Lead Organizer",
       "url": "https://example.com",
       "startDate": "2014-04-01",
