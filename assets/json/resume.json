@@ -4,15 +4,15 @@
     "label": "",
     "image": "",
     "email": "sangeet@thp.uni-koeln.de",
-    "phone": "(+49) 159-0617-6035",
+    "phone": "(+91) 904-2815-427",
     "url": "https://songofphysics.github.io/",
-    "summary": "Aspiring physicist and educator from India.",
+    "summary": "Computational Physicist and Physics Educator.",
     "location": {
-      "address": "Pohligstraße 3",
-      "postalCode": "50354",
-      "city": "Cologne",
-      "countryCode": "DE",
-      "region": "North-Rhine Westphalia"
+      "address": "129, CTH Road, Kochar Panchsheel Apartments",
+      "postalCode": "600098",
+      "city": "Chennai",
+      "countryCode": "IN",
+      "region": "Tamil Nadu"
     },
     "profiles": [
       {
@@ -24,27 +24,75 @@
   },
   "work": [
     {
+      "name": "Forschungzentrum Jülich",
+      "position": "Graduate Research Intern",
+      "url": "https://www.fz-juelich.de/en/ice/ice-1",
+      "startDate": "Dec 2024",
+      "endDate": "Mar 2025",
+      "summary": "Efficient Graph Partitioning with Quantum Annealing.",
+      "highlights": ["Gurobi Optimizer", 
+                    "D-Wave Quantum Annealer"]
+    },
+    {
+      "name": "Seeking Symmetries Summer School",
+      "position": "Tutor",
+      "url": "https://pugazh.notion.site/Seeking-Symmetries-a5c144cffa06428fa81c563638265ec3",
+      "startDate": "Jul 2024",
+      "endDate": "Sep 2024",
+      "summary": "A Bridge Course for High School Students with Beyond 8 and Headstart Learning Center",
+      "highlights": ["Elementary Algebra and Calculus", 
+                    "Symmetries in Newtonian Physics",
+                    "Cyclic Co-ordinates and Noether's Theorem"]
+    },
+    {
       "name": "Institute for Theoretical Physics, University of Cologne",
       "position": "Scientific Assistant (WHB)",
-      "url": "https://example.com",
+      "url": "https://qi.uni-koeln.de/team/",
       "startDate": "Apr 2023",
       "endDate": "Sep 2024",
       "summary": "Teaching Assistant for several courses at both graduate and undergraduate levels.",
       "highlights": ["Advanced Quantum Mechanics", 
                     "Mathematics for Students of Physics I", 
                     "Computational Physics (with Julia)"]
+    },
+    {
+      "name": "Bonn-Cologne Graduate School (BCGS) of Physics and Astronomy",
+      "position": "Lead Conference Organizer",
+      "url": "https://sites.google.com/view/bcgs-seminar/",
+      "startDate": "Mar 2023",
+      "endDate": "Aug 2023",
+      "summary": "Lead organizer for the annual BCGS Weekend Seminar in collaboration with the German Physical Society's Physikzentrum in Bad Honnef.",
+      "highlights": ["BCGS Weekend Seminar 2023"]
+    },
+    {
+      "name": "Department of Physics, Shiv Nadar University",
+      "position": "Undergraduate Student Researcher",
+      "startDate": "Aug 2019",
+      "endDate": "Jul 2020",
+      "summary": "The Minimal Length Problem and Generalised Uncertainty Principles.",
+      "highlights": ["PT Symmetric Quantum Mechanics", 
+                    "Non-Commutative Geometry", 
+                    "Representation Theory"]
+    },
+    {
+      "name": "Local Committee (Noida) of IAPS",
+      "position": "Representative",
+      "url": "https://www.facebook.com/iaps.physics/posts/2266007906776398/",
+      "startDate": "Mar 2019",
+      "endDate": "Nov 2020",
+      "summary": "Co-Founded the Local Committee of IAPS at Shiv Nadar University.",
+      "highlights": ["Outreach"]
     }
   ],
   "volunteer": [
     {
-      "organization": "Bonn-Cologne Graduate School Weekend Seminar",
-      "location": "Bad Honnef, Germany",
-      "position": "Lead Organizer",
-      "url": "https://sites.google.com/view/bcgs-seminar/",
+      "organization": "Bonn-Cologne Graduate School Student Council",
+      "location": "Cologne, Germany",
+      "position": "Steering Committee Member",
+      "url": "https://www.gradschool.physics.uni-bonn.de/graduate-school/organisation/",
       "startDate": "Mar 2023",
-      "endDate": "Aug 2023",
-      "summary": "Lead organizer for the annual Bonn-Cologne Graduate School Weekend Seminar in collaboration with the German Physical Society's Physikzentrum in Bad Honnef.",
-      "highlights": ["BCGS Student Council Representative"]
+      "endDate": "Feb 2024",
+      "summary": "Voting Representative for the BCGS Student Council in the Steering Committee."
     }
   ],
   "education": [
@@ -52,21 +100,21 @@
       "institution": "University of Cologne, Bonn-Cologne Graduate School of Physics and Astronomy",
       "location": "Cologne, Germany",
       "url": "https://www.gradschool.physics.uni-bonn.de/",
-      "area": "Physics",
+      "area": "Physics (with dual Specialisations)",
       "studyType": "Master of Science",
       "startDate": "Apr 2021",
       "endDate": "Mar 2025",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "score": "1.7",
+      "courses": ["Foundations of Quantum Technologies",
+                 "Quantum Field Theory & General Relativity",
+                 "Practical Training: Computational Physics"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Full Merit Scholarship",
+      "date": "May 2016",
+      "awarder": "Shiv Nadar University"
     }
   ],
   "certificates": [
@@ -111,29 +159,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
