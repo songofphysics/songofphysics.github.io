@@ -24,6 +24,7 @@
   },
   "work": [
     {
+      "order": 1,
       "name": "Forschungzentrum Jülich",
       "position": "Graduate Research Intern",
       "url": "https://www.fz-juelich.de/en/ice/ice-1",
@@ -33,6 +34,7 @@
       "highlights": ["Gurobi Optimizer", "D-Wave Quantum Annealer"]
     },
     {
+      "order": 2,
       "name": "Seeking Symmetries Summer School",
       "position": "Tutor",
       "url": "https://pugazh.notion.site/Seeking-Symmetries-a5c144cffa06428fa81c563638265ec3",
@@ -42,6 +44,7 @@
       "highlights": ["Elementary Algebra and Calculus", "Symmetries in Newtonian Physics", "Cyclic Co-ordinates and Noether's Theorem"]
     },
     {
+      "order": 3,
       "name": "Institute for Theoretical Physics, University of Cologne",
       "position": "Scientific Assistant (WHB)",
       "url": "https://qi.uni-koeln.de/team/",
@@ -51,6 +54,7 @@
       "highlights": ["Advanced Quantum Mechanics", "Mathematics for Students of Physics I", "Computational Physics (with Julia)"]
     },
     {
+      "order": 4,
       "name": "Bonn-Cologne Graduate School (BCGS) of Physics and Astronomy",
       "position": "Lead Conference Organizer",
       "url": "https://sites.google.com/view/bcgs-seminar/",
@@ -60,6 +64,7 @@
       "highlights": ["BCGS Weekend Seminar 2023"]
     },
     {
+      "order": 5,
       "name": "Department of Physics, Shiv Nadar University",
       "position": "Undergraduate Student Researcher",
       "startDate": "Aug 2019",
@@ -68,6 +73,7 @@
       "highlights": ["PT Symmetric Quantum Mechanics", "Non-Commutative Geometry", "Representation Theory"]
     },
     {
+      "order": 6,
       "name": "Local Committee (Noida) of IAPS",
       "position": "Representative",
       "url": "https://www.facebook.com/iaps.physics/posts/2266007906776398/",
@@ -79,6 +85,7 @@
   ],
   "volunteer": [
     {
+      "order": 1,
       "organization": "Bonn-Cologne Graduate School Student Council",
       "location": "Cologne, Germany",
       "position": "Steering Committee Member",
@@ -86,26 +93,59 @@
       "startDate": "Mar 2023",
       "endDate": "Feb 2024",
       "summary": "Voting Representative for the BCGS Student Council in the Steering Committee."
+    },
+    {
+      "order": 2,
+      "organization": "Physics Society, Shiv Nadar University",
+      "location": "Noida, India",
+      "position": "Associate Secretary",
+      "url": "https://www.instagram.com/physoc_snu/",
+      "startDate": "Aug 2018",
+      "endDate": "Aug 2019",
+      "summary": "Core member of the Physics Society at Shiv Nadar University."
     }
   ],
   "education": [
     {
-      "institution": "University of Cologne, Bonn-Cologne Graduate School of Physics and Astronomy",
+      "order": 1,
+      "institution": "University of Cologne, BCGS Physics and Astronomy",
       "location": "Cologne, Germany",
       "url": "https://www.gradschool.physics.uni-bonn.de/",
       "area": "Physics (with dual Specialisations)",
       "studyType": "Master of Science",
       "startDate": "Apr 2021",
       "endDate": "Mar 2025",
-      "score": "1.7",
       "courses": ["Foundations of Quantum Technologies", "Quantum Field Theory & General Relativity", "Practical Training: Computational Physics"]
+    },
+    {
+      "order": 2,
+      "institution": "Shiv Nadar Institute of Eminence, Deemed to be University",
+      "location": "Noida, India",
+      "url": "https://www.gradschool.physics.uni-bonn.de/",
+      "area": "Physics (with minor in Mathematics)",
+      "studyType": "Bachelor of Science (Research)",
+      "startDate": "Jun 2016",
+      "endDate": "Dec 2020",
+      "courses": ["General Relativity", "Cosmology", "High Energy Physics"]
+    },
+    {
+      "order": 3,
+      "institution": "Chennai Public School",
+      "location": "Chennai, India",
+      "url": "https://www.gradschool.physics.uni-bonn.de/",
+      "area": "Physics, Chemistry, Mathematics and Computer Science",
+      "studyType": "Higher Secondary Schooling Certificate",
+      "startDate": "Jun 2014",
+      "endDate": "May 2016"
     }
   ],
   "awards": [
     {
       "title": "Full Merit Scholarship",
-      "date": "May 2016",
-      "awarder": "Shiv Nadar University"
+      "startDate": "May 2016",
+      "endDate": "Dec 2020",
+      "awarder": "Shiv Nadar University",
+      "summary": "Awarded a full merit scholarship for the duration of the undergraduate program."
     }
   ],
   "certificates": [
