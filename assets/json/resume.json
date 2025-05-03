@@ -54,7 +54,7 @@
       "name": "Bonn-Cologne Graduate School (BCGS) of Physics and Astronomy",
       "position": "Lead Conference Organizer",
       "url": "https://sites.google.com/view/bcgs-seminar/",
-      "startDate": "2023-03-01",	
+      "startDate": "2023-03-01",
       "endDate": "2023-08-31",
       "summary": "Lead organizer for the annual BCGS Weekend Seminar in collaboration with the German Physical Society's Physikzentrum in Bad Honnef.",
       "highlights": ["BCGS Weekend Seminar 2023"]
@@ -71,7 +71,7 @@
       "name": "Local Committee (Noida) of IAPS",
       "position": "Representative",
       "url": "https://www.facebook.com/iaps.physics/posts/2266007906776398/",
-      "startDate": "2019-03-01",	
+      "startDate": "2019-03-01",
       "endDate": "2020-11-15",
       "summary": "Co-Founded the Local Committee of IAPS at Shiv Nadar University.",
       "highlights": ["Outreach", "Organizing Events", "Networking"]
@@ -111,7 +111,7 @@
     {
       "institution": "Shiv Nadar Institute of Eminence, Deemed to be University",
       "location": "Noida, India",
-      "url": "https://www.gradschool.physics.uni-bonn.de/",
+      "url": "https://snu.edu.in/departments/department-of-physics/",
       "area": "Physics (with minor in Mathematics)",
       "studyType": "Bachelor of Science (Research)",
       "startDate": "2016-06-01",
@@ -121,9 +121,9 @@
     {
       "institution": "Chennai Public School",
       "location": "Chennai, India",
-      "url": "https://www.gradschool.physics.uni-bonn.de/",
+      "url": "https://www.chennaipublicschool.com/annanagar/index.php",
       "area": "Physics, Chemistry, Mathematics and Computer Science",
-      "studyType": "Higher Secondary Schooling Certificate",
+      "studyType": "Higher Secondary Certificate",
       "startDate": "2014-06-01",
       "endDate": "2016-05-05"
     }
@@ -133,35 +133,35 @@
       "title": "Full Merit Scholarship",
       "date": "2016-06-01",
       "awarder": "Shiv Nadar University",
-      "summary": "Awarded for every semester of the UG program subject to a minimum GPA."
+      "summary": "Awarded in every semester of the program subject to a minimum GPA."
     }
   ],
   "certificates": [
     {
-      "name": "IBM Quantum Challenge 2024",
+      "name": "IBM Quantum Challenge",
       "date": "2024-06-19",
-      "issuer": "International Business Machines Corporation",
+      "issuer": "IBM Corporation",
       "url": "https://www.credly.com/badges/d7c15ac4-d9d2-4d06-af2e-493bf9689067/print",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
       "name": "Pennylane Ceritificate",
       "date": "2024-05-24",
-      "issuer": "Pennylane, Xanadu Quantum Technologies",
+      "issuer": "Xanadu Quantum Technologies",
       "url": "https://pennylane.ai/profile/songofphysics?certificate=introduction-to-pennylane",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
       "name": "Philosophy of Physical Sciences",
-      "date": "2025-08-25",
-      "issuer": "The University of Edinburgh via Coursera",
+      "date": "2020-08-25",
+      "issuer": "The University of Edinburgh",
       "url": "https://www.coursera.org/account/accomplishments/certificate/A6LM7TWPULJ5",
       "icon": "fa-solid fa-envelope"
     },
     {
       "name": "Introduction to Philosophy",
       "date": "2020-05-03",
-      "issuer": "The University of Edinburgh via Coursera",
+      "issuer": "The University of Edinburgh",
       "url": "https://www.coursera.org/account/accomplishments/certificate/7R3G68TBDDN4",
       "icon": "fa-solid fa-envelope"
     },
@@ -173,7 +173,7 @@
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Certificate in Advanced English",
+      "name": "Cambridge CAE",
       "date": "2015-03-20",
       "issuer": "Cambridge English",
       "icon": "fa-solid fa-clipboard-check"
@@ -181,28 +181,78 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Quantum Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Quantum Mechanics", "Quantum Information", "Quantum Field Theory", "Quantum Foundations", "Quantum Technologies"]
+    },
+    {
+      "name": "Quantum Computing",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Variational Ciruits", "Quantum Simulation", "Quantum Algorithms", "Quantum Annealing", "Tensor Networks"]
+    },
+    {
+      "name": "Computational Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["MCMC Analysis", "Simulated Annealing", "Statistical Inference", "Agent Based Modelling", "Riemann Solvers"]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Python", "Julia", "C++", "Rust", "Fortran"]
+    },
+    {
+      "name": "Quantum Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "QuTiP and QuantumOptics",
+        "Pennylane & Strawberry Fields",
+        "Open Quantum Assembly Language",
+        "Blackbird Quantum Assembly",
+        "Qiskit and Cirq"
       ]
+    },
+    {
+      "name": "Scicomp Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["TensorFlow and Keras", "Scikit Learn", "Pandas, NumPy and SciPy", "Gurobi Optimizer", "Matplotlib and Seaborn"]
+    },
+    {
+      "name": "Mathematics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Linear Algebra", "Abstract Algebra", "Mathematical Analysis", "Differential Geometry", "Numerical Analysis"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Hindustani",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Bilingual",
+      "icon": ""
+    },
+    {
+      "language": "Tamizh",
+      "fluency": "Bilingual",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Elementary",
       "icon": ""
     }
   ],
@@ -210,31 +260,29 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Quantum Computing", "Quantum Information", "Quantum Foundations", "Computational Physics", "Mathematical Physics"]
+    },
+    {
+      "name": "Physics Education",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Curriculum Development", "Topical Simplification", "Academic Inertia", "Autodidactic Methods", "Scientific Writing"]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Dr. David Gross",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Quantum Information Theory Group, University of Cologne"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Dr. Arindam Chatterjee",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "High Energy Physics Group, Shiv Nadar University"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "Quantum-Inspired Neural Networks in Phase Space",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
