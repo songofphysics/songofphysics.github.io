@@ -24,171 +24,158 @@
   },
   "work": [
     {
-      "order": 1,
       "name": "Forschungzentrum Jülich",
       "position": "Graduate Research Intern",
       "url": "https://www.fz-juelich.de/en/ice/ice-1",
-      "startDate": "Dec 2024",
-      "endDate": "Mar 2025",
+      "startDate": "2024-12-02",
+      "endDate": "2025-03-07",
       "summary": "Efficient Graph Partitioning with Quantum Annealing.",
       "highlights": ["Gurobi Optimizer", "D-Wave Quantum Annealer"]
     },
     {
-      "order": 2,
       "name": "Seeking Symmetries Summer School",
       "position": "Tutor",
       "url": "https://pugazh.notion.site/Seeking-Symmetries-a5c144cffa06428fa81c563638265ec3",
-      "startDate": "Jul 2024",
-      "endDate": "Sep 2024",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31",
       "summary": "A Bridge Course for High School Students with Beyond 8 and Headstart Learning Center",
       "highlights": ["Elementary Algebra and Calculus", "Symmetries in Newtonian Physics", "Cyclic Co-ordinates and Noether's Theorem"]
     },
     {
-      "order": 3,
       "name": "Institute for Theoretical Physics, University of Cologne",
       "position": "Scientific Assistant (WHB)",
       "url": "https://qi.uni-koeln.de/team/",
-      "startDate": "Apr 2023",
-      "endDate": "Sep 2024",
+      "startDate": "2023-04-01",
+      "endDate": "2024-09-30",
       "summary": "Teaching Assistant for several courses at both graduate and undergraduate levels.",
       "highlights": ["Advanced Quantum Mechanics", "Mathematics for Students of Physics I", "Computational Physics (with Julia)"]
     },
     {
-      "order": 4,
       "name": "Bonn-Cologne Graduate School (BCGS) of Physics and Astronomy",
       "position": "Lead Conference Organizer",
       "url": "https://sites.google.com/view/bcgs-seminar/",
-      "startDate": "Mar 2023",
-      "endDate": "Aug 2023",
+      "startDate": "2023-03-01",	
+      "endDate": "2023-08-31",
       "summary": "Lead organizer for the annual BCGS Weekend Seminar in collaboration with the German Physical Society's Physikzentrum in Bad Honnef.",
       "highlights": ["BCGS Weekend Seminar 2023"]
     },
     {
-      "order": 5,
       "name": "Department of Physics, Shiv Nadar University",
       "position": "Undergraduate Student Researcher",
-      "startDate": "Aug 2019",
-      "endDate": "Jul 2020",
+      "startDate": "2019-08-01",
+      "endDate": "2020-07-15",
       "summary": "The Minimal Length Problem and Generalised Uncertainty Principles.",
       "highlights": ["PT Symmetric Quantum Mechanics", "Non-Commutative Geometry", "Representation Theory"]
     },
     {
-      "order": 6,
       "name": "Local Committee (Noida) of IAPS",
       "position": "Representative",
       "url": "https://www.facebook.com/iaps.physics/posts/2266007906776398/",
-      "startDate": "Mar 2019",
-      "endDate": "Nov 2020",
+      "startDate": "2019-03-01",	
+      "endDate": "2020-11-15",
       "summary": "Co-Founded the Local Committee of IAPS at Shiv Nadar University.",
-      "highlights": ["Outreach"]
+      "highlights": ["Outreach", "Organizing Events", "Networking"]
     }
   ],
   "volunteer": [
     {
-      "order": 1,
       "organization": "Bonn-Cologne Graduate School Student Council",
       "location": "Cologne, Germany",
       "position": "Steering Committee Member",
       "url": "https://www.gradschool.physics.uni-bonn.de/graduate-school/organisation/",
-      "startDate": "Mar 2023",
-      "endDate": "Feb 2024",
+      "startDate": "2023-03-01",
+      "endDate": "2024-02-28",
       "summary": "Voting Representative for the BCGS Student Council in the Steering Committee."
     },
     {
-      "order": 2,
       "organization": "Physics Society, Shiv Nadar University",
       "location": "Noida, India",
       "position": "Associate Secretary",
       "url": "https://www.instagram.com/physoc_snu/",
-      "startDate": "Aug 2018",
-      "endDate": "Aug 2019",
+      "startDate": "2018-08-31",
+      "endDate": "2019-08-01",
       "summary": "Core member of the Physics Society at Shiv Nadar University."
     }
   ],
   "education": [
     {
-      "order": 1,
       "institution": "University of Cologne, BCGS Physics and Astronomy",
       "location": "Cologne, Germany",
       "url": "https://www.gradschool.physics.uni-bonn.de/",
       "area": "Physics (with dual Specialisations)",
       "studyType": "Master of Science",
-      "startDate": "Apr 2021",
-      "endDate": "Mar 2025",
+      "startDate": "2021-04-01",
+      "endDate": "2025-03-31",
       "courses": ["Foundations of Quantum Technologies", "Quantum Field Theory & General Relativity", "Practical Training: Computational Physics"]
     },
     {
-      "order": 2,
       "institution": "Shiv Nadar Institute of Eminence, Deemed to be University",
       "location": "Noida, India",
       "url": "https://www.gradschool.physics.uni-bonn.de/",
       "area": "Physics (with minor in Mathematics)",
       "studyType": "Bachelor of Science (Research)",
-      "startDate": "Jun 2016",
-      "endDate": "Dec 2020",
+      "startDate": "2016-06-01",
+      "endDate": "2020-12-17",
       "courses": ["General Relativity", "Cosmology", "High Energy Physics"]
     },
     {
-      "order": 3,
       "institution": "Chennai Public School",
       "location": "Chennai, India",
       "url": "https://www.gradschool.physics.uni-bonn.de/",
       "area": "Physics, Chemistry, Mathematics and Computer Science",
       "studyType": "Higher Secondary Schooling Certificate",
-      "startDate": "Jun 2014",
-      "endDate": "May 2016"
+      "startDate": "2014-06-01",
+      "endDate": "2016-05-05"
     }
   ],
   "awards": [
     {
       "title": "Full Merit Scholarship",
-      "startDate": "May 2016",
-      "endDate": "Dec 2020",
+      "date": "2016-06-01",
       "awarder": "Shiv Nadar University",
-      "summary": "Awarded a full merit scholarship for the duration of the undergraduate program."
+      "summary": "Awarded for every semester of the UG program subject to a minimum GPA."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "IBM Quantum Challenge 2024",
+      "date": "2024-06-19",
+      "issuer": "International Business Machines Corporation",
+      "url": "https://www.credly.com/badges/d7c15ac4-d9d2-4d06-af2e-493bf9689067/print",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Pennylane Ceritificate",
+      "date": "2024-05-24",
+      "issuer": "Pennylane, Xanadu Quantum Technologies",
+      "url": "https://pennylane.ai/profile/songofphysics?certificate=introduction-to-pennylane",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Philosophy of Physical Sciences",
+      "date": "2025-08-25",
+      "issuer": "The University of Edinburgh via Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/A6LM7TWPULJ5",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Introduction to Philosophy",
+      "date": "2020-05-03",
+      "issuer": "The University of Edinburgh via Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/7R3G68TBDDN4",
+      "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Introduction to Psychology",
+      "date": "2020-05-11",
+      "issuer": "Yale University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/3E83MVACW79Q",
+      "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Certificate in Advanced English",
+      "date": "2015-03-20",
+      "issuer": "Cambridge English",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
