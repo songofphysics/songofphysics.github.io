@@ -30,8 +30,7 @@
       "startDate": "Dec 2024",
       "endDate": "Mar 2025",
       "summary": "Efficient Graph Partitioning with Quantum Annealing.",
-      "highlights": ["Gurobi Optimizer", 
-                    "D-Wave Quantum Annealer"]
+      "highlights": ["Gurobi Optimizer", "D-Wave Quantum Annealer"]
     },
     {
       "name": "Seeking Symmetries Summer School",
@@ -40,9 +39,7 @@
       "startDate": "Jul 2024",
       "endDate": "Sep 2024",
       "summary": "A Bridge Course for High School Students with Beyond 8 and Headstart Learning Center",
-      "highlights": ["Elementary Algebra and Calculus", 
-                    "Symmetries in Newtonian Physics",
-                    "Cyclic Co-ordinates and Noether's Theorem"]
+      "highlights": ["Elementary Algebra and Calculus", "Symmetries in Newtonian Physics", "Cyclic Co-ordinates and Noether's Theorem"]
     },
     {
       "name": "Institute for Theoretical Physics, University of Cologne",
@@ -51,9 +48,7 @@
       "startDate": "Apr 2023",
       "endDate": "Sep 2024",
       "summary": "Teaching Assistant for several courses at both graduate and undergraduate levels.",
-      "highlights": ["Advanced Quantum Mechanics", 
-                    "Mathematics for Students of Physics I", 
-                    "Computational Physics (with Julia)"]
+      "highlights": ["Advanced Quantum Mechanics", "Mathematics for Students of Physics I", "Computational Physics (with Julia)"]
     },
     {
       "name": "Bonn-Cologne Graduate School (BCGS) of Physics and Astronomy",
@@ -70,9 +65,7 @@
       "startDate": "Aug 2019",
       "endDate": "Jul 2020",
       "summary": "The Minimal Length Problem and Generalised Uncertainty Principles.",
-      "highlights": ["PT Symmetric Quantum Mechanics", 
-                    "Non-Commutative Geometry", 
-                    "Representation Theory"]
+      "highlights": ["PT Symmetric Quantum Mechanics", "Non-Commutative Geometry", "Representation Theory"]
     },
     {
       "name": "Local Committee (Noida) of IAPS",
@@ -105,9 +98,7 @@
       "startDate": "Apr 2021",
       "endDate": "Mar 2025",
       "score": "1.7",
-      "courses": ["Foundations of Quantum Technologies",
-                 "Quantum Field Theory & General Relativity",
-                 "Practical Training: Computational Physics"]
+      "courses": ["Foundations of Quantum Technologies", "Quantum Field Theory & General Relativity", "Practical Training: Computational Physics"]
     }
   ],
   "awards": [
