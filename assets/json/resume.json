@@ -142,41 +142,41 @@
       "date": "2024-06-19",
       "issuer": "IBM Corporation",
       "url": "https://www.credly.com/badges/d7c15ac4-d9d2-4d06-af2e-493bf9689067/print",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-code"
     },
     {
       "name": "Pennylane Ceritificate",
       "date": "2024-05-24",
       "issuer": "Xanadu Quantum Technologies",
       "url": "https://pennylane.ai/profile/songofphysics?certificate=introduction-to-pennylane",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-code"
     },
     {
-      "name": "Philosophy of Physical Sciences",
+      "name": "Philosophy of Physics",
       "date": "2020-08-25",
       "issuer": "The University of Edinburgh",
       "url": "https://www.coursera.org/account/accomplishments/certificate/A6LM7TWPULJ5",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Introduction to Philosophy",
+      "name": "Intro to Philosophy",
       "date": "2020-05-03",
       "issuer": "The University of Edinburgh",
       "url": "https://www.coursera.org/account/accomplishments/certificate/7R3G68TBDDN4",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Introduction to Psychology",
+      "name": "Intro to Psychology",
       "date": "2020-05-11",
       "issuer": "Yale University",
       "url": "https://www.coursera.org/account/accomplishments/certificate/3E83MVACW79Q",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-certificate"
     },
     {
       "name": "Cambridge CAE",
       "date": "2015-03-20",
       "issuer": "Cambridge English",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-language"
     }
   ],
   "skills": [
@@ -245,16 +245,15 @@
       "fluency": "Fluent"
     },
     {
-      "language": "Bengali",
+      "language": "Bangla",
       "fluency": "Bilingual"
     },
     {
       "language": "Tamizh",
-      "fluency": "Bilingual",
-      "icon": ""
+      "fluency": "Bilingual"
     },
     {
-      "language": "German",
+      "language": "Deutsche",
       "fluency": "Elementary"
     }
   ],
@@ -282,7 +281,7 @@
       "reference": "High Energy Physics Group, Shiv Nadar University"
     }
   ],
-  "projects": [
+  "thesis": [
     {
       "name": "Quantum-Inspired Neural Networks in Phase Space",
       "summary": "Benchmarking Quantum-Inspired Neural Networks in Phase Space against Quantum Simulation of Photonic Quantum Neural Networks.",
