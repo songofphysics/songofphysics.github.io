@@ -133,7 +133,7 @@
       "title": "Full Merit Scholarship",
       "date": "2016-06-01",
       "awarder": "Shiv Nadar University",
-      "summary": "Awarded in every semester of the program subject to a minimum GPA."
+      "summary": "For every semester of the UG program subject to a minimum GPA."
     }
   ],
   "certificates": [
@@ -273,18 +273,18 @@
     {
       "name": "Professor Dr. David Gross",
       "icon": "fa-solid fa-address-book",
-      "reference": "Quantum Information Theory Group, University of Cologne"
+      "reference": "University of Cologne"
     },
     {
       "name": "Professor Dr. Arindam Chatterjee",
       "icon": "fa-solid fa-address-book",
-      "reference": "High Energy Physics Group, Shiv Nadar University"
+      "reference": "Shiv Nadar University"
     }
   ],
-  "thesis": [
+  "projects": [
     {
       "name": "Quantum-Inspired Neural Networks in Phase Space",
-      "summary": "Benchmarking Quantum-Inspired Neural Networks in Phase Space against Quantum Simulation of Photonic Quantum Neural Networks.",
+      "summary": "Master Thesis: Benchmarking Quantum-Inspired Neural Networks against Simulated Photonic Quantum Neural Networks.",
       "highlights": [
         "Variational Quantum Circuits",
         "Multilayer Perceptrons",
