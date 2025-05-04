@@ -183,67 +183,70 @@
     {
       "name": "Quantum Physics",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-atom",
       "keywords": ["Quantum Mechanics", "Quantum Information", "Quantum Field Theory", "Quantum Foundations", "Quantum Technologies"]
     },
     {
       "name": "Quantum Computing",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-laptop-code",
       "keywords": ["Variational Ciruits", "Quantum Simulation", "Quantum Algorithms", "Quantum Annealing", "Tensor Networks"]
     },
     {
       "name": "Computational Physics",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-microchip",
       "keywords": ["MCMC Analysis", "Simulated Annealing", "Statistical Inference", "Agent Based Modelling", "Riemann Solvers"]
     },
     {
       "name": "Programming Languages",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": ["Python", "Julia", "C++", "Rust", "Fortran"]
     },
     {
       "name": "Quantum Programming",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code-branch",
       "keywords": [
+        "Qiskit and Cirq",
         "QuTiP and QuantumOptics",
         "Pennylane & Strawberry Fields",
         "Open Quantum Assembly Language",
-        "Blackbird Quantum Assembly",
-        "Qiskit and Cirq"
+        "Blackbird Quantum Assembly"
       ]
     },
     {
       "name": "Scicomp Tools",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["TensorFlow and Keras", "Scikit Learn", "Pandas, NumPy and SciPy", "Gurobi Optimizer", "Matplotlib and Seaborn"]
+      "icon": "fa-solid fa-tools",
+      "keywords": ["Gurobi Optimizer", "TensorFlow and Keras", "Scikit Learn and Pandas", "NumPy, SciPy and SymPy", "Matplotlib and Seaborn"]
     },
     {
       "name": "Mathematics",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Linear Algebra", "Abstract Algebra", "Mathematical Analysis", "Differential Geometry", "Numerical Analysis"]
+      "icon": "fa-solid fa-square-root-variable",
+      "keywords": ["Linear Algebra", "Abstract Algebra", "Functional Analysis", "Differential Geometry", "Numerical Analysis"]
+    },
+    {
+      "name": "Miscellaneous",
+      "level": "Master",
+      "icon": "fa-solid fa-laptop",
+      "keywords": ["Mathematica", "LaTeX", "Linux CLI", "HTML and Markdown", "MS Office Suite"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     },
     {
       "language": "Hindustani",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     },
     {
       "language": "Bengali",
-      "fluency": "Bilingual",
-      "icon": ""
+      "fluency": "Bilingual"
     },
     {
       "language": "Tamizh",
@@ -252,42 +255,46 @@
     },
     {
       "language": "German",
-      "fluency": "Elementary",
-      "icon": ""
+      "fluency": "Elementary"
     }
   ],
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-cogs",
       "keywords": ["Quantum Computing", "Quantum Information", "Quantum Foundations", "Computational Physics", "Mathematical Physics"]
     },
     {
       "name": "Physics Education",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-chalkboard-teacher",
       "keywords": ["Curriculum Development", "Topical Simplification", "Academic Inertia", "Autodidactic Methods", "Scientific Writing"]
     }
   ],
   "references": [
     {
       "name": "Professor Dr. David Gross",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-address-book",
       "reference": "Quantum Information Theory Group, University of Cologne"
     },
     {
       "name": "Professor Dr. Arindam Chatterjee",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-address-book",
       "reference": "High Energy Physics Group, Shiv Nadar University"
     }
   ],
   "projects": [
     {
       "name": "Quantum-Inspired Neural Networks in Phase Space",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "summary": "Benchmarking Quantum-Inspired Neural Networks in Phase Space against Quantum Simulation of Photonic Quantum Neural Networks.",
+      "highlights": [
+        "Variational Quantum Circuits",
+        "Multilayer Perceptrons",
+        "Wigner-Weyl Transformation",
+        "Quantum Simulation",
+        "Photonic Quantum Computing"
+      ],
+      "startDate": "2024-04-01",
+      "endDate": "2025-03-27"
     }
   ]
 }
