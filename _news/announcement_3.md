@@ -1,9 +1,20 @@
 ---
 layout: post
-title: Tamil Nadu Science Forum Events
+title: Upcoming Talks, Workshops and Events
 date: 2025-05-01 07:59:00-0400
 inline: false
 related_posts: false
 ---
 
-I will be part of a panel discussion for careers in science at the Tamil Nadu Science Forum's Popular Science Lecture Series on **May 24, 2025** at the Anna Centenary Library. :sparkles: :smile:
+## Location: Anna Centenary Library
+
+1. **Careers in Science**
+   - **Organised by:** [Tamil Nadu Science Forum](https://en.wikipedia.org/wiki/Tamil_Nadu_Science_Forum).
+   - **Event Type:** Panel Discussion (Bilingual)
+   - **Location:** [Anna Centenary Library](https://www.annacentenarylibrary.org/), Chennai, India.
+   - **Date:** 24 May, 2025.
+2. **Weekend Science Camp**
+   - **Organised by:** [Tamil Nadu Science Forum](https://en.wikipedia.org/wiki/Tamil_Nadu_Science_Forum).
+   - **Event Type:** Two Day Summer Camp (Bilungual)
+   - **Location:** [Anna Centenary Library](https://www.annacentenarylibrary.org/), Chennai, India.
+   - **Date:** 30-31 May, 2025.
