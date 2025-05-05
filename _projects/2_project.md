@@ -2,7 +2,7 @@
 layout: page
 title: Tensor Networks
 description: Phase Transitions of Ising and Bilinear Biquadratic Spin Chains
-img: assets/img/3.jpg
+img: assets/img/spinchain.jpg
 importance: 2
 category: work
 giscus_comments: false

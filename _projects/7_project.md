@@ -5,7 +5,7 @@ description: Nagel-Scheckenberg Model
 img: assets/img/4.jpg
 redirect: https://unsplash.com
 importance: 2
-category: work
+category: fun
 related_publications: false
 giscus_comments: false
 ---
