@@ -13,7 +13,7 @@ nav_order: 6
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="Archive">
 
 {% bibliography %}
 

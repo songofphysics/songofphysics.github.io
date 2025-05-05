@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Incumbent Physics Educator at Rishi Valley School
+date: 2025-03-21 16:11:00-0400
 inline: false
 related_posts: false
 ---

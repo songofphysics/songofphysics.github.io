@@ -16,13 +16,22 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Instragram",
+        "username": "physicsautodidact",
+        "url": "https://www.instagram.com/physicsautodidact/"
       }
     ]
   },
   "work": [
+    {
+      "name": "Rishi Valley School & Education Center",
+      "position": "High School Physics Educator",
+      "url": "https://www.rishivalley.org/",
+      "startDate": "2025-06-01",
+      "endDate": "Present",
+      "summary": "Physics and Mathematics. Teaching and Curriculum Development.",
+      "highlights": ["ICSE Class IX", "ISC Class X"]
+    },
     {
       "name": "Forschungzentrum Jülich",
       "position": "Graduate Research Intern",
