@@ -11,5 +11,5 @@ I am very pleased to announce that I will be joining as a high school physics ed
 ---
 
 <div align="center">
-  <h2 style="font-family: Arial, sans-serif;">Details loading...</h2>
+  <h2>Details loading...</h2>
 </div>
