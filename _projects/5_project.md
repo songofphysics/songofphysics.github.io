@@ -2,7 +2,7 @@
 layout: page
 title: Generalised Uncertainty Principles
 description: Minimal length corrections of Hamiltonian spectra
-img: assets/img/1.jpg
+img: assets/img/planck.png
 importance: 5
 category: work
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: Quantum Picturalism
 description: A pictorial introduction to quantum computing
-img: assets/img/9.jpg
+img: assets/img/zxcalc.jpg
 importance: 3
 category: fun
 related_publications: false

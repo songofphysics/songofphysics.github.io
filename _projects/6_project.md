@@ -2,7 +2,7 @@
 layout: page
 title: Wigner Functions
 description: Simulations and Animations
-img:
+img: assets/img/wigner.png
 importance: 1
 category: fun
 related_publications: false

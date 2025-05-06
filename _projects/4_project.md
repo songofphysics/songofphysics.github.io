@@ -2,7 +2,7 @@
 layout: page
 title: Clifford Circuits
 description: Emulation via Sparse Matrix Methods
-img:
+img: assets/img/clifford.png
 importance: 4
 category: work
 related_publications: false
