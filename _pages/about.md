@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Sangeet, S. <a href="https://qi.uni-koeln.de/">Quantum Information Group</a>. <a href="https://www.rishivalley.org/">Rishi Valley School</a>.
+subtitle: Sangeet, S. Fomerly of the <a href="https://qi.uni-koeln.de/">Quantum Information Group, University of Cologne</a>.
 
 profile:
   align: right
