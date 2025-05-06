@@ -2,7 +2,7 @@
 layout: page
 title: Traffic Forecast
 description: Nagel-Scheckenberg Model
-img: assets/img/nasch.jpg
+img: assets/img/nasch.png
 importance: 2
 category: fun
 related_publications: false
