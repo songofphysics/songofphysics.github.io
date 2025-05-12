@@ -13,10 +13,10 @@ related_posts: false
    - **Event Type:** Panel Discussion (Bilingual)
    - **Location:** [Anna Centenary Library](https://www.annacentenarylibrary.org/), Chennai, India.
    - **Date:** 24 May, 2025.
-2. **Weekend Science Camp**
+2. **Covalence**
    - **Organised by:** [Tamil Nadu Science Forum](https://en.wikipedia.org/wiki/Tamil_Nadu_Science_Forum).
    - **Event Type:** Two Day Summer Camp (Bilungual)
-   - **Location:** [Anna Centenary Library](https://www.annacentenarylibrary.org/), Chennai, India.
-   - **Date:** 30-31 May, 2025.
+   - **Location:** [Institute of Mathematical Sciences](https://www.imsc.res.in/), Chennai, India.
+   - **Dates:** 30-31 May, 2025. Schedule linked [here](/assets/pdf/Covalence2025.pdf)
 
 ### Past Events

@@ -4,7 +4,7 @@ title: Bio
 permalink: /bio/
 nav: true
 nav_order: 1
-subtitle: Sangeet, S. Fomerly of the <a href="https://qi.uni-koeln.de/">Quantum Information Group, University of Cologne</a>.
+subtitle: Incumbent Physics Educator at <a href="https://www.rishivalley.org/">Rishi Valley Education Center</a>. Fomerly of the <a href="https://qi.uni-koeln.de/">Quantum Information Group, Uni Koeln</a>.
 
 profile:
   align: left
