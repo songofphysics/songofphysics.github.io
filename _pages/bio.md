@@ -2,12 +2,14 @@
 layout: about
 title: Bio
 permalink: /bio/
+nav: true
+nav_order: 1
 subtitle: Sangeet, S. Fomerly of the <a href="https://qi.uni-koeln.de/">Quantum Information Group, University of Cologne</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
