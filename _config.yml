@@ -6,7 +6,7 @@ title: Sangeet. S # the website title (if blank, full name will be used instead)
 first_name: Sangeet
 middle_name:
 last_name: Srinivasan
-email: sangeet@thp.uni-koeln.de
+email: songofphysics@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
