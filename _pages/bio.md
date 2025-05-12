@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Bio
-permalink: /
+permalink: /bio/
 subtitle: Sangeet, S. Fomerly of the <a href="https://qi.uni-koeln.de/">Quantum Information Group, University of Cologne</a>.
 
 profile:
