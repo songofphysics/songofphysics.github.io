@@ -2,5 +2,23 @@
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.4.0",
     "prettier": "3.1.1"
-  }
+  },
+  "name": "songofphysics.github.io",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "purgecss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songofphysics/songofphysics.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songofphysics/songofphysics.github.io/issues"
+  },
+  "homepage": "https://github.com/songofphysics/songofphysics.github.io#readme"
 }
