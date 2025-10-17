@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Quantum Mechanics
 description: Graduate course on advanced topics in quantum theory.
-img: assets/img/4.png
+img: assets/img/4.jpg
 importance: 4
 category: Tutorials
 related_publications: false

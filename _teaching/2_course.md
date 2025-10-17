@@ -2,7 +2,7 @@
 layout: page
 title: Elementary Algebra Based Physics
 description: A Secondary School Course in Physics.
-img: assets/img/algphy.jpg
+img: assets/img/algphy.png
 importance: 2
 category: Courses
 related_publications: false

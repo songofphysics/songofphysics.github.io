@@ -299,18 +299,32 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
-    tag: archive-tag
+    #tag: archive-tag
     category: archive-category
   permalinks:
     year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
+    #tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [
+    "philosophy",
+    "education",
+    "history",
+    "mathematics",
+    "simulations",
+    "other",
+  ] # these tags will be displayed on the front page of your blog
+display_categories: [
+    "philosophy",
+    "education",
+    "history",
+    "mathematics",
+    "simulations",
+    "other",
+  ] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -440,6 +454,7 @@ enable_tooltips: false # enables automatic tooltip links generated for each sect
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
+enable_teaching_categories: true # enables categorization of courses into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
