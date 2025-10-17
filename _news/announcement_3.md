@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upcoming Talks, Workshops and Events
+title: List of Seminars, Workshops and Events
 date: 2025-06-05 07:59:00-0400
 inline: false
 related_posts: false
