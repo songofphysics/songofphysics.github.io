@@ -2,7 +2,7 @@
 layout: distill
 title: Autodidactic Starter Pack
 description: A bookshelf for the bored, curious and determined.
-tags: education, philosophy, mathematics
+tags: education philosophy mathematics
 giscus_comments: false
 date: 2025-10-19
 featured: true

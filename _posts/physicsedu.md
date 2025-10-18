@@ -2,7 +2,7 @@
 layout: distill
 title: Why Physics Education?
 description: A short essay on my journey.
-tags: education, philosophy, mathematics
+tags: education philosophy mathematics
 giscus_comments: false
 date: 2025-04-02
 featured: true

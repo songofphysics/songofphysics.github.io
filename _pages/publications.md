@@ -4,7 +4,7 @@ permalink: /publications/
 title: Archive
 description: Compendium of articles associated to seminars and workshops over the years.
 nav: true
-nav_order: 7
+nav_order: 6
 ---
 
 <!-- _pages/publications.md -->

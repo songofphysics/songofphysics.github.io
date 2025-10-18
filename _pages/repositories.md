@@ -3,8 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repos
 description: Here you will find the sources for my work that I allow you to see
-nav: true
-nav_order: 4
+nav: false
 ---
 
 {% if site.data.repositories.github_users %}

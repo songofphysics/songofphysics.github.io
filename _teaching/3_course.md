@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Algebra and Analytical Geometry in Physics
-description: A bridge course on linear algebra and affine geometry with applications to physics.
+title: Pre-Calculus and Introduction to Calculus
+description: A Pre-University Course in Mathematics
 img: assets/img/9.jpg
-importance: 3
-category: Courses
+importance: 2
+category: courses
 related_publications: false
 giscus_comments: false
 ---
