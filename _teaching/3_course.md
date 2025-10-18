@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pre-Calculus and Introduction to Calculus
+title: Introduction to Calculus
 description: A Pre-University Course in Mathematics
 img: assets/img/9.jpg
 importance: 2

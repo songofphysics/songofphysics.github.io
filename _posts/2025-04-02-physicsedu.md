@@ -2,7 +2,7 @@
 layout: distill
 title: Why Physics Education?
 description: A short essay on my journey.
-tags: education philosophy mathematics
+tags: physics education philosophy mathematics
 giscus_comments: false
 date: 2025-04-02
 featured: true
@@ -30,12 +30,12 @@ authors:
 #     for hyperlinks within the post to work correctly.
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
-toc:
-  - name: About
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
+# toc:
+#   - name: About
+# if a section has subsections, you can add them as follows:
+# subsections:
+#   - name: Example Child Subsection 1
+#   - name: Example Child Subsection 2
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
