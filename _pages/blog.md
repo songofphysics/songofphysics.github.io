@@ -84,7 +84,7 @@ Featured posts
                       <i class="fa-solid fa-thumbtack fa-xs"></i>
                     </div>
 
-                    <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+                    <h3 class="card-title">{{ post.title }}</h3>
                     <p class="card-text">{{ post.description }}</p>
 
                     {%- comment -%}
@@ -239,5 +239,4 @@ Main post list — pagination-aware and safe when empty
 {%- comment -%}
 End of template
 
-- If you'd like, I can also split the read-time logic into an `_includes/read_time.liquid` to make this file shorter.
   {%- endcomment -%}
