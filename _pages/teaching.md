@@ -5,8 +5,8 @@ title: Teaching
 description: Here you will find various expository materials and lecture notes for courses I have tutored and taught.
 nav: true
 nav_order: 4
-display_categories: [courses, tutorials]
-horizontal: false
+display_categories: [Courses, Tutorials]
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->

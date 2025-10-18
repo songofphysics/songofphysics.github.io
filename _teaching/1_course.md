@@ -4,7 +4,7 @@ title: Introductory Calculus Based Physics
 description: A Pre-University Course in Physics.
 img: assets/img/calcphy.png
 importance: 1
-category: courses
+category: Courses
 related_publications: false
 giscus_comments: false
 ---

@@ -4,7 +4,7 @@ title: Pre-Calculus and Introduction to Calculus
 description: A Pre-University Course in Mathematics
 img: assets/img/9.jpg
 importance: 2
-category: courses
+category: Courses
 related_publications: false
 giscus_comments: false
 ---
