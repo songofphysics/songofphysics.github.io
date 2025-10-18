@@ -239,4 +239,4 @@ Main post list — pagination-aware and safe when empty
 {%- comment -%}
 End of template
 
-  {%- endcomment -%}
+{%- endcomment -%}
