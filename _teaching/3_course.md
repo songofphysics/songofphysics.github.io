@@ -15,6 +15,8 @@ toc:
 
 This is a pre-University course and is one part of a standard mathematics curriculum which also includes elementary algebra, combinatorial probability, statistics and co-ordinate geometry. The current offering is tailored to the Indian School Certificate Mathematics Curriculum for students of Rishi Valley School. However, depending on time and interests there may be occasional deeper dives or tangents to related topics which are indicated by the asterisk (\*) in the syllabus we have covered, sometimes using video content. Some topics may have been covered via exercises or homework and are indicated by (\*\*). Topics which we have not covered but I consider essential are also listed _italicised_ for interested students.
 
+--
+
 ### Syllabus
 
 <!-- prettier-ignore -->
@@ -49,14 +51,13 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Negations, Disjunctions and Conjunctions</li>
             <li>Conditionals and Implications</li>
             <li>*Principle of Explosion and **Vacuous Truth</li>
+            <li>Existential and Universal Quantifiers</li>
             <li>Informal Introduction to Axiomatic Systems</li>
             <li>Direct Proof and Proof by Contradiction</li>
             <li>Proof by Contrapositive</li>
             <li>Proof by Induction</li>
             <li>*Consistency and Completeness</li>
-            <li><em>Boolean Algebra</em></li>
-            <li><em>Russel's Paradox</em></li>
-            <li><em>Axioms of Set Theory (ZFC)</em></li>
+            <li><em>Boolean Algebra and Universality</em></li>
             <li><em>Gödel's Incompleteness Theorems</em></li>
           </ol>
         </li>
@@ -79,7 +80,7 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Image and Preimage</li>
             <li>Injectivity and Surjectivity</li>
             <li>Invertible Functions</li>
-            <li><em>Infinite Sets and Countability</em></li>
+            <li>*Infinite Sets and Countability</li>
             <li><em>Binary Operations as Functions</em></li>
           </ol>
         </li>
@@ -103,8 +104,6 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>**Arithmetico-Geometric Progressions and Series</li>
             <li><em>Informal notion of convergence</em></li>
             <li>**Inequality of Arithmetic and Geometric Means</li>
-            <li><em>Harmonic Sequences</em></li>
-            <li><em>AM-GM-HM inequality</em></li>
           </ol>
         </li>
       </ol>
@@ -125,9 +124,9 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Sandwich Theorem</li> 
             <li>Continuity of functions</li> 
             <li>Differentiable functions</li> 
-            <li>Standard Derivatives</li>
-            <li>Properties of Derivatives</li> 
-            <li>*L'Hospital's Rule</li> 
+            <li>Standard derivatives</li>
+            <li>Properties of derivatives</li> 
+            <li>*L'Hospital's Rule for limits</li> 
           </ol>
         </li>
       </ol>
@@ -138,7 +137,27 @@ This is a pre-University course and is one part of a standard mathematics curric
   </tr>
 </table>
 
-### References
+### Resources
+
+<style>
+  .pdf-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 ratio */
+    height: 0;
+  }
+  .pdf-container iframe,
+  .pdf-container embed,
+  .pdf-container object {
+    position: absolute;
+    top:0; left:0; width:100%; height:100%;
+  }
+</style>
+
+<div class="pdf-container">
+  <iframe src="https://www.stitz-zeager.com/szprecalculus07042013.pdf" title="PDF"></iframe>
+</div>
+
+--
 
 ## Exercises and Tests
 
