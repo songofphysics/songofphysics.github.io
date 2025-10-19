@@ -5,7 +5,7 @@ description: A short essay on my journey.
 tags: physics education philosophy mathematics
 giscus_comments: false
 date: 2025-04-02
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true
