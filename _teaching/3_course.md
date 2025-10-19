@@ -18,7 +18,10 @@ This is a pre-University course and is one part of a standard mathematics curric
 ### Syllabus
 
 <!-- prettier-ignore -->
-- Completed:
+<table>
+  <tr>
+    <td style="vertical-align:top; padding:8px;">
+<pre>
   1. **Naive Set Theory**
     1. Defining Sets: Roster and Set-Builder
     2. Cardinality of Finite Sets
@@ -32,7 +35,12 @@ This is a pre-University course and is one part of a standard mathematics curric
     10. Relations on Sets
     11. Equivalence Relations
     12. _Equivalence Classes_
+</pre>
+    </td>
 
+    <td style="vertical-align:top; padding:8px;">
+
+<pre>
   2. **Functions**
     1. Functions as Relations
     2. Domain and Co-domain
@@ -45,7 +53,15 @@ This is a pre-University course and is one part of a standard mathematics curric
     9. Invertible Functions
     10. \*Infinite Sets and Countability
     11. _Binary Operations as Functions_
+</pre>
 
+    </td>
+
+  </tr>
+
+  <tr>
+    <td style="vertical-align:top; padding:8px;">
+<pre>
   3. **Sequences and Series**
     1. Sequences as Functions
     2. Summation and Product Notation
@@ -62,6 +78,18 @@ This is a pre-University course and is one part of a standard mathematics curric
     14. \*\*Inequality of Arithmetic and Geometric Means
     15. _Harmonic Sequences_
     16. _AM-GM-HM inequality_
+</pre>
+    </td>
+
+    <td style="vertical-align:top; padding:8px;">
+
+<pre>
+</pre>
+
+    </td>
+
+  </tr>
+</table>
 
 ### References
 
