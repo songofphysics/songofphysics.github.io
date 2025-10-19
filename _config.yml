@@ -309,7 +309,7 @@ display_tags: [
     "history",
     "mathematics",
     "simulations",
-    "other",
+    "physics",
   ] # these tags will be displayed on the front page of your blog
 display_categories: [
     "philosophy",
