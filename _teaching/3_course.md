@@ -21,72 +21,115 @@ This is a pre-University course and is one part of a standard mathematics curric
 <table>
   <tr>
     <td style="vertical-align:top; padding:8px;">
-<pre>
-  1. **Naive Set Theory**
-    1. Defining Sets: Roster and Set-Builder
-    2. Cardinality of Finite Sets
-    3. Equal and Equivalent Sets
-    4. Unions and Intersections of Sets
-    5. Set Difference and \*\*Symmetric Difference
-    6. \*\*Algebraic Properties of Sets
-    7. Proper and Improper Subsets
-    8. \*\*The Power Set
-    9. Cartesian Product of Sets
-    10. Relations on Sets
-    11. Equivalence Relations
-    12. _Equivalence Classes_
-</pre>
+      <ol>
+        <li><strong>Naive Set Theory</strong>
+          <ol>
+            <li>Defining Sets: Roster and Set-Builder</li>
+            <li>Cardinality of Finite Sets</li>
+            <li>Equal and Equivalent Sets</li>
+            <li>Unions and Intersections of Sets</li>
+            <li>Set Difference and **Symmetric Difference</li>
+            <li>**Algebraic Properties of Sets</li>
+            <li>Proper and Improper Subsets</li>
+            <li>**The Power Set</li>
+            <li>Cartesian Product of Sets</li>
+            <li>Relations on Sets</li>
+            <li>Equivalence Relations</li>
+            <li><em>Equivalence Classes</em></li>
+          </ol>
+        </li>
+      </ol>
     </td>
 
     <td style="vertical-align:top; padding:8px;">
-
-<pre>
-  2. **Functions**
-    1. Functions as Relations
-    2. Domain and Co-domain
-    3. Algebraic Functions
-    4. Logarithms and Exponents
-    5. Trigonometric Functions
-    6. Step Functions
-    7. Image and Preimage
-    8. Injectivity and Surjectivity
-    9. Invertible Functions
-    10. \*Infinite Sets and Countability
-    11. _Binary Operations as Functions_
-</pre>
-
+      <ol start="2">
+        <li><strong>Logic and Proofs</strong>
+          <ol>
+            <li>Propositions and Truth Tables</li>
+            <li>Negations, Disjunctions and Conjunctions</li>
+            <li>Biconditionals and Implications</li>
+            <li>*Principle of Explosion and **Vacuous Truth</li>
+            <li>Informal Introduction to Axiomatic Systems</li>
+            <li>Direct Proof and Proof by Contradiction</li>
+            <li>Proof by Contrapositive</li>
+            <li>Proof by Induction</li>
+            <li>*Consistency and Completeness</li>
+            <li><em>Boolean Algebra</em></li>
+            <li><em>Russel's Paradox</em></li>
+            <li><em>Axioms of Set Theory (ZFC)</em></li>
+            <li><em>Gödel's Incompleteness Theorems</em></li>
+          </ol>
+        </li>
+      </ol>
     </td>
 
   </tr>
 
   <tr>
     <td style="vertical-align:top; padding:8px;">
-<pre>
-  3. **Sequences and Series**
-    1. Sequences as Functions
-    2. Summation and Product Notation
-    3. The Telescoping Property
-    4. Arithmetic Progressions (AP)
-    5. Partial Sum of an AP
-    6. Sum of the first $$N$$ Naturals
-    7. Geometric Progressions (GP)
-    8. Partial Sum of a GP
-    9. Geometric Series
-    10. Sum of the first $$N$$ squared/cubed Naturals
-    11. \*\*Arithmetico-Geometric Progressions and Series
-    12. \*Informal notion of convergence
-    14. \*\*Inequality of Arithmetic and Geometric Means
-    15. _Harmonic Sequences_
-    16. _AM-GM-HM inequality_
-</pre>
+      <ol start="3">
+        <li><strong>Functions</strong>
+          <ol>
+            <li>Functions as Relations</li>
+            <li>Domain and Co-domain</li>
+            <li>Algebraic Functions</li>
+            <li>Logarithms and Exponents</li>
+            <li>Trigonometric Functions</li>
+            <li>Step Functions</li>
+            <li>Image and Preimage</li>
+            <li>Injectivity and Surjectivity</li>
+            <li>Invertible Functions</li>
+            <li><em>Infinite Sets and Countability</em></li>
+            <li><em>Binary Operations as Functions</em></li>
+          </ol>
+        </li>
+      </ol>
     </td>
 
     <td style="vertical-align:top; padding:8px;">
-
-<pre>
-</pre>
-
+      <ol start="4">
+        <li><strong>Sequences and Series</strong>
+          <ol>
+            <li>Sequences as Functions</li>
+            <li>Summation and Product Notation</li>
+            <li>The Telescoping Property</li>
+            <li>Arithmetic Progressions (AP)</li>
+            <li>Partial Sum of an AP</li>
+            <li>Sum of the first N Naturals</li>
+            <li>Geometric Progressions (GP)</li>
+            <li>Partial Sum of a GP</li>
+            <li>Geometric Series</li>
+            <li>Sum of the first N squared/cubed Naturals</li>
+            <li>**Arithmetico-Geometric Progressions and Series</li>
+            <li><em>Informal notion of convergence</em></li>
+            <li>**Inequality of Arithmetic and Geometric Means</li>
+            <li><em>Harmonic Sequences</em></li>
+            <li><em>AM-GM-HM inequality</em></li>
+          </ol>
+        </li>
+      </ol>
     </td>
+
+  </tr>
+
+  <tr>
+    <td style="vertical-align:top; padding:8px;">
+      <ol start="5">
+        <li><strong>Limits</strong> 
+          <ol>
+            <li>The meaning of <em>tends to</em></li> 
+            <li>Limits from graphs of functions</li>
+            <li>Left-Hand and Right-Hand limits</li>  
+            <li>Rigorous definition of a Limit</li>
+            <li>Algebraic properties of limits</li>  
+            <li>Sandwich Theorem</li> 
+            <li>Continuity of functions</li> 
+          </ol>
+        </li>
+      </ol>
+    </td>
+
+    <td style="vertical-align:top; padding:8px;"></td>
 
   </tr>
 </table>
