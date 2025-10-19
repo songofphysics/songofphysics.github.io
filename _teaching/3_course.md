@@ -47,7 +47,7 @@ This is a pre-University course and is one part of a standard mathematics curric
           <ol>
             <li>Propositions and Truth Tables</li>
             <li>Negations, Disjunctions and Conjunctions</li>
-            <li>Biconditionals and Implications</li>
+            <li>Conditionals and Implications</li>
             <li>*Principle of Explosion and **Vacuous Truth</li>
             <li>Informal Introduction to Axiomatic Systems</li>
             <li>Direct Proof and Proof by Contradiction</li>
@@ -124,6 +124,10 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Algebraic properties of limits</li>  
             <li>Sandwich Theorem</li> 
             <li>Continuity of functions</li> 
+            <li>Differentiable functions</li> 
+            <li>Standard Derivatives</li>
+            <li>Properties of Derivatives</li> 
+            <li>*L'Hospital's Rule</li> 
           </ol>
         </li>
       </ol>
