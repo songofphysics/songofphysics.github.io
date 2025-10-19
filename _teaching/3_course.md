@@ -17,48 +17,51 @@ This is a pre-University course and is one part of a standard mathematics curric
 
 ### Syllabus
 
+<!-- prettier-ignore -->
 - Completed:
-  1. Naive Set Theory
-  1. Defining Sets: Roster and Set-Builder
-  1. Cardinality of Finite Sets
-  1. Equal and Equivalent Sets
-  1. Unions and Intersections of Sets
-  1. Set Difference and \*\*Symmetric Difference
-  1. \*\*Algebraic Properties of Sets
-  1. Proper and Improper Subsets
-  1. \*\*The Power Set
-  1. Cartesian Product of Sets
-  1. Relations on Sets
-  1. Equivalence Relations
-  1. _Equivalence Classes_
-  1. Functions
-  1. Functions as Relations
-  1. Domain and Co-domain
-  1. Algebraic Functions
-  1. Logarithms and Exponents
-  1. Trigonometric Functions
-  1. Step Functions
-  1. Image and Preimage
-  1. Injectivity and Surjectivity
-  1. Invertible Functions
-  1. \*Infinite Sets and Countability
-  1. _Binary Operations as Functions_
-  1. Sequences and Series
-  1. Sequences as Functions
-  1. Summation and Product Notation
-  1. The Telescoping Property
-  1. Arithmetic Progressions (AP)
-  1. Partial Sum of an AP
-  1. Sum of the first $$N$$ Naturals
-  1. Geometric Progressions (GP)
-  1. Partial Sum of a GP
-  1. Geometric Series
-  1. Sum of the first $$N$$ squared/cubed Naturals
-  1. \*Informal notion of convergence
-  1. \*\*Arithmetico-Geometric Progressions and Series
-  1. \*Inequality of Arithmetic and Geometric Means
-  1. _Harmonic Sequences_
-  1. _AM-GM-HM inequality_
+  1. **Naive Set Theory**
+    1. Defining Sets: Roster and Set-Builder
+    2. Cardinality of Finite Sets
+    3. Equal and Equivalent Sets
+    4. Unions and Intersections of Sets
+    5. Set Difference and \*\*Symmetric Difference
+    6. \*\*Algebraic Properties of Sets
+    7. Proper and Improper Subsets
+    8. \*\*The Power Set
+    9. Cartesian Product of Sets
+    10. Relations on Sets
+    11. Equivalence Relations
+    12. _Equivalence Classes_
+
+  2. **Functions**
+    1. Functions as Relations
+    2. Domain and Co-domain
+    3. Algebraic Functions
+    4. Logarithms and Exponents
+    5. Trigonometric Functions
+    6. Step Functions
+    7. Image and Preimage
+    8. Injectivity and Surjectivity
+    9. Invertible Functions
+    10. \*Infinite Sets and Countability
+    11. _Binary Operations as Functions_
+
+  3. **Sequences and Series**
+    1. Sequences as Functions
+    2. Summation and Product Notation
+    3. The Telescoping Property
+    4. Arithmetic Progressions (AP)
+    5. Partial Sum of an AP
+    6. Sum of the first $$N$$ Naturals
+    7. Geometric Progressions (GP)
+    8. Partial Sum of a GP
+    9. Geometric Series
+    10. Sum of the first $$N$$ squared/cubed Naturals
+    11. \*\*Arithmetico-Geometric Progressions and Series
+    12. \*Informal notion of convergence
+    14. \*\*Inequality of Arithmetic and Geometric Means
+    15. _Harmonic Sequences_
+    16. _AM-GM-HM inequality_
 
 ### References
 
