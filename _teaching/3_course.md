@@ -6,13 +6,16 @@ img: assets/img/precalc.png
 importance: 2
 tags: teaching
 category: Courses
+related_posts: false
 related_publications: false
 giscus_comments: false
 toc:
-  sidebar: left
+  beginning: true
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/precalc.png" title="precalculus" class="img-fluid rounded z-depth-1" %}
+
+---
 
 ## About
 
@@ -265,27 +268,45 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 </div>
 
 <div class="row g-3 mt-3">
-  <div class="col-12 col-md-4">
+  <div class="col-12 col-md-6">
     <div class="ratio ratio-16x9">
-      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk&si=2IRHZ7TC5ep3MSK7" class="img-fluid rounded z-depth-1" %}
+      {% include video.liquid
+         path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk"
+         class="img-fluid rounded z-depth-1"
+         title="TBSOM Start Learning Logic" %}
     </div>
   </div>
 
-  <div class="col-12 col-md-4">
+  <div class="col-12 col-md-6">
     <div class="ratio ratio-16x9">
-      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30&si=jLy5lCOvleGRg7W1" class="img-fluid rounded z-depth-1" %}
+      {% include video.liquid
+         path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30"
+         class="img-fluid rounded z-depth-1"
+         title="TBSOM Start Learning Sets" %}
     </div>
   </div>
 
-  <div class="col-12 col-md-4">
+  <div class="col-12 col-md-6">
     <div class="ratio ratio-16x9">
-      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBE9407EA64E2C318&si=Tnn_3ql_0qR0I-KI" class="img-fluid rounded z-depth-1" %}
+      {% include video.liquid
+         path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
+         class="img-fluid rounded z-depth-1"
+         title="MIT OCW Calculus (Strang)" %}
+    </div>
+  </div>
+
+  <div class="col-12 col-md-6">
+    <div class="ratio ratio-16x9">
+      {% include video.liquid
+         path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+         class="img-fluid rounded z-depth-1"
+         title="3B1B Essence of Calculus" %}
     </div>
   </div>
 </div>
 
 <div class="caption">
-    Helpful playlists from <a href="https://thebrightsideofmathematics.com/">The Bright Side of Mathematics</a> by Dr. Grossmann and <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> ft. Prof. Strang.
+    Helpful playlists from <a href="https://thebrightsideofmathematics.com/">The Bright Side of Mathematics</a> by Dr. Julian Grossmann and <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> featuring Professor Gilbert Strang and <a href="https://www.3blue1brown.com/lessons/essence-of-calculus#title">3B1B's Essence of Calculus</a> courtesy of Grant Sanderson.
 </div>
 ---
 
@@ -293,8 +314,14 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 
 All previous assignments, soft homework and test papers will be available here shortly. If there are any errors, please do not hesitate to contact me. If any students wish to contribute to official solutions to the problems, they may contact me and I will host their solutions on the website if satisfactory.
 
+---
+
 ## General Updates
 
+Any and all general updates will be made on the Google Classroom for the course or over email until we are back from the term break. Homework for the term break has already been informed to you. Besides this, we will only have projects to discuss and work on.
+
 ### Projects
+
+All **students are required to share** a Google Document or an [Overleaf](https://www.overleaf.com/learn) file with me **for their respective projects**. For those who are yet to get started and those whose projects aim to be more explanatory involving fewer equations, I recommend sharing a Google Document. For those who are working on far more analytical topics which may require multiple definitions and proofs, I recommend sharing an Overleaf link by email. This needs to be done by $$\mathbf{25^{th}}$$ **October 2025**. More details on the project rubrik and evaluation will be here shortly. **Upto four selected projects may get featured on my** [blog](/blog/) :)
 
 ---
