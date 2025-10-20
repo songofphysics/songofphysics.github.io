@@ -130,39 +130,38 @@ This is a **pre-University course** and is a variation of a standard high school
   <tr>
     <td style="vertical-align:top; padding:8px;">
       <ol start="5">
-        <li><strong>Newtonian Theory of Gravity</strong> 
+        <li><strong>Newtonian Theory of Gravity</strong>
           <ol>
-            <li>Kepler's Laws of Planetary Motion</li> 
+            <li>Kepler's Laws of Planetary Motion</li>
             <li>*Geometric proof of Law of Orbits</li>
-            <li>Universal Law of Gravitation</li> 
+            <li>Universal Law of Gravitation</li>
             <li>**Proofs for Circular Orbits</li>
             <li>Weak Equivalence Principle</li>
-            <li>Gravitational Fields and *Gauss's Law</li>  
+            <li>Gravitational Fields and *Gauss's Law</li>
             <li>Variation of gravity with height</li>
-            <li>Gravitational potential and energy</li>  
-            <li>Orbital and Escape Velocities</li> 
-            <li><em>Newtonian Black Holes</em></li> 
-            <li><em>Hubble's Law</em></li>  
+            <li>Gravitational potential and energy</li>
+            <li>Orbital and Escape Velocities</li>
+            <li><em>Newtonian Black Holes</em></li>
+            <li><em>Hubble's Law</em></li>
           </ol>
         </li>
       </ol>
     </td>
 
-    <td style="vertical-align:top; padding:8px;"></td>
+    <td style="vertical-align:top; padding:8px;">
       <div><strong>Practical Experiments</strong></div>
-        <ol>
-          <li>Measurements with Calliper and Screw Gauge</li>
-          <li>Simple Pendulum and Gravitational Acceleration</li>
-          <li>Dependence of Inclination in Static Friction</li>
-          <li>Strength of materials and Young's Modulus</li>
-          <li>Archimedes Principle and Laws of Flotation</li>
-          <li>Capillary Action and Surface Tension</li>
-          <li>Determining Viscocity Coefficients</li>
-          <li>Newton's Law of Cooling</li>
-          <li>Heat Capacities with Calorimeters</li>
-          <li>Resonance in Tuning Forks</li>
-        </ol>
-      </li>
+      <ol>
+        <li>Measurements with Calliper and Screw Gauge</li>
+        <li>Simple Pendulum and Gravitational Acceleration</li>
+        <li>Dependence of Inclination in Static Friction</li>
+        <li>Strength of materials and Young's Modulus</li>
+        <li>Archimedes Principle and Laws of Flotation</li>
+        <li>Capillary Action and Surface Tension</li>
+        <li>Determining Viscocity Coefficients</li>
+        <li>Newton's Law of Cooling</li>
+        <li>Heat Capacities with Calorimeters</li>
+        <li>Resonance in Tuning Forks</li>
+      </ol>
     </td>
 
   </tr>
