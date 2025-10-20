@@ -100,12 +100,12 @@ This is a **pre-University course** and is one part of a standard mathematics cu
             <li>Partial Sum of an AP</li>
             <li>Sum of the first N Naturals</li>
             <li>Geometric Progressions (GP)</li>
-            <li>Partial Sum of a GP</li>
-            <li>Geometric Series</li>
+            <li>Partial Sum of a GP and Geometric Series</li>
             <li>Sum of the first N squared/cubed Naturals</li>
-            <li>**Arithmetico-Geometric Progressions and Series</li>
-            <li><em>Informal notion of convergence</em></li>
             <li>**Inequality of Arithmetic and Geometric Means</li>
+            <li>**Arithmetico-Geometric Progressions and Series</li>
+            <li>*Informal and visual notion of convergence</li>
+            <li><em>Rigorous definition of convergent sequences</em></li>
           </ol>
         </li>
       </ol>
@@ -225,13 +225,8 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 
     <figure>
       <figcaption>
-        <div class="caption-text">Stitz & Zeager — Precalculus (Full book)</div>
+        <div class="caption-text">Stitz & Zeager — Precalculus</div>
         <div class="actions">
-          <!-- Download: 'download' is a hint; may be ignored cross-origin -->
-          <a class="btn" href="https://www.stitz-zeager.com/szprecalculus07042013.pdf"
-             download="szprecalculus07042013.pdf"
-             aria-label="Download Precalculus PDF">Download</a>
-
           <a class="btn" href="https://www.stitz-zeager.com/szprecalculus07042013.pdf#page=1&zoom=page-width"
              target="_blank" rel="noopener" aria-label="Open Precalculus PDF in new tab">Open</a>
         </div>
@@ -251,12 +246,8 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 
     <figure>
       <figcaption>
-        <div class="caption-text">MIT OCW — Calculus (Full book)</div>
+        <div class="caption-text">MIT OCW — Calculus</div>
         <div class="actions">
-          <a class="btn" href="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf"
-             download="mit_calculus_full_book.pdf"
-             aria-label="Download Calculus PDF">Download</a>
-
           <a class="btn" href="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf#page=1&zoom=page-width"
              target="_blank" rel="noopener" aria-label="Open Calculus PDF in new tab">Open</a>
         </div>
@@ -266,6 +257,33 @@ This is a **pre-University course** and is one part of a standard mathematics cu
   </div>
 </div>
 
+<div class="caption">
+    Recommended external literature for self-study and deeper dives.
+</div>
+
+<div class="row g-3 mt-3">
+  <div class="col-12 col-md-4">
+    <div class="ratio ratio-16x9">
+      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk&si=2IRHZ7TC5ep3MSK7" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4">
+    <div class="ratio ratio-16x9">
+      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30&si=jLy5lCOvleGRg7W1" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4">
+    <div class="ratio ratio-16x9">
+      {% include video.liquid path="https://youtube.com/embed/videoseries?list=PLBE9407EA64E2C318&si=Tnn_3ql_0qR0I-KI" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+</div>
+
+<div class="caption">
+    Helpful playlists from <a href="https://thebrightsideofmathematics.com/">The Bright Side of Mathematics</a> by Dr. Grossmann and <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> ft. Prof. Strang.
+</div>
 ---
 
 ## Exercises and Tests
