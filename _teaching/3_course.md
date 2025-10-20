@@ -13,7 +13,7 @@ toc:
 
 ## About
 
-This is a pre-University course and is one part of a standard mathematics curriculum which also includes elementary algebra, combinatorial probability, statistics and co-ordinate geometry. The current offering is tailored to the Indian School Certificate Mathematics Curriculum for students of Rishi Valley School. However, depending on time and interests there may be occasional deeper dives or tangents to related topics which are indicated by the asterisk (\*) in the syllabus we have covered, sometimes using video content. Some topics may have been covered via exercises or homework and are indicated by (\*\*). Topics which we have not covered but I consider essential are also listed _italicised_ for interested students.
+This is a **pre-University course** and is one part of a standard mathematics curriculum which also includes elementary algebra, combinatorial probability, statistics and co-ordinate geometry. The current offering is tailored to the **Indian School Certificate Mathematics Curriculum for students of Rishi Valley School**. However, depending on time and interests **there may be occasional deeper dives** or tangents to related topics which are indicated by the asterisk (\*) in the syllabus we have covered, sometimes using video content. Some topics may have been covered via exercises or homework and are indicated by (\*\*). Topics which we have not covered but I consider essential are also listed _italicised_ for interested students.
 
 ---
 
@@ -52,7 +52,7 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Conditionals and Implications</li>
             <li>*Principle of Explosion and **Vacuous Truth</li>
             <li>Existential and Universal Quantifiers</li>
-            <li>Informal Introduction to Axiomatic Systems</li>
+            <li>*Informal Introduction to Axiomatic Systems</li>
             <li>Direct Proof and Proof by Contradiction</li>
             <li>Proof by Contrapositive</li>
             <li>Proof by Induction</li>
@@ -142,54 +142,127 @@ This is a pre-University course and is one part of a standard mathematics curric
 ### Resources
 
 <style>
-  /* grid that places two columns on wide screens, 1 column on small screens */
   .pdf-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* two equal columns */
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     align-items: start;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 12px;
   }
 
-  /* keep your original aspect-ratio trick per item */
+  .pdf-card {
+    display: flex;
+    flex-direction: column;
+  }
+
   .pdf-container {
     position: relative;
-    padding-top: 56.25%; /* 16:9 ratio */
-    height: 0;
-  }
-  .pdf-container iframe,
-  .pdf-container embed,
-  .pdf-container object {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    aspect-ratio: 3 / 4;      /* portrait */
+    min-height: 520px;        /* fallback for old browsers */
+    background: #fafafa;
     border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
   }
 
-  /* stack on small screens */
+  .pdf-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+
+  /* caption + actions */
+  figure {
+    margin: 10px 0 0;
+  }
+  figcaption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #111;
+  }
+  .caption-text { flex: 1; }
+
+  .actions {
+    display: flex;
+    gap: 8px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #bdbdbd;
+    background: #fff;
+    text-decoration: none;
+    color: #111;
+    font-size: 13px;
+  }
+  .btn:hover { box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+
   @media (max-width: 800px) {
-    .pdf-grid {
-      grid-template-columns: 1fr;
-    }
+    .pdf-grid { grid-template-columns: 1fr; }
+    figcaption { flex-direction: column; align-items: flex-start; gap: 8px; }
   }
 </style>
 
 <div class="pdf-grid">
-  <div class="pdf-container" aria-label="PDF 1">
-    <iframe src="https://www.stitz-zeager.com/szprecalculus07042013.pdf"
-            title="Precalculus — Stitz & Zeager"
-            frameborder="0"
-            loading="lazy"></iframe>
+  <!-- Card 1 -->
+  <div class="pdf-card" aria-label="PDF 1 card">
+    <div class="pdf-container">
+      <iframe
+        src="https://www.stitz-zeager.com/szprecalculus07042013.pdf#page=1&zoom=page-width"
+        title="Precalculus — Stitz & Zeager"
+        loading="lazy"></iframe>
+    </div>
+
+    <figure>
+      <figcaption>
+        <div class="caption-text">Stitz & Zeager — Precalculus (Full book)</div>
+        <div class="actions">
+          <!-- Download: 'download' is a hint; may be ignored cross-origin -->
+          <a class="btn" href="https://www.stitz-zeager.com/szprecalculus07042013.pdf"
+             download="szprecalculus07042013.pdf"
+             aria-label="Download Precalculus PDF">Download</a>
+
+          <a class="btn" href="https://www.stitz-zeager.com/szprecalculus07042013.pdf#page=1&zoom=page-width"
+             target="_blank" rel="noopener" aria-label="Open Precalculus PDF in new tab">Open</a>
+        </div>
+      </figcaption>
+    </figure>
+
   </div>
 
-  <div class="pdf-container" aria-label="PDF 2">
-    <iframe src="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf"
-            title="Calculus — Gilbert Strang"
-            frameborder="0"
-            loading="lazy"></iframe>
+  <!-- Card 2 -->
+  <div class="pdf-card" aria-label="PDF 2 card">
+    <div class="pdf-container">
+      <iframe
+        src="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf#page=1&zoom=page-width"
+        title="Calculus — MIT OCW"
+        loading="lazy"></iframe>
+    </div>
+
+    <figure>
+      <figcaption>
+        <div class="caption-text">MIT OCW — Calculus (Full book)</div>
+        <div class="actions">
+          <a class="btn" href="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf"
+             download="mit_calculus_full_book.pdf"
+             aria-label="Download Calculus PDF">Download</a>
+
+          <a class="btn" href="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf#page=1&zoom=page-width"
+             target="_blank" rel="noopener" aria-label="Open Calculus PDF in new tab">Open</a>
+        </div>
+      </figcaption>
+    </figure>
+
   </div>
 </div>
 
