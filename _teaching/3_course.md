@@ -77,11 +77,11 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>*Comment on Singularities</li>
             <li>Logarithms and Exponents</li>
             <li>Trigonometric Functions</li>
-            <li>Step Functions</li>
-            <li>Square Root and Modulus</li>
+            <li>Step Functions, Square Root and Modulus</li>
             <li>Image and Preimage</li>
             <li>Injectivity and Surjectivity</li>
             <li>Invertible Functions</li>
+            <li>**Composition of Functions</li>
             <li>*Infinite Sets and Countability</li>
             <li><em>Binary Operations as Functions</em></li>
           </ol>
