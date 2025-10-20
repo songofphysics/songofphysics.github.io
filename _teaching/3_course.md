@@ -15,7 +15,7 @@ toc:
 
 This is a pre-University course and is one part of a standard mathematics curriculum which also includes elementary algebra, combinatorial probability, statistics and co-ordinate geometry. The current offering is tailored to the Indian School Certificate Mathematics Curriculum for students of Rishi Valley School. However, depending on time and interests there may be occasional deeper dives or tangents to related topics which are indicated by the asterisk (\*) in the syllabus we have covered, sometimes using video content. Some topics may have been covered via exercises or homework and are indicated by (\*\*). Topics which we have not covered but I consider essential are also listed _italicised_ for interested students.
 
---
+---
 
 ### Syllabus
 
@@ -140,6 +140,17 @@ This is a pre-University course and is one part of a standard mathematics curric
 ### Resources
 
 <style>
+  /* grid that places two columns on wide screens, 1 column on small screens */
+  .pdf-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two equal columns */
+    gap: 16px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* keep your original aspect-ratio trick per item */
   .pdf-container {
     position: relative;
     padding-top: 56.25%; /* 16:9 ratio */
@@ -149,15 +160,39 @@ This is a pre-University course and is one part of a standard mathematics curric
   .pdf-container embed,
   .pdf-container object {
     position: absolute;
-    top:0; left:0; width:100%; height:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+  }
+
+  /* stack on small screens */
+  @media (max-width: 800px) {
+    .pdf-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
-<div class="pdf-container">
-  <iframe src="https://www.stitz-zeager.com/szprecalculus07042013.pdf" title="PDF"></iframe>
+<div class="pdf-grid">
+  <div class="pdf-container" aria-label="PDF 1">
+    <iframe src="https://www.stitz-zeager.com/szprecalculus07042013.pdf"
+            title="Precalculus — Stitz & Zeager"
+            frameborder="0"
+            loading="lazy"></iframe>
+  </div>
+
+  <div class="pdf-container" aria-label="PDF 2">
+    <iframe src="https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf"
+            title="Calculus — Gilbert Strang"
+            frameborder="0"
+            loading="lazy"></iframe>
+  </div>
 </div>
 
---
+
+---
 
 ## Exercises and Tests
 
