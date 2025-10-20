@@ -1,15 +1,18 @@
 ---
-layout: page
+layout: post
 title: Precalculus and Intro to Calculus
 description: A Pre-University Course in Mathematics.
 img: assets/img/precalc.png
 importance: 2
+tags: teaching
 category: Courses
 related_publications: false
 giscus_comments: false
 toc:
-  beginning: true
+  sidebar: left
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/precalc.png" title="precalculus" class="img-fluid rounded z-depth-1" %}
 
 ## About
 
@@ -287,6 +290,8 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 ---
 
 ## Exercises and Tests
+
+All previous assignments, soft homework and test papers will be available here shortly. If there are any errors, please do not hesitate to contact me. If any students wish to contribute to official solutions to the problems, they may contact me and I will host their solutions on the website if satisfactory.
 
 ## General Updates
 
