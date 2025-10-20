@@ -74,9 +74,11 @@ This is a pre-University course and is one part of a standard mathematics curric
             <li>Functions as Relations</li>
             <li>Domain and Co-domain</li>
             <li>Algebraic Functions</li>
+            <li>*Comment on Singularities</li>
             <li>Logarithms and Exponents</li>
             <li>Trigonometric Functions</li>
             <li>Step Functions</li>
+            <li>Square Root and Modulus</li>
             <li>Image and Preimage</li>
             <li>Injectivity and Surjectivity</li>
             <li>Invertible Functions</li>
