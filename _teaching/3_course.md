@@ -331,7 +331,7 @@ All previous assignments, soft homework and test papers will be available here s
 
 ## General Updates
 
-Any and all general updates will be made on the Google Classroom for the course or over email until we are back from the term break. Homework for the term break has already been informed to you. Besides this, we will only have projects to discuss and work on.
+Any and all general updates will be made on the **Google Classroom** for the course or over email **until we are back from the term break**. Homework for the term break has already been informed to you. Besides this, we will only have projects to discuss and work on. The **syllabus** listed above will be updated to include more topics from the second term soon.
 
 ### Projects
 
