@@ -13,7 +13,12 @@ toc:
   beginning: true
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/precalc.png" title="precalculus" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid
+   path="assets/img/precalc.png"
+   title="precalculus"
+   loading="eager"
+   class="img-fluid rounded z-depth-1 d-block mx-auto"
+   max-width="50%" %}
 
 ---
 
@@ -267,46 +272,54 @@ This is a **pre-University course** and is one part of a standard mathematics cu
     Recommended external literature for self-study and deeper dives.
 </div>
 
-<div class="row g-3 mt-3">
-  <div class="col-12 col-md-6">
-    <div class="ratio ratio-16x9">
-      {% include video.liquid
-         path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk"
-         class="img-fluid rounded z-depth-1"
-         title="TBSOM Start Learning Logic" %}
+<div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
+  <div class="col d-flex">
+    <div class="w-100">
+      <div class="ratio ratio-16x9">
+        {% include video.liquid
+           path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk"
+           class="w-100 h-100"
+           title="Playlist 1" %}
+      </div>
     </div>
   </div>
 
-  <div class="col-12 col-md-6">
-    <div class="ratio ratio-16x9">
-      {% include video.liquid
-         path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30"
-         class="img-fluid rounded z-depth-1"
-         title="TBSOM Start Learning Sets" %}
+  <div class="col d-flex">
+    <div class="w-100">
+      <div class="ratio ratio-16x9">
+        {% include video.liquid
+           path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30"
+           class="w-100 h-100"
+           title="Playlist 2" %}
+      </div>
     </div>
   </div>
 
-  <div class="col-12 col-md-6">
-    <div class="ratio ratio-16x9">
-      {% include video.liquid
-         path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
-         class="img-fluid rounded z-depth-1"
-         title="MIT OCW Calculus (Strang)" %}
+  <div class="col d-flex">
+    <div class="w-100">
+      <div class="ratio ratio-16x9">
+        {% include video.liquid
+           path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
+           class="w-100 h-100"
+           title="Playlist 3" %}
+      </div>
     </div>
   </div>
 
-  <div class="col-12 col-md-6">
-    <div class="ratio ratio-16x9">
-      {% include video.liquid
-         path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
-         class="img-fluid rounded z-depth-1"
-         title="3B1B Essence of Calculus" %}
+  <div class="col d-flex">
+    <div class="w-100">
+      <div class="ratio ratio-16x9">
+        {% include video.liquid
+           path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+           class="w-100 h-100"
+           title="Playlist 4" %}
+      </div>
     </div>
   </div>
 </div>
 
 <div class="caption">
-    Helpful playlists from <a href="https://thebrightsideofmathematics.com/">The Bright Side of Mathematics</a> by Dr. Julian Grossmann and <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> featuring Professor Gilbert Strang and <a href="https://www.3blue1brown.com/lessons/essence-of-calculus#title">3B1B's Essence of Calculus</a> courtesy of Grant Sanderson.
+    Helpful playlists from <a href="https://thebrightsideofmathematics.com/">The Bright Side of Mathematics</a> by Dr. Julian Grossmann, <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> featuring Professor Gilbert Strang and also 3 Blue 1 Brown's <a href="https://www.3blue1brown.com/lessons/essence-of-calculus#title">Essence of Calculus</a> courtesy of Grant Sanderson.
 </div>
 ---
 
