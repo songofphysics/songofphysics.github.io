@@ -456,39 +456,35 @@ This is a **pre-University course** and is a variation of a standard high school
 </div>
 
 <div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
-  <div class="col d-flex">
+  <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://youtube.com/embed/videoseries?list=PLFE3074A4CB751B2B"
-       class="w-100"
-       width="100%"
-       height="480"
+       width="720"
+       height="405"
        title="Playlist 1" %}
   </div>
 
-  <div class="col d-flex">
+  <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://youtube.com/embed/videoseries?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
-       class="w-100"
-       width="100%"
-       height="480"
+       width="720"
+       height="405"
        title="Playlist 2" %}
   </div>
 
-  <div class="col d-flex">
+  <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
-       class="w-100"
-       width="100%"
-       height="480"
+       width="720"
+       height="405"
        title="Playlist 3" %}
   </div>
 
-  <div class="col d-flex">
+  <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
-       class="w-100"
-       width="100%"
-       height="480"
+       width="720"
+       height="405"
        title="Playlist 4" %}
   </div>
 </div>
