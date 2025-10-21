@@ -436,48 +436,36 @@ This is a **pre-University course** and is one part of a standard mathematics cu
 </div>
 
 <div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
-  <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk"
-           class="w-100 h-100"
-           title="Playlist 1" %}
-      </div>
-    </div>
+  <div class="col d-flex justify-content-center">
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qu-1dodE4LzI0a_Mxlvdsbk"
+       width="400"
+       height="300"
+       title="Playlist 1" %}
   </div>
 
-  <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30"
-           class="w-100 h-100"
-           title="Playlist 2" %}
-      </div>
-    </div>
+  <div class="col d-flex justify-content-center">
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLBh2i93oe2qsO_p91ei-eYTQ9-HKQ5i30"
+       width="400"
+       height="300"
+       title="Playlist 2" %}
   </div>
 
-  <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
-           class="w-100 h-100"
-           title="Playlist 3" %}
-      </div>
-    </div>
+  <div class="col d-flex justify-content-center">
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
+       width="400"
+       height="300"
+       title="Playlist 3" %}
   </div>
 
-  <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
-           class="w-100 h-100"
-           title="Playlist 4" %}
-      </div>
-    </div>
+  <div class="col d-flex justify-content-center">
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+       width="400"
+       height="300"
+       title="Playlist 4" %}
   </div>
 </div>
 

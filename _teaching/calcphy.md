@@ -459,32 +459,32 @@ This is a **pre-University course** and is a variation of a standard high school
   <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://youtube.com/embed/videoseries?list=PLFE3074A4CB751B2B"
-       width="720"
-       height="405"
+       width="400"
+       height="300"
        title="Playlist 1" %}
   </div>
 
   <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://youtube.com/embed/videoseries?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
-       width="720"
-       height="405"
+       width="400"
+       height="300"
        title="Playlist 2" %}
   </div>
 
   <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
-       width="720"
-       height="405"
+       width="400"
+       height="300"
        title="Playlist 3" %}
   </div>
 
   <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
-       width="720"
-       height="405"
+       width="400"
+       height="300"
        title="Playlist 4" %}
   </div>
 </div>
