@@ -4,6 +4,7 @@ title: Precalculus and Intro to Calculus
 description: A Pre-University Course in Mathematics.
 img: assets/img/precalc.png
 importance: 2
+date: 2025-10-12
 tags: teaching
 category: Courses
 related_posts: false
