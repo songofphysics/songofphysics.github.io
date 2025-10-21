@@ -217,8 +217,7 @@ This is a **pre-University course** and is a variation of a standard high school
                 <details>
                   <summary>Additional Topics</summary>
                   <ol>
-                    <li value="12"><em>The Inertia Tensor</em></li>
-                    <li value="13"><em>Euler Angles and General 3D Motion</em></li>
+                    <li value="13"><em>Inertia Tensor and General 3D Motion</em></li>
                     <li value="14"><em>Symmetries and Conservation Laws</em></li>
                   </ol>
                 </details>
