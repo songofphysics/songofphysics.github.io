@@ -279,44 +279,48 @@ This is a **pre-University course** and is a variation of a standard high school
     </td>
 
     <td style="vertical-align:top; padding:8px;">
-      <details>
-        <summary><strong>Practical Experiments</strong></summary>
-        <ol>
-          <li>
-            <details>
-              <summary>Mechanics</summary>
-              <ol>
-                <li value="1">Measurements with Calliper and Screw Gauge</li>
-                <li value="2">Simple Pendulum and Gravitational Acceleration</li>
-                <li value="3">Dependence of Inclination in Static Friction</li>
-                <li value="4">Strength of materials and Young's Modulus</li>
-              </ol>
-            </details>
-          </li>
+      <ol start="0">
+        <li>
+          <details>
+            <summary><strong>Practical Experiments</strong></summary>
+            <ol>
+              <li>
+                <details>
+                  <summary>Mechanics</summary>
+                  <ol>
+                    <li value="1">Measurements with Calliper and Screw Gauge</li>
+                    <li value="2">Simple Pendulum and Gravitational Acceleration</li>
+                    <li value="3">Dependence of Inclination in Static Friction</li>
+                    <li value="4">Strength of materials and Young's Modulus</li>
+                  </ol>
+                </details>
+              </li>
 
-          <li>
-            <details>
-              <summary>Fluids</summary>
-              <ol>
-                <li value="5">Archimedes Principle and Laws of Flotation</li>
-                <li value="6">Capillary Action and Surface Tension</li>
-                <li value="7">Determining Viscocity Coefficients</li>
-              </ol>
-            </details>
-          </li>
+              <li>
+                <details>
+                  <summary>Fluids</summary>
+                  <ol>
+                    <li value="5">Archimedes Principle and Laws of Flotation</li>
+                    <li value="6">Capillary Action and Surface Tension</li>
+                    <li value="7">Determining Viscocity Coefficients</li>
+                  </ol>
+                </details>
+              </li>
 
-          <li>
-            <details>
-              <summary>Waves and Thermodynamics</summary>
-              <ol>
-                <li value="8">Newton's Law of Cooling</li>
-                <li value="9">Heat Capacities with Calorimeters</li>
-                <li value="10">Resonance in Tuning Forks</li>
-              </ol>
-            </details>
-          </li>
-        </ol>
-      </details>
+              <li>
+                <details>
+                  <summary>Waves and Thermodynamics</summary>
+                  <ol>
+                    <li value="8">Newton's Law of Cooling</li>
+                    <li value="9">Heat Capacities with Calorimeters</li>
+                    <li value="10">Resonance in Tuning Forks</li>
+                  </ol>
+                </details>
+              </li>
+            </ol>
+          </details>
+        </li>
+      </ol>
     </td>
 
   </tr>
@@ -453,47 +457,39 @@ This is a **pre-University course** and is a variation of a standard high school
 
 <div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
   <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://youtube.com//embed/videoseries?list=PLFE3074A4CB751B2B"
-           class="w-100 h-100"
-           title="Playlist 1" %}
-      </div>
-    </div>
+    {% include video.liquid
+       path="https://youtube.com/embed/videoseries?list=PLFE3074A4CB751B2B"
+       class="w-100"
+       width="100%"
+       height="480"
+       title="Playlist 1" %}
   </div>
 
   <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://youtube.com/embed/videoseries?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
-           class="w-100 h-100"
-           title="Playlist 2" %}
-      </div>
-    </div>
+    {% include video.liquid
+       path="https://youtube.com/embed/videoseries?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
+       class="w-100"
+       width="100%"
+       height="480"
+       title="Playlist 2" %}
   </div>
 
   <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
-           class="w-100 h-100"
-           title="Playlist 3" %}
-      </div>
-    </div>
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
+       class="w-100"
+       width="100%"
+       height="480"
+       title="Playlist 3" %}
   </div>
 
   <div class="col d-flex">
-    <div class="w-100">
-      <div class="ratio ratio-4x3">
-        {% include video.liquid
-           path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
-           class="w-100 h-100"
-           title="Playlist 4" %}
-      </div>
-    </div>
+    {% include video.liquid
+       path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
+       class="w-100"
+       width="100%"
+       height="480"
+       title="Playlist 4" %}
   </div>
 </div>
 
