@@ -315,6 +315,7 @@ This is a **pre-University course** and is a variation of a standard high school
             </details>
           </li>
         </ol>
+      </details>
     </td>
 
   </tr>
@@ -452,7 +453,7 @@ This is a **pre-University course** and is a variation of a standard high school
 <div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
   <div class="col d-flex">
     <div class="w-100">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-4x3">
         {% include video.liquid
            path="https://youtube.com//embed/videoseries?list=PLFE3074A4CB751B2B"
            class="w-100 h-100"
@@ -463,7 +464,7 @@ This is a **pre-University course** and is a variation of a standard high school
 
   <div class="col d-flex">
     <div class="w-100">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-4x3">
         {% include video.liquid
            path="https://youtube.com/embed/videoseries?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e"
            class="w-100 h-100"
@@ -474,7 +475,7 @@ This is a **pre-University course** and is a variation of a standard high school
 
   <div class="col d-flex">
     <div class="w-100">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-4x3">
         {% include video.liquid
            path="https://www.youtube.com/embed/videoseries?list=PLBE9407EA64E2C318"
            class="w-100 h-100"
@@ -485,7 +486,7 @@ This is a **pre-University course** and is a variation of a standard high school
 
   <div class="col d-flex">
     <div class="w-100">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-4x3">
         {% include video.liquid
            path="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr"
            class="w-100 h-100"
