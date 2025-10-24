@@ -502,10 +502,16 @@ All previous assignments, soft homework and test papers will be available here s
 
 ## General Updates
 
-Any and all general updates will be made on the Google Classroom for the course or over email until we are back from the term break. Homework for the term break will be updated above with the primary task being the **completion of lab reports**. You are expected to **share your spreadsheets and docs** for all experiments by $$\mathbf{25^{th}}$$ **October 2025** for review, comments and clarifications. Besides this, we also have your projects to discuss and work on. The **syllabus** listed above will be updated to include more topics from the second term soon.
+- **All students are required to** _join the google classroom_ for real-time updates and announcements.
+- **All students are required to** _share their google documents and sheets for their lab reports_ **(by 25.10)**.
+- **All students are required to** _share a google document or overleaf file for their projects_ **(by 25.10)**.
+- The above document is to discuss, review, finalise and clarify issues regarding the project and its draft.
+- **Failure to do the above without proper reason and its communication will result in a loss of 7.5 project points.**
+- **All students are required to** _complete their lab reports for the completed experiments by_ **31.11**.
+- **All students are required to** _have begun their project draft by_ **31.11** in the file shared earlier.
 
 ### Projects
 
-All **students are required to share** a Google Document or an [Overleaf](https://www.overleaf.com/learn) file with me **for their respective projects**. For those who are yet to get started and those whose projects aim to be more explanatory and experimental involving fewer equations, I recommend sharing a Google Document. For those who are working on far more analytical topics which may require heavy mathematics or even code, I recommend sharing an Overleaf link by email. This needs to be done by $$\mathbf{25^{th}}$$ **October 2025**. More details on the project rubrik and evaluation will be here shortly. **Upto four selected projects may get featured on my** [blog](/blog/) :)
+The list of projects for this year will soon be available to see on this page. **Upto four selected projects may get featured on my** [blog](/blog/) :)
 
 ---

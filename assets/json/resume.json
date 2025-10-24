@@ -367,6 +367,18 @@
       ],
       "startDate": "2024-04-01",
       "endDate": "2025-03-27"
+    },
+    {
+      "name": "A Study of The Minimal Length Problem and Generalised Uncertainty Principles",
+      "summary": "Bachelor Thesis: Representation Theory of Non-Hermitian Hamiltonians in Non-Commutative Geometries.",
+      "highlights": [
+        "Non-Hermitian Hamiltonians",
+        "Non-Commutative Geometries",
+        "Representation Theory",
+        "PT Symmetric Quantum Mechanics"
+      ],
+      "startDate": "2019-08-31",
+      "endDate": "2020-07-15"
     }
   ]
 }
