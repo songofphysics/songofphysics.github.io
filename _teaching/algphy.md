@@ -236,9 +236,11 @@ This is a beginning **high school course** and is a variation of a standard high
   </tr>
 </table>
 
+---
+
 ### Video Resources
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3 align-items-stretch">
+<div class="row row-cols-1 row-cols-md-2 g-3 mt-3 align-items-stretch">
   <div class="col d-flex justify-content-center">
     {% include video.liquid
        path="https://youtube.com/embed/videoseries?list=PL2ub1_oKCn7oWeAKoLZV-hWT4tthqdHtg"
@@ -276,7 +278,7 @@ This is a beginning **high school course** and is a variation of a standard high
        path="https://www.youtube.com/embed/videoseries?list=PL2ub1_oKCn7qlfT0cTUVmss4pf667x6hP"
        width="400"
        height="300"
-       title="Playlist 3" %}
+       title="Playlist 5" %}
   </div>
 
   <div class="col d-flex justify-content-center">
@@ -284,7 +286,7 @@ This is a beginning **high school course** and is a variation of a standard high
        path="https://www.youtube.com/embed/videoseries?list=PLpvtzFaN0I1kkFba0kr_dUSp7Li7SebZo"
        width="400"
        height="300"
-       title="Playlist 4" %}
+       title="Playlist 6" %}
   </div>
 </div>
 

@@ -510,8 +510,10 @@ All previous assignments, soft homework and test papers will be available here s
 - **All students are required to** _complete their lab reports for the completed experiments by_ **31.11**.
 - **All students are required to** _have begun their project draft by_ **31.11** in the file shared earlier.
 
+---
+
 ### Projects
 
-The list of projects for this year will soon be available to see on this page. **Upto four selected projects may get featured on my** [blog](/blog/) :)
+The list of projects for this year will soon be available to see here. **Upto four selected projects may get featured on my** [blog](/blog/) :)
 
 ---
