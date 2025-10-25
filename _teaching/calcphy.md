@@ -508,7 +508,7 @@ All previous assignments, soft homework and test papers will be available here s
 - The above document is to discuss, review, finalise and clarify issues regarding the project and its draft.
 - **Failure to do the above without proper reason and its communication will result in a loss of 7.5 project points.**
 - **All students are required to** _complete their lab reports for the completed experiments by_ **31.11**.
-- **All students are required to** _have begun their project draft by_ **31.11** in the file shared earlier.
+- **All students are required to** _have begun their project draft by_ **30.11** in the file shared earlier.
 
 ---
 
