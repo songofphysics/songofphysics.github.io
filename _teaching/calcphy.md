@@ -515,6 +515,7 @@ All previous assignments, soft homework and test papers will be available here s
 ### Projects
 
 The list of projects for this year will soon be available to see here. **Upto four selected projects may get featured on my** [blog](/blog/) :)
+
 The projects will be primarily evaluated on the following criteria:
 
 - Work rate and regularity of updates

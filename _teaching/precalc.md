@@ -486,7 +486,6 @@ All previous assignments, soft homework and test papers will be available here s
 - **All students are required to** _share a google document or overleaf file for their projects_ **(by 25.10)**.
 - The above document is to discuss, review, finalise and clarify issues regarding the project and its draft.
 - **Failure to do the above without proper reason and its communication will result in a loss of 10 project points.**
-- **All students are required to** _complete their lab reports for the completed experiments by_ **31.11**.
 - **All students are required to** _have begun their project draft by_ **31.11** in the file shared earlier.
 
 ---
@@ -494,6 +493,7 @@ All previous assignments, soft homework and test papers will be available here s
 ### Projects
 
 The list of projects for this year will soon be available to see here. **Upto four selected projects may get featured on my** [blog](/blog/) :)
+
 The projects will be primarily evaluated on the following criteria:
 
 - Work rate and regularity of updates
