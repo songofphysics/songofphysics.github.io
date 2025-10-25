@@ -494,5 +494,12 @@ All previous assignments, soft homework and test papers will be available here s
 ### Projects
 
 The list of projects for this year will soon be available to see here. **Upto four selected projects may get featured on my** [blog](/blog/) :)
+The projects will be primarily evaluated on the following criteria:
 
----
+- Work rate and regularity of updates
+- Writing quality of the report
+- Quality of proofs/codes/calculations
+- Final presentation and viva
+  Pertaining to the first point, students are expected to keep me updated with their progress every week on their project file.
+
+## **ANY AND ALL AI GENERATED CONTENT AT ANY STAGE WILL RESULT IN AN IMMEDIATE INELIGIBILITY FOR THE PROJECTS!**
