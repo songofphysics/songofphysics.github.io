@@ -521,6 +521,8 @@ The projects will be primarily evaluated on the following criteria:
 - Writing quality of the report
 - Quality of proofs/codes/plots
 - Final presentation and viva
-  Pertaining to the first point, students are expected to keep me updated with their progress every week on their project file.
 
-## **ANY AND ALL AI GENERATED CONTENT AT ANY STAGE WILL RESULT IN AN IMMEDIATE INELIGIBILITY FOR THE PROJECTS!**
+<!-- prettier-ignore -->
+Pertaining to the first point, students are expected to keep me updated with their progress every week on their project file.
+
+**ANY AND ALL AI GENERATED CONTENT AT ANY STAGE WILL RESULT IN AN IMMEDIATE INELIGIBILITY FOR THE PROJECTS!**
