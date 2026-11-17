@@ -1,0 +1,11 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: sangeets@rishivalley.org # your email address
+github_username: songofphysics # your GitHub user name
+linkedin_username: sangeet-srinivasan-a96517139 # your LinkedIn user name
+instagram_id: songofphysics # your instagram id
+stackoverflow_id: 27938659 # your stackoverflow id
+rss_icon: true # comment this line to hide the RSS icon
+# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
