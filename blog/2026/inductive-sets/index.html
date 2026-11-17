@@ -1,0 +1,323 @@
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Inductive Sets and Natural Numbers | Sangeet. S </title> <meta name="author" content="Sangeet Srinivasan"> <meta name="description" content="Natural Numbers, Inductive Proofs and Indexing"> <meta name="keywords" content="physics education, physics, mathematics, calculus, precalculus, quantum computing, teaching, Rishi Valley School"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://songofphysics.github.io/blog/2026/inductive-sets/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/css/al-folio-distill.css?v=fb7196ec07cb5299d51b2cbdc69c23d7"> <script>
+  window.alFolioDistill = window.alFolioDistill || {};
+  window.alFolioDistill.templateLoader = {"url":"/assets/js/distillpub/template.v2.js","integrity":"sha256-R5CDHO0C98TyAJss32l4ztqDUfAGDTtZ3Zs6qxMuJxo=","remote":false};
+</script> <script src="/assets/js/distillpub/template.v2.js" integrity="sha256-R5CDHO0C98TyAJss32l4ztqDUfAGDTtZ3Zs6qxMuJxo="></script> <script src="/assets/js/distillpub/transforms.v2.js" integrity="sha256-XYVZD1ZSuRCrJBEBl0nIPvWlo/u5tzmtyStFV7a/PTk="></script> <style type="text/css">
+        .box-definition, .box-theorem {
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  border-left: 3px solid;
+  border-radius: 0 4px 4px 0;
+} .box-definition {
+  border-left-color: #1ca9e8;
+  background: rgba(28, 169, 232, 0.10);
+} .box-theorem {
+  border-left-color: #fdbc42;
+  background: rgba(253, 188, 66, 0.12);
+} .box-lemma {
+  padding: 0.2rem 1rem;
+  margin: 1.5rem 0;
+  border-left: 3px solid #e53935;
+} [id] {
+  scroll-margin-top: 4rem;
+} .box-definition > p:last-child, .box-theorem > p:last-child, .box-lemma > p:last-child {
+  margin-bottom: 0;
+}
+
+      </style> </head> <body> <d-front-matter> <script async type="text/json">
+      {
+            "title": "Inductive Sets and Natural Numbers",
+            "description": "Natural Numbers, Inductive Proofs and Indexing",
+            "published": "April 21, 2026",
+            "authors": [
+              
+              {
+                "author": "Sangeet. S",
+                "authorURL": "https://songofphysics.github.io/bio/",
+                "affiliations": [
+                  {
+                    "name": "Rishi Valley School",
+                    "url": ""
+                  }
+                ]
+              }
+              
+            ],
+            "katex": {
+              "delimiters": [
+                {
+                  "left": "$",
+                  "right": "$",
+                  "display": false
+                },
+                {
+                  "left": "$$",
+                  "right": "$$",
+                  "display": true
+                }
+              ]
+            }
+          }
+    </script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Sangeet. S </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/bio/">Bio </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">Blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">Résumé </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Archive </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Inductive Sets and Natural Numbers</h1> <p>Natural Numbers, Inductive Proofs and Indexing</p> </d-title> <d-byline></d-byline> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div> <a href="#inductive-sets">Inductive Sets</a> </div> <div> <a href="#finite-indexing">Finite Indexing</a> </div> </nav> </d-contents> <p>Up until this point, we have been dodging a very important problem. We started this series with sets because they are allegedly among the most fundamental entities in mathematics. Yet we all start learning mathematics by counting. So shouldn’t numbers indisputably be the most fundamental thing?</p> <p>We dug ourselves further into this hole with the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of foundation</a>, which demands that every non-empty set have an element disjoint from it. That leads to a very strange observation. For the axioms to make sense, every element of a set must itself be a set, otherwise “disjoint” means nothing. And yet in the <a href="/blog/2026/operations-on-sets/">last post</a> we happily took unions and intersections of sets of <em>numbers</em>. So, are numbers themselves sets? To answer that, we first need to look at something broader.</p> <hr> <h2 id="inductive-sets">Inductive Sets</h2> <p>Every set we build from the axioms starts from somewhere, and the only set the axioms hand us for free is $\varnothing$. Here is a way to keep growing new sets out of old ones. For any set $n$, define its <strong>successor</strong> to be</p> \[S(n) := n \cup \lbrace n \rbrace,\] <p>the set $n$ with $n$ itself thrown in as one extra element. The <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of pairing</a> (applied to $n$ with itself) gives us $\lbrace n \rbrace$, and the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of union</a> then gives us $n \cup \lbrace n \rbrace$, so $S(n)$ is always a set.</p> <div class="box-definition" id="def-2-12"> <p><strong>Definition 2.12.</strong> A set $I$ is called an <strong>inductive set</strong> if and only if $\varnothing \in I$ and $\forall n \in I : S(n) \in I$.</p> </div> <p>In plain English: an inductive set contains the empty set, and whenever it contains something, it also contains that thing’s successor.</p> <p><span id="rem-2-6"></span><strong>Remark 2.6.</strong> This definition is what makes the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of infinity</a> precise. Stated properly, the axiom says: <em>there exists an inductive set</em>. Such a set really must be infinite, since starting from $\varnothing$, the successor lets us add new elements to it ad infinitum.</p> <p>So what is inside an inductive set? Let us start from $\varnothing$ and keep taking successors, giving each new set a rather suggestive name:<d-footnote>This is the construction due to John von Neumann. There are other constructions of the naturals from sets, which give slightly different interpretations.</d-footnote></p> \[\begin{aligned} 0 &amp;:= \varnothing, \\ 1 &amp;:= S(0) = \varnothing \cup \lbrace 0 \rbrace = \lbrace 0 \rbrace, \\ 2 &amp;:= S(1) = 1 \cup \lbrace 1 \rbrace = \lbrace 0, 1 \rbrace, \\ 3 &amp;:= S(2) = 2 \cup \lbrace 2 \rbrace = \lbrace 0, 1, 2 \rbrace, \\ &amp;\;\;\vdots \\ k + 1 &amp;:= S(k) = k \cup \lbrace k \rbrace = \lbrace 0, 1, 2, \dots, k \rbrace. \end{aligned}\] <p>These are the <strong>finite ordinals</strong>, and every inductive set contains all of them. The natural numbers should be exactly these sets and nothing else. The cleanest way to say “nothing else” is to keep only what <em>every</em> inductive set is forced to contain.</p> <div class="box-definition" id="def-2-13"> <p><strong>Definition 2.13.</strong> Let $I_0$ be an inductive set. The set of <strong>natural numbers</strong> is</p> \[\mathbb{N} := \lbrace x \in I_0 : x \in I \text{ for every inductive set } I \rbrace.\] </div> <p>The axiom of infinity guarantees that some inductive set $I_0$ exists, and the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of specification</a> then makes $\mathbb{N}$ a set. Notice that we only carve $\mathbb{N}$ out of $I_0$. We never write “the set of all $x$ that are in every inductive set” without saying where the $x$ come from, because that is exactly the habit that got us into <a href="/blog/2026/sets-and-axioms/#thm-2-2">Russell’s paradox</a>.</p> <div class="box-theorem" id="thm-2-9"> <p><strong>Theorem 2.9.</strong> The set $\mathbb{N}$ is an inductive set, and it is a subset of every inductive set. It does not depend on which inductive set $I_0$ we started from.</p> </div> <details><summary>Proof</summary> <p><em>$\mathbb{N}$ is a subset of every inductive set.</em> Let $I$ be any inductive set and let $x \in \mathbb{N}$. By <a href="#def-2-13">Definition 2.13</a>, $x$ belongs to every inductive set, in particular to $I$. So $\mathbb{N} \subseteq I$.</p> <p><em>$\mathbb{N}$ is inductive.</em> Every inductive set contains $\varnothing$, and $I_0$ is one of them, so $\varnothing \in I_0$ and $\varnothing \in \mathbb{N}$. Now let $n \in \mathbb{N}$. Then $n \in I$ for every inductive set $I$, and since each such $I$ is inductive, $S(n) \in I$ for every inductive set $I$. In particular $S(n) \in I_0$, so $S(n) \in \mathbb{N}$.</p> <p><em>Independence of $I_0$.</em> Let $I_0’$ be another inductive set and $\mathbb{N}’$ the set obtained from it. By the first part (applied to $\mathbb{N}$), $\mathbb{N} \subseteq I_0’$, and every element of $\mathbb{N}$ is in every inductive set, so $\mathbb{N} \subseteq \mathbb{N}’$. Swapping the roles of $I_0$ and $I_0’$ gives $\mathbb{N}’ \subseteq \mathbb{N}$. By antisymmetry (<a href="/blog/2026/operations-on-sets/#thm-2-8">Theorem 2.8</a>), $\mathbb{N} = \mathbb{N}’$. $\square$</p> </details> <p>In other words, $\mathbb{N}$ is the <em>smallest</em> inductive set, and its elements are precisely $0, 1, 2, 3, \dots$ from the construction above.</p> <p><span id="rem-2-7"></span><strong>Remark 2.7.</strong> Before we go any further, let us take a step back and appreciate the philosophical wisdom of the distant past, in which the number zero was always associated with emptiness, void and nothingness. Modern mathematics, in all its glory, gives that idea a precise logical form: $0$ is nothing but a name, or label, for the empty set.<d-footnote>Roughly speaking, starting from $0 = \varnothing$ also makes the construction more natural than starting from the set containing the empty set, i.e., $1$.</d-footnote></p> <p>This also settles the puzzle about the axiom of foundation from <a href="/blog/2026/sets-and-axioms/#rem-2-1">Remark 2.1</a>. Take $\lbrace 1, 2, 3 \rbrace$. Its element $1 = \lbrace 0 \rbrace$, and $0 \notin \lbrace 1, 2, 3 \rbrace$, so $1 \cap \lbrace 1, 2, 3 \rbrace = \varnothing$. The number $1$ is literally a set disjoint from $\lbrace 1, 2, 3 \rbrace$, exactly as foundation demands.</p> <p>While we have defined the natural numbers as a set, we have also quietly used a symbol, $+$, which is not native to the language of sets. Let us formalise it.</p> <div class="box-definition" id="def-2-14"> <p><strong>Definition 2.14.</strong> For any $m, n \in \mathbb{N}$, the <strong>sum</strong> $m + n$ is the set obtained by applying the successor $n$ times, starting from $m$:<d-footnote>Making "apply $S$ exactly $n$ times" fully rigorous needs a result called the <em>recursion theorem</em>. The equivalent recursive form, $m + 0 = m$ and $m + S(n) = S(m + n)$, appears in the exercises at the end of this chapter.</d-footnote></p> \[m + n := S^n(m), \qquad \text{where } S^0(m) := m \text{ and } S^{k+1}(m) := S\big(S^k(m)\big).\] </div> <p><span id="rem-2-8"></span><strong>Remark 2.8.</strong> In essence, adding $n \in \mathbb{N}$ to $m \in \mathbb{N}$ boils down to starting at $m$ and taking the successor as many times as there are elements in $n$.<d-footnote>Other valid constructions could have other interpretations, but at the end of the day they would still be built out of sets.</d-footnote> In particular $n + 1 = S(n)$, which is why we were allowed to write $k + 1$ in the construction above.</p> <p><span id="ex-2-5"></span><strong>Exercise 2.5.</strong> Show that for any $m, n \in \mathbb{N}$, $m + n = n + m$.</p> <details><summary>Solution</summary> <p>We use the principle of mathematical induction, <a href="#thm-2-10">Theorem 2.10</a> below, several times. Straight from <a href="#def-2-14">Definition 2.14</a>, for all $m, n \in \mathbb{N}$,</p> \[m + 0 = m \qquad \text{and} \qquad m + S(n) = S^{n+1}(m) = S\big(S^n(m)\big) = S(m + n). \tag{$\ast$}\] <p><em>Step 1: $0 + m = m$ for all $m \in \mathbb{N}$.</em> Induction on $m$. Base case: $0 + 0 = 0$ by $(\ast)$. Inductive step: if $0 + k = k$, then $0 + S(k) = S(0 + k) = S(k)$ by $(\ast)$.</p> <p><em>Step 2: $S(m) + n = S(m + n)$ for all $m, n \in \mathbb{N}$.</em> Fix $m$ and use induction on $n$. Base case: $S(m) + 0 = S(m) = S(m + 0)$ by $(\ast)$. Inductive step: if $S(m) + k = S(m + k)$, then</p> \[S(m) + S(k) = S\big(S(m) + k\big) = S\big(S(m + k)\big) = S\big(m + S(k)\big),\] <p>using $(\ast)$, the hypothesis, and $(\ast)$ again.</p> <p><em>Step 3: $m + n = n + m$.</em> Fix $m$ and use induction on $n$. Base case: $m + 0 = m = 0 + m$, by $(\ast)$ and Step 1. Inductive step: if $m + k = k + m$, then</p> \[m + S(k) = S(m + k) = S(k + m) = S(k) + m,\] <p>using $(\ast)$, the hypothesis, and Step 2. By induction, $m + n = n + m$ for all $n$, and since $m$ was arbitrary, for all $m$ too. $\square$</p> </details> <div class="box-definition" id="def-2-15"> <p><strong>Definition 2.15.</strong> The <strong>cardinality</strong> or <strong>cardinal number</strong> of a set $A$ is the number of elements in it, and is denoted by $\lvert A \rvert$.</p> </div> <p><span id="rem-2-9"></span><strong>Remark 2.9.</strong> Look closely at the construction of $\mathbb{N}$, and you will notice that these numbers play a dual role. First, they answer the question <em>which count?</em> (their <strong>ordinal</strong> role). For example, $3 = \lbrace 0, 1, 2 \rbrace$ is the third non-empty set in our construction. Second, they tell us <em>how many elements</em> are in the set (their <strong>cardinal</strong> role), since the set $3$ contains exactly $3$ elements, i.e., $\lvert 3 \rvert = 3$. Pick any natural number from our construction and you will find that the count and the size match perfectly.</p> <div class="box-definition" id="def-2-16"> <p><strong>Definition 2.16.</strong> For any $m, n \in \mathbb{N}$, we say that $m$ <strong>is less than</strong> $n$, written $m \lt n$, whenever $m \subset n$. Equivalently, $n$ <strong>is greater than</strong> $m$, written $n \gt m$, when $n \supset m$.</p> </div> <p>So $2 \lt 3$ because $\lbrace 0, 1 \rbrace \subset \lbrace 0, 1, 2 \rbrace$. Ordering numbers turns out to be nothing more than proper inclusion of sets.</p> <p><span id="ex-2-6"></span><strong>Exercise 2.6.</strong> Show that if $a, b, c \in \mathbb{N}$ are such that $a \gt b$ and $b \gt c$, then $a \gt c$.</p> <details><summary>Solution</summary> <p>By <a href="#def-2-16">Definition 2.16</a>, we have $c \subset b$ and $b \subset a$, and we must show $c \subset a$, i.e., $c \subseteq a$ and $c \neq a$.</p> <p><em>$c \subseteq a$.</em> Since $c \subseteq b$ and $b \subseteq a$, transitivity (<a href="/blog/2026/operations-on-sets/#thm-2-8">Theorem 2.8</a>) gives $c \subseteq a$.</p> <p><em>$c \neq a$.</em> Since $c \subset b$, we have $c \neq b$, so by <a href="/blog/2026/sets-and-axioms/#ex-2-1">Exercise 2.1</a> $b \not\subseteq c$ (otherwise $c \subseteq b$ and $b \subseteq c$ would force $c = b$). So there is some $x \in b$ with $x \notin c$. Since $b \subseteq a$, $x \in a$. Thus $x \in a$ but $x \notin c$, so $a \neq c$ by the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of extension</a>.</p> <p>Hence $c \subset a$, i.e., $a \gt c$. $\square$</p> </details> <p><span id="rem-2-10"></span><strong>Remark 2.10.</strong> To add to <a href="#rem-2-9">Remark 2.9</a>: if we try to stretch these finite sets to infinity, the dual role breaks down. We can talk about the size of an infinite set using infinite cardinal numbers, like $\lvert \mathbb{N} \rvert$,<d-footnote>We will revisit the notion of infinity when we study functions.</d-footnote> but we cannot use our finite counting numbers to reach some unique “infinity-th” position. What we can do is label the position reached by the set $\mathbb{N}$ itself as the <strong>first infinite ordinal</strong>, $\omega := \mathbb{N}$. Its successor $\omega + 1 := S(\omega) = \omega \cup \lbrace \omega \rbrace$ is a perfectly good set, and if we extend <a href="#def-2-16">Definition 2.16</a> to such sets, $\omega \subset \omega + 1$, so $\omega + 1 \gt \omega$. On the other hand, adding one element to an infinite set intuitively still leaves a set of the same infinite size, so $\lvert \omega + 1 \rvert = \lvert \mathbb{N} \rvert$. This is the crux of the poorly phrased idea that “infinity is not a number but a concept”. The fact of the matter is that <em>count</em> and <em>size</em> behave very differently once the size is infinite!</p> <p>Now for the reason anyone outside set theory cares about any of this.</p> <div class="box-theorem" id="thm-2-10"> <p><strong>Theorem 2.10 (Principle of Mathematical Induction).</strong> Let $P(n)$ be a predicate on $\mathbb{N}$ such that</p> <ul> <li> <strong>(Base case)</strong> $P(0)$ is true, and</li> <li> <strong>(Inductive step)</strong> $\forall k \in \mathbb{N} : P(k) \implies P(k + 1)$.</li> </ul> <p>Then $\forall n \in \mathbb{N} : P(n)$ is true.</p> </div> <details><summary>Proof</summary> <p>By the axiom of specification, $A := \lbrace x \in \mathbb{N} : P(x) \rbrace$ is a set, and $A \subseteq \mathbb{N}$. We show that $A$ is inductive.</p> <p>By the base case, $P(0)$ holds, and $0 = \varnothing \in \mathbb{N}$, so $\varnothing \in A$. Now let $k \in A$. Then $k \in \mathbb{N}$ and $P(k)$ holds. Since $\mathbb{N}$ is inductive (<a href="#thm-2-9">Theorem 2.9</a>), $S(k) = k + 1 \in \mathbb{N}$, and by the inductive step $P(k + 1)$ holds. So $S(k) \in A$, and $A$ is inductive.</p> <p>By <a href="#thm-2-9">Theorem 2.9</a>, $\mathbb{N}$ is a subset of every inductive set, so $\mathbb{N} \subseteq A$. Together with $A \subseteq \mathbb{N}$, antisymmetry (<a href="/blog/2026/operations-on-sets/#thm-2-8">Theorem 2.8</a>) gives $A = \mathbb{N}$. That is, $P(n)$ holds for every $n \in \mathbb{N}$. $\square$</p> </details> <p>Think of it as a line of dominoes: knock over the first one, make sure each one knocks over the next, and they all fall. The proof above is the set-theoretic reason the dominoes can’t skip any: $\mathbb{N}$ has no elements other than the ones the successor reaches from $0$.</p> <p><span id="rem-2-11"></span><strong>Remark 2.11.</strong> Induction is a really powerful technique for writing proofs about any inductive set, and nothing forces us to start at $0$. It extends to the integers from any starting point onwards.<d-footnote>We will see more general versions of this when we study functions.</d-footnote></p> <div class="box-theorem" id="thm-2-11"> <p><strong>Theorem 2.11.</strong> Let $m \in \mathbb{Z}$, and let $P(n)$ be a predicate on the integers $n \geq m$ such that $P(m)$ is true and $P(k) \implies P(k + 1)$ for every integer $k \geq m$. Then $P(n)$ is true for every integer $n \geq m$.</p> </div> <details><summary>Proof</summary> <p>For $j \in \mathbb{N}$, define the predicate $Q(j) :\iff P(m + j)$. We check the two conditions of <a href="#thm-2-10">Theorem 2.10</a> for $Q$.</p> <p><em>Base case.</em> $Q(0) \iff P(m)$, which is true.</p> <p><em>Inductive step.</em> Let $j \in \mathbb{N}$ with $Q(j)$ true, i.e., $P(m + j)$ is true. Since $j \geq 0$, the integer $k := m + j$ satisfies $k \geq m$, so $P(k) \implies P(k + 1)$ applies and $P(m + j + 1)$ is true. That is exactly $Q(j + 1)$.</p> <p>By <a href="#thm-2-10">Theorem 2.10</a>, $Q(j)$ is true for every $j \in \mathbb{N}$. Now let $n \geq m$ be any integer. Then $j := n - m \geq 0$ is a natural number, and $Q(n - m) \iff P(n)$, so $P(n)$ is true. $\square$</p> </details> <p>Here is induction in action.</p> <p><span id="eg-2-17"></span><strong>Example 2.17.</strong> Prove that $\forall n \in \mathbb{N} : P(n)$, where $P(n) :\iff 3 \mid (n^3 + 2n)$.</p> <details><summary>Proof</summary> <p>We use <a href="#thm-2-10">Theorem 2.10</a>.</p> <p><strong>Base case.</strong> $P(0) :\iff 3 \mid 0$, which is true, since $0 = 3 \cdot 0$.</p> <p><strong>Inductive step.</strong> Let $k \in \mathbb{N}$ be such that $P(k)$ is true, i.e., $3 \mid (k^3 + 2k)$. We need to show that $3 \mid \big((k + 1)^3 + 2(k + 1)\big)$. Expanding,</p> \[(k + 1)^3 + 2(k + 1) = k^3 + 3k^2 + 3k + 1 + 2k + 2 = (k^3 + 2k) + 3(k^2 + k + 1).\] <p>The first bracket is divisible by $3$ by the hypothesis $P(k)$, and the second term is visibly a multiple of $3$. So their sum is divisible by $3$, and $P(k + 1)$ is true.</p> <p>Since our choice of $k$ was arbitrary, $\forall k \in \mathbb{N} : P(k) \implies P(k + 1)$. Therefore, by induction, $\forall n \in \mathbb{N} : P(n)$ is true. $\square$</p> </details> <p>Notice where the hypothesis did its job: we rearranged $P(k + 1)$ until $P(k)$ appeared inside it. That is the whole trick, nearly every time.</p> <p><span id="ex-2-7"></span><strong>Exercise 2.7.</strong> Show that $9^n - 1$ is divisible by $8$ for all natural numbers $n$.</p> <details><summary>Solution</summary> <p>Let $P(n) :\iff 8 \mid (9^n - 1)$. We use <a href="#thm-2-10">Theorem 2.10</a>.</p> <p><strong>Base case.</strong> $9^0 - 1 = 0 = 8 \cdot 0$, so $P(0)$ is true.</p> <p><strong>Inductive step.</strong> Let $k \in \mathbb{N}$ with $P(k)$ true, so $9^k - 1 = 8q$ for some integer $q$. Then</p> \[9^{k+1} - 1 = 9 \cdot 9^k - 1 = 9(9^k - 1) + 9 - 1 = 9 \cdot 8q + 8 = 8(9q + 1),\] <p>so $8 \mid (9^{k+1} - 1)$ and $P(k + 1)$ is true. By induction, $8 \mid (9^n - 1)$ for every $n \in \mathbb{N}$. $\square$</p> </details> <p>A running theme from here on will be to construct newer sets of numbers out of the ones we already have, moving up from the naturals to the integers, and all the way up to the real and complex numbers. That needs more sophisticated machinery, so it will be rather slow going, and we will also have to rebuild arithmetic on each new set as we go. In the meantime, we will keep using these numbers in soft examples, wherever the intuition from middle school can be readily applied.</p> <hr> <h2 id="finite-indexing">Finite Indexing</h2> <p>It will be convenient to introduce the notion of indexing, as it lets us write various operations far more compactly.</p> <div class="box-definition" id="def-2-17"> <p><strong>Definition 2.17 (Arbitrary Unions and Intersections).</strong> The <strong>union</strong> of all $x \in S$ is written</p> \[\bigcup_{x \in S} x.\] <p>Similarly, for non-empty $S$,<d-footnote>The intersection over an empty $S$ would have to contain everything, and we have already seen that there is no set of everything.</d-footnote> the <strong>intersection</strong> of all $x \in S$ is written</p> \[\bigcap_{x \in S} x.\] </div> <p>The union is a set by the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of union</a>. The intersection is a set by the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of specification</a>: pick any $y \in S$ and keep those elements of $y$ that lie in every $x \in S$.</p> <p><span id="eg-2-18"></span><strong>Example 2.18.</strong> Let $S = \lbrace \lbrace 1, 2 \rbrace, \lbrace 4, 3, 2 \rbrace, \lbrace 5, 2 \rbrace \rbrace$. Then</p> \[\bigcup_{x \in S} x = \lbrace 1, 2 \rbrace \cup \lbrace 4, 3, 2 \rbrace \cup \lbrace 5, 2 \rbrace = \lbrace 1, 2, 3, 4, 5 \rbrace \quad \text{and} \quad \bigcap_{x \in S} x = \lbrace 1, 2 \rbrace \cap \lbrace 4, 3, 2 \rbrace \cap \lbrace 5, 2 \rbrace = \lbrace 2 \rbrace.\] <p>When $S$ is a finite set, we can express the same things in terms of an <em>index set</em>.</p> <div class="box-definition" id="def-2-18"> <p><strong>Definition 2.18 (Index Set).</strong> For a finite set $S$ and some $n \in \mathbb{Z}$, the set</p> \[I_n := \lbrace k \in \mathbb{Z} : n \leq k \leq n + \lvert S \rvert - 1 \rbrace\] <p>is called a <strong>finite index set</strong> for $S$. If $S$ is a set of sets whose elements are labelled $x_k$ with $k \in I_n$, then</p> \[\bigcup_{k \in I_n} x_k = \bigcup_{k = n}^{m} x_k = x_n \cup x_{n+1} \cup x_{n+2} \cup \dots \cup x_m, \qquad \text{where } m = n + \lvert S \rvert - 1.\] </div> <p><span id="rem-2-12"></span><strong>Remark 2.12.</strong> Intuitively, the index set $I_n$ just lets us put labels on the sets in $S$ and operate on them. How we do the labelling does not matter, since for finite unions and intersections the order of operations is itself irrelevant (thanks to commutativity and associativity, <a href="/blog/2026/operations-on-sets/#thm-2-5">Theorem 2.5</a>). It is quite common to choose $I_n$ with $n = 0$ or $n = 1$.</p> <p>Finite indexing is particularly useful for writing sums as well. There we use the symbol $\Sigma$ instead of $\bigcup$ to denote addition, and the objects being combined are numbers instead of sets.</p> <div class="box-definition" id="def-2-19"> <p><strong>Definition 2.19 (Summation).</strong> For a finite set $S \subset \mathbb{R}$, the <strong>sum</strong> of all $x \in S$ is written</p> \[\sum_{x \in S} x.\] </div> <p><span id="eg-2-19"></span><strong>Example 2.19.</strong> Let $S = \lbrace -1.7, \pi, 5, -3 \rbrace$. Then</p> \[\sum_{x \in S} x = (-1.7) + \pi + 5 + (-3) = \pi + 0.3.\] <p><span id="eg-2-20"></span><strong>Example 2.20.</strong> With the elements of $S$ labelled $x_k$ for $k \in I_n$,</p> \[\sum_{k \in I_n} x_k = \sum_{k = n}^{m} x_k = x_n + x_{n+1} + x_{n+2} + \dots + x_m, \qquad \text{where } m = n + \lvert S \rvert - 1.\] <p><span id="rem-2-13"></span><strong>Remark 2.13.</strong> <strong>Summation</strong> over an index set can be extended to infinite sets under some conditions as well, but we will save that discussion for when we are able to state those conditions.</p> <p>When $S = I_n$ for some $n$, we tend to choose that very index set for convenience, and we can then replace the <strong>summand</strong> $x_k$ by $k$ itself, since every $x_k \in S$ is identical to some $k \in I_n$.</p> <p><span id="eg-2-21"></span><strong>Example 2.21.</strong> The sum of the first $n$ positive integers is</p> \[\sum_{k \in I_1} k = \sum_{k = 1}^{n} k = 1 + 2 + \dots + n.\] <p><span id="ex-2-8"></span><strong>Exercise 2.8.</strong> Express the sum of the squares of the first $5$ naturals as a summation.</p> <details><summary>Solution</summary> <p>Remember our convention that $0 \in \mathbb{N}$. The first $5$ naturals are $0, 1, 2, 3, 4$, which form the index set $I_0 = \lbrace 0, 1, 2, 3, 4 \rbrace$. So the sum is</p> \[\sum_{k \in I_0} k^2 = \sum_{k = 0}^{4} k^2 = 0 + 1 + 4 + 9 + 16 = 30.\] <p>If you instead wrote $\sum_{k=1}^{5} k^2 = 55$, you summed the squares of the first $5$ <em>positive</em> integers, i.e., the first $5$ elements of $\mathbb{N}^{\ast}$. That is a perfectly good sum, just not the one asked for. Conventions matter!</p> </details> <p><span id="rem-2-14"></span><strong>Remark 2.14.</strong> An alternative notation for $I_n$ is $[n ; N]$, where $N = n + \lvert S \rvert - 1$ is the last index. In particular, writing $N = \lvert S \rvert$, we denote $I_1 = [1 ; N]$ by $[N]$ and $I_0 = [0 ; N - 1]$ by $[N_{\ast}]$.</p> <hr> <p>So we can now count, add, compare and sum, all built out of nothing but the empty set. But mathematics is not just a line of numbers. To talk about the plane, coordinates and shapes, we need a way to <em>pair things up</em>, and nothing we have built so far does that. <a href="/blog/2026/products-of-sets/">Next time</a>, we fix that.</p> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/inductive-sets.bib"></d-bibliography> <d-article> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/closure-on-sets/">Closure on Sets</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/products-of-sets/">Products of Sets</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/operations-on-sets/">Operations on Sets</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/sets-and-axioms/">The Axioms of Set Theory</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/library/">Autodidactic Starter Pack</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/physicsedu/">Why Physics Education?</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/welcome/">Welcome to my blog!</a> </li> </ul> <br> <br> </d-article> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Sangeet Srinivasan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script src="/assets/js/distillpub/overrides.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-home",
+    title: "Home",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-bio",
+          title: "Bio",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bio/";
+          },
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A collection of some of my favourite projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Here you will find various expository materials and lecture notes for courses I have tutored and taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-résumé",
+          title: "Résumé",
+          description: "You can find my résumé down below. A slightly more detailed pdf version will be here soon.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-archive",
+          title: "Archive",
+          description: "Compendium of articles associated to seminars and workshops over the years.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "post-closure-on-sets",
+        
+          title: "Closure on Sets",
+        
+        description: "Exercises on Set Theory and Further Reading",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/closure-on-sets/";
+          
+        },
+      },{id: "post-products-of-sets",
+        
+          title: "Products of Sets",
+        
+        description: "The Cartesian Product",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/products-of-sets/";
+          
+        },
+      },{id: "post-inductive-sets-and-natural-numbers",
+        
+          title: "Inductive Sets and Natural Numbers",
+        
+        description: "Natural Numbers, Inductive Proofs and Indexing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/inductive-sets/";
+          
+        },
+      },{id: "post-operations-on-sets",
+        
+          title: "Operations on Sets",
+        
+        description: "What can we do with sets and how do the axioms help?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/operations-on-sets/";
+          
+        },
+      },{id: "post-the-axioms-of-set-theory",
+        
+          title: "The Axioms of Set Theory",
+        
+        description: "What Sets Are, Why Naive Set Theory Breaks, and the ZFC Axioms That Fix It",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sets-and-axioms/";
+          
+        },
+      },{id: "post-autodidactic-starter-pack",
+        
+          title: "Autodidactic Starter Pack",
+        
+        description: "A resource library for the bored, curious and determined.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/library/";
+          
+        },
+      },{id: "post-why-physics-education",
+        
+          title: "Why Physics Education?",
+        
+        description: "A short essay on my journey.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/physicsedu/";
+          
+        },
+      },{id: "post-welcome-to-my-blog",
+        
+          title: "Welcome to my blog!",
+        
+        description: "An introduction to everything here!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/welcome/";
+          
+        },
+      },{id: "news-finally-defended-my-master-thesis-after-a-long-battle-with-personal-demons-sweat-relieved",
+          title: 'Finally defended my master thesis after a long battle with personal demons! <img class="emoji" title=":sweat:" alt=":sweat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f613.png" height="20" width="20">...',
+          description: "",
+          section: "News",},{id: "news-joined-as-a-physics-and-math-educator-at-rishi-valley-school",
+          title: 'Joined as a Physics and Math Educator at Rishi Valley School.',
+          description: "",
+          section: "News",},{id: "news-list-of-seminars-workshops-and-events",
+          title: 'List of Seminars, Workshops and Events',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "projects-photonic-quantum-networks",
+          title: 'Photonic Quantum Networks',
+          description: "A TensorFlow Emulation and Benchmark",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-tensor-networks",
+          title: 'Tensor Networks',
+          description: "Phase Transitions of Ising and Bilinear Biquadratic Spin Chains",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-statistical-learning",
+          title: 'Statistical Learning',
+          description: "Inference from Equilibrium and Non-Equilibrium Distributions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-clifford-circuits",
+          title: 'Clifford Circuits',
+          description: "Emulation via Sparse Matrix Methods",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-generalised-uncertainty-principles",
+          title: 'Generalised Uncertainty Principles',
+          description: "Minimal length corrections of Hamiltonian spectra",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-wigner-functions",
+          title: 'Wigner Functions',
+          description: "Simulations and Animations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-traffic-forecast",
+          title: 'Traffic Forecast',
+          description: "Nagel-Scheckenberg Model",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-quantum-picturalism",
+          title: 'Quantum Picturalism',
+          description: "A pictorial introduction to quantum computing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "teaching-advanced-quantum-mechanics",
+          title: 'Advanced Quantum Mechanics',
+          description: "Graduate course on advanced topics in quantum theory.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/1_tute/";
+            },},{id: "teaching-mathematics-for-physics-students-1",
+          title: 'Mathematics for Physics Students 1',
+          description: "Undergraduate essential mathematics for theoretical physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2_tute/";
+            },},{id: "teaching-computational-physics-with-julia",
+          title: 'Computational Physics with Julia',
+          description: "Essentials of scientific computing on Julia.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/3_tute/";
+            },},{id: "teaching-introductory-calculus-based-physics",
+          title: 'Introductory Calculus Based Physics',
+          description: "A Pre-University Course in Physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/calcphy/";
+            },},{id: "teaching-precalculus-and-intro-to-calculus",
+          title: 'Precalculus and Intro to Calculus',
+          description: "A Pre-University Course in Mathematics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/precalc/";
+            },},{id: "teaching-elementary-algebra-based-physics",
+          title: 'Elementary Algebra Based Physics',
+          description: "A Secondary School Course in Physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/algphy/";
+            },},{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>

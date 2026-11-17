@@ -1,0 +1,323 @@
+<!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Products of Sets | Sangeet. S </title> <meta name="author" content="Sangeet Srinivasan"> <meta name="description" content="The Cartesian Product"> <meta name="keywords" content="physics education, physics, mathematics, calculus, precalculus, quantum computing, teaching, Rishi Valley School"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://songofphysics.github.io/blog/2026/products-of-sets/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/css/al-folio-distill.css?v=fb7196ec07cb5299d51b2cbdc69c23d7"> <script>
+  window.alFolioDistill = window.alFolioDistill || {};
+  window.alFolioDistill.templateLoader = {"url":"/assets/js/distillpub/template.v2.js","integrity":"sha256-R5CDHO0C98TyAJss32l4ztqDUfAGDTtZ3Zs6qxMuJxo=","remote":false};
+</script> <script src="/assets/js/distillpub/template.v2.js" integrity="sha256-R5CDHO0C98TyAJss32l4ztqDUfAGDTtZ3Zs6qxMuJxo="></script> <script src="/assets/js/distillpub/transforms.v2.js" integrity="sha256-XYVZD1ZSuRCrJBEBl0nIPvWlo/u5tzmtyStFV7a/PTk="></script> <style type="text/css">
+        .box-definition, .box-theorem {
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  border-left: 3px solid;
+  border-radius: 0 4px 4px 0;
+} .box-definition {
+  border-left-color: #1ca9e8;
+  background: rgba(28, 169, 232, 0.10);
+} .box-theorem {
+  border-left-color: #fdbc42;
+  background: rgba(253, 188, 66, 0.12);
+} .box-lemma {
+  padding: 0.2rem 1rem;
+  margin: 1.5rem 0;
+  border-left: 3px solid #e53935;
+} [id] {
+  scroll-margin-top: 4rem;
+} .box-definition > p:last-child, .box-theorem > p:last-child, .box-lemma > p:last-child {
+  margin-bottom: 0;
+}
+
+      </style> </head> <body> <d-front-matter> <script async type="text/json">
+      {
+            "title": "Products of Sets",
+            "description": "The Cartesian Product",
+            "published": "April 25, 2026",
+            "authors": [
+              
+              {
+                "author": "Sangeet. S",
+                "authorURL": "https://songofphysics.github.io/bio/",
+                "affiliations": [
+                  {
+                    "name": "Rishi Valley School",
+                    "url": ""
+                  }
+                ]
+              }
+              
+            ],
+            "katex": {
+              "delimiters": [
+                {
+                  "left": "$",
+                  "right": "$",
+                  "display": false
+                },
+                {
+                  "left": "$$",
+                  "right": "$$",
+                  "display": true
+                }
+              ]
+            }
+          }
+    </script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Sangeet. S </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/bio/">Bio </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">Blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">Résumé </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Archive </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Products of Sets</h1> <p>The Cartesian Product</p> </d-title> <d-byline></d-byline> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div> <a href="#products-of-sets">Products of Sets</a> </div> </nav> </d-contents> <p>In the <a href="/blog/2026/inductive-sets/">last post</a> we built the natural numbers out of nothing but the empty set, and learnt to count, add, compare and sum with them. That gives us a very crucial subset of the real numbers, which puts us one step closer to describing the so-called <em>real line</em>. Filling in the gaps between the naturals, and extending them past zero, will have to wait for later posts.</p> <p>But a line is not enough. Eventually we want to describe real <em>space</em>, so that we can talk about shapes, coordinates and simple geometry. Nothing we have built so far looks remotely like a coordinate. A set does not care about order, since $\lbrace 1, 2 \rbrace = \lbrace 2, 1 \rbrace$, while the point $(1, 2)$ on a graph is most definitely not the point $(2, 1)$. So let us extend our study of sets to handle order.</p> <hr> <h2 id="products-of-sets">Products of Sets</h2> <p>The trick is to smuggle the order into the <em>structure</em> of a set, since we cannot put it in the elements.</p> <div class="box-definition" id="def-2-20"> <p><strong>Definition 2.20 (Kuratowski Ordered Pair).</strong> A <strong>(Kuratowski) ordered pair</strong> of the sets $x$ and $y$ is given by</p> \[(x, y) := \lbrace \lbrace x \rbrace, \lbrace x, y \rbrace \rbrace.\] </div> <p><span id="rem-2-15"></span><strong>Remark 2.15.</strong> There are other, nearly equivalent ways to define ordered pairs,<d-footnote>Famously by the likes of Felix Hausdorff and Norbert Wiener, but their definitions had some annoyances, due to which they are no longer common.</d-footnote> but the reason they are called <em>ordered</em> is especially natural in Kuratowski’s version. The set $\lbrace x \rbrace$ sits inside $\lbrace x, y \rbrace$, which tells us that $x$ comes first, much like how we compared natural numbers by inclusion in <a href="/blog/2026/inductive-sets/#def-2-16">Definition 2.16</a>. Once $x$ is fixed as first, $y$ automatically comes after it.</p> <p>Of course, a definition of “ordered pair” is only any good if it remembers both entries and their order. This one does.</p> <div class="box-lemma" id="lem-2-12-1"> <p><strong>Lemma 2.12.1 (Characteristic Property of Ordered Pairs).</strong> For any sets $a, b, c, d$,</p> \[(a, b) = (c, d) \iff (a = c) \land (b = d).\] </div> <details><summary>Proof</summary> <p>($\impliedby$) If $a = c$ and $b = d$, then $\lbrace \lbrace a \rbrace, \lbrace a, b \rbrace \rbrace$ and $\lbrace \lbrace c \rbrace, \lbrace c, d \rbrace \rbrace$ are built from the same sets in the same way, so they are equal.</p> <p>($\implies$) Suppose $\lbrace \lbrace a \rbrace, \lbrace a, b \rbrace \rbrace = \lbrace \lbrace c \rbrace, \lbrace c, d \rbrace \rbrace$. We split into two cases.</p> <p><em>Case $a = b$.</em> Then $(a, b) = \lbrace \lbrace a \rbrace, \lbrace a \rbrace \rbrace = \lbrace \lbrace a \rbrace \rbrace$ has a single element. So both elements of $(c, d)$ must equal $\lbrace a \rbrace$. From $\lbrace c \rbrace = \lbrace a \rbrace$ we get $c = a$, and from $\lbrace c, d \rbrace = \lbrace a \rbrace$ we get $d = a$. Hence $c = a$ and $d = a = b$.</p> <p><em>Case $a \neq b$.</em> Then $b \notin \lbrace a \rbrace$, so $\lbrace a \rbrace \neq \lbrace a, b \rbrace$, and $(a, b)$ has exactly two elements. So $(c, d)$ must have two elements as well, which forces $c \neq d$ (if $c = d$, then $(c, d) = \lbrace \lbrace c \rbrace \rbrace$ would have only one). Now $\lbrace a \rbrace \in (c, d)$, so either $\lbrace a \rbrace = \lbrace c \rbrace$ or $\lbrace a \rbrace = \lbrace c, d \rbrace$. The second would force $c = a = d$, which is impossible, so $\lbrace a \rbrace = \lbrace c \rbrace$ and $a = c$. Next, $\lbrace a, b \rbrace \in (c, d)$, and $\lbrace a, b \rbrace$ has two elements while $\lbrace c \rbrace$ has one, so $\lbrace a, b \rbrace = \lbrace c, d \rbrace = \lbrace a, d \rbrace$. Then $b \in \lbrace a, d \rbrace$ and $b \neq a$, so $b = d$. $\square$</p> </details> <p><span id="ex-2-9"></span><strong>Exercise 2.9.</strong> Show that if $x$ and $y$ are sets with $x \neq y$, then $(x, y) \neq (y, x)$.</p> <details><summary>Solution</summary> <p>Suppose, for contradiction, that $(x, y) = (y, x)$. By <a href="#lem-2-12-1">Lemma 2.12.1</a>, comparing first entries gives $x = y$, which contradicts $x \neq y$. So $(x, y) \neq (y, x)$. $\square$</p> <p>The condition $x \neq y$ is genuinely needed: if $x = y$, then $(x, y)$ and $(y, x)$ are literally the same pair.</p> </details> <p>With pairs in hand, we can pair up everything from one set with everything from another.</p> <div class="box-definition" id="def-2-21"> <p><strong>Definition 2.21 (Cartesian Product).</strong> The <strong>product</strong> of two sets $X$ and $Y$ is given by</p> \[X \times Y := \lbrace (x, y) : (x \in X) \land (y \in Y) \rbrace.\] </div> <p><span id="rem-2-16"></span><strong>Remark 2.16.</strong> Ordered pairs, and hence products, are well-defined by the <a href="/blog/2026/sets-and-axioms/#def-2-4">axioms of pairing</a>, <a href="/blog/2026/sets-and-axioms/#def-2-4">union</a>, <a href="/blog/2026/sets-and-axioms/#def-2-4">power set</a> and <a href="/blog/2026/sets-and-axioms/#def-2-4">specification</a>. If $x \in X$ and $y \in Y$, then $\lbrace x \rbrace$ and $\lbrace x, y \rbrace$ are subsets of $X \cup Y$, so they are elements of $\mathcal{P}(X \cup Y)$. That makes $(x, y)$ a subset of $\mathcal{P}(X \cup Y)$, i.e.,</p> \[(x, y) \in \mathcal{P}^2(X \cup Y),\] <p>where $\mathcal{P}^2(S) := \mathcal{P}(\mathcal{P}(S))$. So every pair we want already lives inside the set $\mathcal{P}^2(X \cup Y)$, and $X \times Y$ is carved out of it by specification. In plain English: the product is an honest set, not one of those “collection of everything” monsters.</p> <p><span id="eg-2-22"></span><strong>Example 2.22.</strong> Let $X = \lbrace 1, 2 \rbrace$ and $Y = \lbrace 2, 3, 4 \rbrace$. Then</p> \[\begin{aligned} X \times Y &amp;= \lbrace (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4) \rbrace, \\ Y \times X &amp;= \lbrace (2, 1), (2, 2), (3, 1), (3, 2), (4, 1), (4, 2) \rbrace. \end{aligned}\] <p>These are clearly different sets, which raises the question of when swapping the factors makes no difference.</p> <div class="box-theorem" id="thm-2-12"> <p><strong>Theorem 2.12.</strong> For any two sets $X$ and $Y$, $X \times Y = Y \times X$ if and only if $X = Y$, or one of $X$ and $Y$ is the empty set.</p> </div> <details><summary>Proof</summary> <p>First, a product is empty exactly when one of its factors is: if $X = \varnothing$ or $Y = \varnothing$, there is no pair $(x, y)$ with $x \in X$ and $y \in Y$, so $X \times Y = \varnothing$; and if $x \in X$ and $y \in Y$ exist, then $(x, y) \in X \times Y$.</p> <p>($\impliedby$) If $X = Y$, the two products are literally the same. If $X = \varnothing$ or $Y = \varnothing$, then $X \times Y = \varnothing = Y \times X$ by the observation above.</p> <p>($\implies$) Suppose $X \times Y = Y \times X$, and that neither set is empty; we show $X = Y$. Let $x \in X$, and pick any $y \in Y$. Then $(x, y) \in X \times Y = Y \times X$, so $(x, y) = (y’, x’)$ for some $y’ \in Y$ and $x’ \in X$. By <a href="#lem-2-12-1">Lemma 2.12.1</a>, $x = y’$, so $x \in Y$. Hence $X \subseteq Y$. Swapping the roles of $X$ and $Y$ in the same argument gives $Y \subseteq X$, and by <a href="/blog/2026/sets-and-axioms/#ex-2-1">Exercise 2.1</a>, $X = Y$. $\square$</p> </details> <p>What about bracketing? Pairing a pair with a third thing can be done in two ways, and they are not the same.</p> <div class="box-theorem" id="thm-2-13"> <p><strong>Theorem 2.13.</strong> For any three sets $X$, $Y$ and $Z$, $(X \times Y) \times Z = X \times (Y \times Z)$ if and only if one of $X$, $Y$ or $Z$ is the empty set.</p> </div> <details><summary>Proof</summary> <p>Here the elements of $(X \times Y) \times Z$ are pairs of the form $((x, y), z)$, with an ordered pair inside an ordered pair, while those of $X \times (Y \times Z)$ have the form $(x, (y, z))$.</p> <p>($\impliedby$) If one of the three sets is empty, then by the observation at the start of the proof of <a href="#thm-2-12">Theorem 2.12</a>, both sides are empty. For example, if $Y = \varnothing$, then $X \times Y = \varnothing$, so $(X \times Y) \times Z = \varnothing$, and $Y \times Z = \varnothing$, so $X \times (Y \times Z) = \varnothing$.</p> <p>($\implies$) We prove this by contradiction. Suppose $(X \times Y) \times Z = X \times (Y \times Z)$ while $X$, $Y$ and $Z$ are all non-empty. Fix some $x \in X$ and $y \in Y$.</p> <p>Let $z$ be any element of $Z$. Then $((x, y), z) \in (X \times Y) \times Z = X \times (Y \times Z)$, so</p> \[((x, y), z) = (x', (y', z'))\] <p>for some $x’ \in X$, $y’ \in Y$ and $z’ \in Z$. Comparing second entries using <a href="#lem-2-12-1">Lemma 2.12.1</a>, $z = (y’, z’) = \lbrace \lbrace y’ \rbrace, \lbrace y’, z’ \rbrace \rbrace$. By the same lemma, $y’$ and $z’$ are uniquely determined by $z$. So every element $z \in Z$ is a pair whose second entry $z’$ is again an element of $Z$, and</p> \[z' \in \lbrace y', z' \rbrace \in z.\] <p>Now start from any $z_0 \in Z$ and repeat this: $z_0$ determines $z_1 \in Z$, which determines $z_2 \in Z$, and so on. Writing $w_k := \lbrace y_k’, z_{k+1} \rbrace$ for the middle sets, we get</p> \[\dots \in z_2 \in w_1 \in z_1 \in w_0 \in z_0,\] <p>an infinite descending chain of membership. This contradicts the consequence (iii) of the <a href="/blog/2026/sets-and-axioms/#def-2-4">axiom of foundation</a> proved in <a href="/blog/2026/operations-on-sets/#thm-2-6">Theorem 2.6</a>. So at least one of $X$, $Y$ and $Z$ must be empty. $\square$</p> </details> <p>So $(X \times Y) \times Z$ and $X \times (Y \times Z)$ hold “the same information” but are genuinely different sets. For products of more than two sets we therefore have to <em>choose</em> a bracketing, once and for all. We bracket from the left.</p> <div class="box-definition" id="def-2-22"> <p><strong>Definition 2.22 (n-ary Product).</strong> For $n \geq 3$, the <strong>ordered $n$-tuple</strong> of the sets $x_1, x_2, \dots, x_n$ is defined from ordered pairs by</p> \[(x_1, x_2, \dots, x_n) := \big( (x_1, x_2, \dots, x_{n-1}), x_n \big),\] <p>so that, for example, $(x_1, x_2, x_3) := ((x_1, x_2), x_3)$. The <strong>product</strong> of $n$ sets $X_1, X_2, \dots, X_n$ is then given by</p> \[X_1 \times X_2 \times \dots \times X_n := \lbrace (x_1, x_2, \dots, x_n) : x_k \in X_k \text{ for every } k \in [n] \rbrace,\] <p>where $[n] = \lbrace 1, 2, \dots, n \rbrace$ is the index set from <a href="/blog/2026/inductive-sets/#rem-2-14">Remark 2.14</a>.</p> </div> <p><span id="rem-2-17"></span><strong>Remark 2.17.</strong> Two things follow directly from this definition. First, $X_1 \times \dots \times X_n = (X_1 \times \dots \times X_{n-1}) \times X_n$, so every $n$-ary product is built by repeatedly taking products of two sets, and is therefore a set by <a href="#rem-2-16">Remark 2.16</a>. Second, two $n$-tuples are equal if and only if all their entries are equal, entry by entry. For $n = 2$ this is <a href="#lem-2-12-1">Lemma 2.12.1</a>. If it holds for $(n-1)$-tuples, then $(x_1, \dots, x_n) = (y_1, \dots, y_n)$ means $((x_1, \dots, x_{n-1}), x_n) = ((y_1, \dots, y_{n-1}), y_n)$, so by the lemma $x_n = y_n$ and $(x_1, \dots, x_{n-1}) = (y_1, \dots, y_{n-1})$, which gives the rest. By induction (<a href="/blog/2026/inductive-sets/#thm-2-11">Theorem 2.11</a>, starting at $n = 2$), it holds for all $n \geq 2$.</p> <p><span id="eg-2-23"></span><strong>Example 2.23.</strong> Let $X = \lbrace 1, 2 \rbrace$, $Y = \lbrace 2, 3 \rbrace$ and $Z = \lbrace 3, 4 \rbrace$. Then</p> \[\begin{aligned} (X \times Y) \times Z = \lbrace\, &amp;((1, 2), 3), ((1, 2), 4), ((1, 3), 3), ((1, 3), 4), \\ &amp;((2, 2), 3), ((2, 2), 4), ((2, 3), 3), ((2, 3), 4) \,\rbrace, \\ X \times (Y \times Z) = \lbrace\, &amp;(1, (2, 3)), (2, (2, 3)), (1, (3, 3)), (2, (3, 3)), \\ &amp;(1, (2, 4)), (2, (2, 4)), (1, (3, 4)), (2, (3, 4)) \,\rbrace. \end{aligned}\] <p>By <a href="#def-2-22">Definition 2.22</a>, the triple product $X \times Y \times Z$ is just $(X \times Y) \times Z$ written more lightly:</p> \[X \times Y \times Z = \lbrace (1, 2, 3), (1, 2, 4), (1, 3, 3), (1, 3, 4), (2, 2, 3), (2, 2, 4), (2, 3, 3), (2, 3, 4) \rbrace.\] <p>Let us take one element of each bracketing and compare them as sets, to see what is different. Unpacking with <a href="#def-2-20">Definition 2.20</a>,</p> \[\begin{aligned} (1, 2, 3) = ((1, 2), 3) &amp;= \lbrace \lbrace (1, 2) \rbrace, \lbrace (1, 2), 3 \rbrace \rbrace = \lbrace \lbrace \lbrace \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace \rbrace \rbrace, \lbrace \lbrace \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace \rbrace, 3 \rbrace \rbrace, \\ (1, (2, 3)) &amp;= \lbrace \lbrace 1 \rbrace, \lbrace 1, (2, 3) \rbrace \rbrace = \lbrace \lbrace 1 \rbrace, \lbrace 1, \lbrace \lbrace 2 \rbrace, \lbrace 2, 3 \rbrace \rbrace \rbrace \rbrace. \end{aligned}\] <p>The first has $(1, 2)$ as its first entry, the second has $1$, so by <a href="#lem-2-12-1">Lemma 2.12.1</a> they are completely different sets, exactly as <a href="#thm-2-13">Theorem 2.13</a> predicts.</p> <p><span id="ex-2-10"></span><strong>Exercise 2.10.</strong> Show that for all $x \in X$, $y \in Y$ and $z \in Z$, the triple $(x, y, z) = ((x, y), z) \in \mathcal{P}^2\big(\mathcal{P}^2(X \cup Y) \cup Z\big)$, and that $(x, (y, z)) \in \mathcal{P}^2\big(X \cup \mathcal{P}^2(Y \cup Z)\big)$.</p> <details><summary>Solution</summary> <p><em>A general fact first.</em> For any sets $A$ and $B$, if $a \in A$ and $b \in B$, then $(a, b) \in \mathcal{P}^2(A \cup B)$. Indeed, $a \in A \cup B$ and $b \in A \cup B$, so $\lbrace a \rbrace \subseteq A \cup B$ and $\lbrace a, b \rbrace \subseteq A \cup B$, i.e., both are elements of $\mathcal{P}(A \cup B)$. Hence $(a, b) = \lbrace \lbrace a \rbrace, \lbrace a, b \rbrace \rbrace \subseteq \mathcal{P}(A \cup B)$, which means $(a, b) \in \mathcal{P}(\mathcal{P}(A \cup B)) = \mathcal{P}^2(A \cup B)$.</p> <p><em>The first claim.</em> By the general fact with $A = X$ and $B = Y$, we have $(x, y) \in \mathcal{P}^2(X \cup Y)$. Now apply the general fact again with $a = (x, y)$, $A = \mathcal{P}^2(X \cup Y)$, $b = z$ and $B = Z$:</p> \[((x, y), z) \in \mathcal{P}^2\big(\mathcal{P}^2(X \cup Y) \cup Z\big).\] <p>Since $(x, y, z) = ((x, y), z)$ by <a href="#def-2-22">Definition 2.22</a>, this is the first claim.</p> <p><em>The second claim.</em> By the general fact, $(y, z) \in \mathcal{P}^2(Y \cup Z)$. Applying it again with $a = x$, $A = X$, $b = (y, z)$ and $B = \mathcal{P}^2(Y \cup Z)$ gives</p> \[(x, (y, z)) \in \mathcal{P}^2\big(X \cup \mathcal{P}^2(Y \cup Z)\big). \qquad \square\] <p>As a bonus, this shows that $X \times Y \times Z$ and $X \times (Y \times Z)$ are both honest sets, carved by specification out of these iterated power sets.</p> </details> <div class="box-definition" id="def-2-23"> <p><strong>Definition 2.23 (Cartesian $n$-th Power).</strong> A set $X$ raised to the <strong>$n$-th power</strong>, written $X^n$, is the $n$-ary product of $n$ copies of $X$:</p> \[X^n := \underbrace{X \times X \times \dots \times X}_{n \text{ times}}.\] </div> <p><span id="rem-2-18"></span><strong>Remark 2.18.</strong> The set $\mathbb{R}^2$ describes the standard Euclidean plane, and the set $\mathbb{R}^3$ describes Euclidean $3$-space. Every point you have ever plotted on graph paper is an element of $\mathbb{R}^2$, which is to say an ordered pair of real numbers, which is to say (once we have built the reals) a rather elaborate set of sets of sets. Your school geometry box was doing set theory all along.</p> <hr> <p>And with that, we have gone from the empty set to counting, to adding, to coordinates in space, using nothing but a handful of axioms. Was any of it actually <em>necessary</em>? Next time, we step back and ask what all this foundational machinery is for, and leave you with a stack of exercises to chew on.</p> </d-article> <d-appendix> <d-footnote-list></d-footnote-list> <d-citation-list></d-citation-list> </d-appendix> <d-bibliography src="/assets/bibliography/products-of-sets.bib"></d-bibliography> <d-article> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/closure-on-sets/">Closure on Sets</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/inductive-sets/">Inductive Sets and Natural Numbers</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/operations-on-sets/">Operations on Sets</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2026/sets-and-axioms/">The Axioms of Set Theory</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/library/">Autodidactic Starter Pack</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/physicsedu/">Why Physics Education?</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2025/welcome/">Welcome to my blog!</a> </li> </ul> <br> <br> </d-article> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Sangeet Srinivasan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script src="/assets/js/distillpub/overrides.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-home",
+    title: "Home",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-bio",
+          title: "Bio",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bio/";
+          },
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A collection of some of my favourite projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Here you will find various expository materials and lecture notes for courses I have tutored and taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-résumé",
+          title: "Résumé",
+          description: "You can find my résumé down below. A slightly more detailed pdf version will be here soon.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-archive",
+          title: "Archive",
+          description: "Compendium of articles associated to seminars and workshops over the years.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "post-closure-on-sets",
+        
+          title: "Closure on Sets",
+        
+        description: "Exercises on Set Theory and Further Reading",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/closure-on-sets/";
+          
+        },
+      },{id: "post-products-of-sets",
+        
+          title: "Products of Sets",
+        
+        description: "The Cartesian Product",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/products-of-sets/";
+          
+        },
+      },{id: "post-inductive-sets-and-natural-numbers",
+        
+          title: "Inductive Sets and Natural Numbers",
+        
+        description: "Natural Numbers, Inductive Proofs and Indexing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/inductive-sets/";
+          
+        },
+      },{id: "post-operations-on-sets",
+        
+          title: "Operations on Sets",
+        
+        description: "What can we do with sets and how do the axioms help?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/operations-on-sets/";
+          
+        },
+      },{id: "post-the-axioms-of-set-theory",
+        
+          title: "The Axioms of Set Theory",
+        
+        description: "What Sets Are, Why Naive Set Theory Breaks, and the ZFC Axioms That Fix It",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/sets-and-axioms/";
+          
+        },
+      },{id: "post-autodidactic-starter-pack",
+        
+          title: "Autodidactic Starter Pack",
+        
+        description: "A resource library for the bored, curious and determined.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/library/";
+          
+        },
+      },{id: "post-why-physics-education",
+        
+          title: "Why Physics Education?",
+        
+        description: "A short essay on my journey.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/physicsedu/";
+          
+        },
+      },{id: "post-welcome-to-my-blog",
+        
+          title: "Welcome to my blog!",
+        
+        description: "An introduction to everything here!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/welcome/";
+          
+        },
+      },{id: "news-finally-defended-my-master-thesis-after-a-long-battle-with-personal-demons-sweat-relieved",
+          title: 'Finally defended my master thesis after a long battle with personal demons! <img class="emoji" title=":sweat:" alt=":sweat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f613.png" height="20" width="20">...',
+          description: "",
+          section: "News",},{id: "news-joined-as-a-physics-and-math-educator-at-rishi-valley-school",
+          title: 'Joined as a Physics and Math Educator at Rishi Valley School.',
+          description: "",
+          section: "News",},{id: "news-list-of-seminars-workshops-and-events",
+          title: 'List of Seminars, Workshops and Events',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "projects-photonic-quantum-networks",
+          title: 'Photonic Quantum Networks',
+          description: "A TensorFlow Emulation and Benchmark",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-tensor-networks",
+          title: 'Tensor Networks',
+          description: "Phase Transitions of Ising and Bilinear Biquadratic Spin Chains",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-statistical-learning",
+          title: 'Statistical Learning',
+          description: "Inference from Equilibrium and Non-Equilibrium Distributions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-clifford-circuits",
+          title: 'Clifford Circuits',
+          description: "Emulation via Sparse Matrix Methods",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-generalised-uncertainty-principles",
+          title: 'Generalised Uncertainty Principles',
+          description: "Minimal length corrections of Hamiltonian spectra",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-wigner-functions",
+          title: 'Wigner Functions',
+          description: "Simulations and Animations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-traffic-forecast",
+          title: 'Traffic Forecast',
+          description: "Nagel-Scheckenberg Model",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-quantum-picturalism",
+          title: 'Quantum Picturalism',
+          description: "A pictorial introduction to quantum computing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "teaching-advanced-quantum-mechanics",
+          title: 'Advanced Quantum Mechanics',
+          description: "Graduate course on advanced topics in quantum theory.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/1_tute/";
+            },},{id: "teaching-mathematics-for-physics-students-1",
+          title: 'Mathematics for Physics Students 1',
+          description: "Undergraduate essential mathematics for theoretical physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2_tute/";
+            },},{id: "teaching-computational-physics-with-julia",
+          title: 'Computational Physics with Julia',
+          description: "Essentials of scientific computing on Julia.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/3_tute/";
+            },},{id: "teaching-introductory-calculus-based-physics",
+          title: 'Introductory Calculus Based Physics',
+          description: "A Pre-University Course in Physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/calcphy/";
+            },},{id: "teaching-precalculus-and-intro-to-calculus",
+          title: 'Precalculus and Intro to Calculus',
+          description: "A Pre-University Course in Mathematics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/precalc/";
+            },},{id: "teaching-elementary-algebra-based-physics",
+          title: 'Elementary Algebra Based Physics',
+          description: "A Secondary School Course in Physics.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/algphy/";
+            },},{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
