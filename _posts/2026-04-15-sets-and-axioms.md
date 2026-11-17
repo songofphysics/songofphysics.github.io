@@ -4,20 +4,46 @@ title: The Axioms of Set Theory
 description: What Sets Are, Why Naive Set Theory Breaks, and the ZFC Axioms That Fix It
 tags: mathematics education
 giscus_comments: false
-date: 2026-11-15
+date: 2026-04-15
 featured: true
 
 authors:
   - name: Sangeet. S
     url: "https://songofphysics.github.io/bio/"
     affiliations:
-      name: Rishi Valley School and Education Center
+      name: Rishi Valley School
 
 bibliography: sets-and-axioms.bib
 
 toc:
   - name: Sets and Subsets
   - name: Axioms of Set Theory
+
+_styles: >
+  .box-definition, .box-theorem {
+    padding: 0.8rem 1rem;
+    margin: 1.5rem 0;
+    border-left: 3px solid;
+    border-radius: 0 4px 4px 0;
+  }
+  .box-definition {
+    border-left-color: #1ca9e8;
+    background: rgba(28, 169, 232, 0.10);
+  }
+  .box-theorem {
+    border-left-color: #fdbc42;
+    background: rgba(253, 188, 66, 0.12);
+  }
+  .box-lemma {
+    padding: 0.2rem 1rem;
+    margin: 1.5rem 0;
+    border-left: 3px solid #e53935;
+  }
+  .box-definition > p:last-child,
+  .box-theorem > p:last-child,
+  .box-lemma > p:last-child {
+    margin-bottom: 0;
+  }
 ---
 
 Ask a room full of students what the most fundamental thing in mathematics is and most of them will say _numbers_. Fair enough. We all start learning mathematics by counting. Yet a vast majority of mathematics can be built directly out of something even more primitive: **sets**. Over this series we will actually do it, constructing the natural numbers out of nothing but sets (and, as we will see, quite literally out of nothing).
@@ -28,19 +54,19 @@ This post is the first in a series on elementary set theory, adapted from my tex
 
 ## Sets and Subsets
 
-**Definition 2.1.** A **set** is a _well-defined_ collection of _distinct_ **elements**.
+<div class="box-definition" markdown="1">
 
-<aside><p>What it means for a set to be <em>well-defined</em> is exactly what the <strong>axioms of set theory</strong>, further down this post, are for.</p></aside>
+**Definition 2.1.** A **set** is a _well-defined_<d-footnote>What it means for a set to be <em>well-defined</em> is exactly what the <strong>axioms of set theory</strong>, further down this post, are for.</d-footnote> collection of _distinct_ **elements**.
+
+</div>
 
 Notation first, because we are going to use a lot of it.
 
 **Remark 2.1.** A few comments on notation before we proceed.
 
-1. A **set** $X$ can often be _specified_ by a **roster** or **list** of its elements enclosed within curly braces, i.e., $X := \lbrace \dots \rbrace$, where the "$\dots$" are placeholders for the elements of $X$.
+1. A **set** $X$ can often<d-footnote>There are sets for which a roster is not possible, such as the real numbers. One of the axioms below gives us a more general way to specify sets.</d-footnote> be _specified_ by a **roster** or **list** of its elements enclosed within curly braces, i.e., $X := \lbrace \dots \rbrace$, where the "$\dots$" are placeholders for the elements of $X$.
 2. If $x$ is an element of the set $X$, we write $x \in X$. We read this as "$x$ **is in** $X$" or "$x$ **belongs to** $X$".
 3. If $x$ is not an element of the set $X$, we write $x \notin X$. We read this as "$x$ **is not in** $X$" or "$x$ **does not belong to** $X$".
-
-<aside><p>There are sets for which a roster is not possible, such as the real numbers. One of the axioms below gives us a more general way to specify sets.</p></aside>
 
 **Example 2.1.** $X := \lbrace 1, 2, 3 \rbrace$ is a set, and $2 \in X$, but $5 \notin X$.
 
@@ -48,7 +74,11 @@ Notation first, because we are going to use a lot of it.
 
 Once we have sets, the most basic question we can ask about two of them is whether one sits inside the other.
 
+<div class="box-definition" markdown="1">
+
 **Definition 2.2.** A set $A$ is called a **subset** of a set $B$ if and only if $\forall a : (a \in A \implies a \in B)$, and we write $A \subseteq B$. The set $B$ is then called a **superset** of $A$, written $B \supseteq A$. When this is not the case, we write $A \not\subseteq B$ and $B \not\supseteq A$.
+
+</div>
 
 In plain English: _every element of $A$ is also an element of $B$_.
 
@@ -60,15 +90,21 @@ The next example trips up a surprising number of people, so read it slowly.
 
 **Example 2.5.** The set of natural numbers is a subset of the set of integers, which is in turn a subset of the set of rational numbers, i.e., $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q}$.
 
+<div class="box-theorem" markdown="1">
+
 **Theorem 2.1.** Every set is a subset of itself.
 
+</div>
+
 {% details Proof %}
-We will prove this by contradiction. Let $A$ be a set with $A \not\subseteq A$. Then it is not the case that $\forall a : (a \in A \implies a \in A)$, so $\exists a : (a \in A \land a \notin A)$, which is a contradiction. Thus $A \subseteq A$. $\square$
+We will prove this by contradiction. Let $A$ be a set with $A \not\subseteq A$. Then<d-footnote>Here we use that $P \implies Q$ is logically equivalent to $\neg P \lor Q$, so its negation is $P \land \neg Q$.</d-footnote> it is not the case that $\forall a : (a \in A \implies a \in A)$, so $\exists a : (a \in A \land a \notin A)$, which is a contradiction. Thus $A \subseteq A$. $\square$
 {% enddetails %}
 
-<aside><p>Here we use that $P \implies Q$ is logically equivalent to $\neg P \lor Q$, so its negation is $P \land \neg Q$.</p></aside>
+<div class="box-definition" markdown="1">
 
 **Definition 2.3.** Two sets are **disjoint** when they share no common elements.
+
+</div>
 
 **Example 2.6.** The set $\lbrace 1, 2 \rbrace$ is disjoint from $\lbrace 3, 4 \rbrace$ but not from $\lbrace 1, 3 \rbrace$.
 
@@ -82,9 +118,11 @@ So far, so harmless. Collect some things in curly braces, check what is inside w
 
 Historically, set theory was not developed as a consistent axiomatic system. It was developed intuitively, in simple language, and simple language turned out to be a trap. It led to a bunch of paradoxes, which in turn led to what is now called the _foundational crisis in mathematics_. Let's look at the most famous one.
 
-**Theorem 2.2 (Russell).** There is no set of all sets that are not members of themselves.
+<div class="box-theorem" markdown="1">
 
-<aside><p>This is the much-famed <strong>Russell's paradox</strong>. Bertrand Russell was an influential mathematician and philosopher whose contributions greatly shaped the foundations of mathematics.</p></aside>
+**Theorem 2.2 (Russell).** There is no set of all sets that are not members of themselves.<d-footnote>This is the much-famed <strong>Russell's paradox</strong>. Bertrand Russell was an influential mathematician and philosopher whose contributions greatly shaped the foundations of mathematics.</d-footnote>
+
+</div>
 
 {% details Proof %}
 We will prove this by contradiction. Suppose such a set $R$ exists, i.e., the elements $X \in R$ are exactly the sets with $X \notin X$. Now ask whether $R$ is a member of itself. If $R \in R$, then $R$ fails the condition for membership, so $R \notin R$. If $R \notin R$, then $R$ satisfies the condition, so $R \in R$. Either way we have a contradiction, so no such set $R$ exists. $\square$
@@ -94,21 +132,17 @@ Russell came across this in 1901 and published it in _The Principles of Mathemat
 
 So it falls upon us to write down axioms that make sets _well-defined_. The first axiomatisation was given by Ernst Zermelo in 1908<d-cite key="zermelo1908untersuchungen"></d-cite>. Abraham Fraenkel's improvements in 1922<d-cite key="fraenkel1922grundlagen"></d-cite> led to what we now call **Zermelo–Fraenkel set theory**, or ZF. Add the axiom of choice and you get **ZFC**.
 
+<div class="box-definition" markdown="1">
+
 **Definition 2.4.** For a **set** to be _well-defined_, it must satisfy the **ZFC axioms** below.
 
-**(Null Set)** There exists a set with no elements, called the **null set** and denoted by $\varnothing$.
-
-<aside><p>Also known as the <strong>empty set</strong>.</p></aside>
+**(Null Set)** There exists a set with no elements, called the **null set**<d-footnote>Also known as the <strong>empty set</strong>.</d-footnote> and denoted by $\varnothing$.
 
 **(Extension)** Two sets are equal if and only if they have the same elements.
 
-**(Foundation)** Every non-empty set $S$ contains an element that is disjoint from $S$.
+**(Foundation)** Every non-empty set $S$ contains an element that is disjoint from $S$.<d-footnote>If this one looks strange, you are paying attention. The remarks after this list explain it.</d-footnote>
 
-<aside><p>If this one looks strange, you are paying attention. The remarks after this list explain it.</p></aside>
-
-**(Specification)** For any predicate $P$ and any set $S$, the elements $x \in S$ satisfying $P(x)$ form a set, denoted by $\lbrace x \in S : P(x) \rbrace$.
-
-<aside><p>Technically this is an <strong>axiom schema</strong>, because it is one axiom for every predicate $P$. The notation it introduces is called <strong>set-builder</strong> notation.</p></aside>
+**(Specification)** For any predicate $P$ and any set $S$, the elements $x \in S$ satisfying<d-footnote>Technically this is an <strong>axiom schema</strong>, because it is one axiom for every predicate $P$.</d-footnote> $P(x)$ form a set, denoted by<d-footnote>This is called <strong>set-builder</strong> notation.</d-footnote> $\lbrace x \in S : P(x) \rbrace$.
 
 **(Pairing)** For any two sets $A$ and $B$, there exists a set that contains $A$ and $B$.
 
@@ -116,41 +150,41 @@ So it falls upon us to write down axioms that make sets _well-defined_. The firs
 
 **(Power Set)** For any set $S$, there exists a set of all subsets of $S$, called the **power set** of $S$ and denoted by $\mathcal{P}(S)$.
 
-**(Replacement)** The image of a set under any definable mapping is also a set.
-
-<aside><p>Images will be discussed properly when we get to relations and functions.</p></aside>
+**(Replacement)** The image<d-footnote>Images will be discussed properly when we get to relations and functions.</d-footnote> of a set under any definable mapping is also a set.
 
 **(Infinity)** There exists at least one set containing infinitely many elements.
 
-**(Choice)** For any set $S$ of non-empty sets, there exists a **choice function** that assigns to each $X \in S$ an element of $X$ itself.
+**(Choice)** For any set $S$ of non-empty sets, there exists a **choice function**<d-footnote>This is a can of worms that we will not open any further, but we will be using it implicitly in a bunch of places.</d-footnote> that assigns to each $X \in S$ an element of $X$ itself.
 
-<aside><p>This is a can of worms that we will not open any further, but we will be using it implicitly in a bunch of places.</p></aside>
+</div>
 
 **Remark 2.2.** The **axiom of foundation** may seem strange at first glance, especially when we consider a set like $\lbrace 1, 2, 3 \rbrace$. What does it even mean for a _number_ to be disjoint from a set? To answer this, we must first construct numbers using sets and say exactly what they are. We will do this in the post on inductive sets, two posts from now.
 
-**Remark 2.3.** The **axiom of foundation** rules out exactly the kind of self-membership that the Russell set $R$ of Theorem 2.2 trips over. In Theorem 2.6, in the next post, we show that it forbids self-membership ($x \in x$), membership loops ($x \in y \in x$) and infinite descending chains of membership ($\dots \in x_n \in \dots \in x_1 \in x_0$).
+**Remark 2.3.** The **axiom of foundation**<d-footnote>Also known as the <strong>axiom of regularity</strong>, in the sense that it regulates set membership.</d-footnote> rules out exactly the kind of self-membership that the Russell set $R$ of Theorem 2.2 trips over. In Theorem 2.6, in the next post, we show that it forbids self-membership ($x \in x$), membership loops ($x \in y \in x$) and infinite descending chains of membership ($\dots \in x_n \in \dots \in x_1 \in x_0$).
 
-<aside><p>Also known as the <strong>axiom of regularity</strong>, in the sense that it regulates set membership.</p></aside>
-
-**Remark 2.4.** The **axiom of specification** gives us the very useful **set-builder notation**. We read $S := \lbrace x \in A : P(x) \rbrace$ in plain English as:
+**Remark 2.4.** The **axiom of specification**<d-footnote>Also known as the <strong>axiom of restricted comprehension</strong>. It is <em>restricted</em> in the sense that the elements must be <em>comprehended</em> from an existing set and cannot simply be anything.</d-footnote> gives us the very useful **set-builder notation**. We read $S := \lbrace x \in A : P(x) \rbrace$ in plain English as:
 
 _$S$ is defined to be_ ($S :=$) _the set of all_ ($\lbrace \dots \rbrace$) _elements $x$ in the set $A$_ ($x \in A$) _such that_ ($:$) _$P(x)$ is true._
 
 This notation is very helpful when dealing with large sets. Notice also what it does _not_ let us do: we can only carve elements out of a set $A$ we already have. We cannot simply declare "the set of everything with property $P$", which is precisely the move that landed us in Russell's paradox.
 
-<aside><p>Also known as the <strong>axiom of restricted comprehension</strong>. It is <em>restricted</em> in the sense that the elements must be <em>comprehended</em> from an existing set and cannot simply be anything.</p></aside>
-
 **Example 2.8.** $S := \lbrace n \in \mathbb{Z} : 2 \mid n \rbrace$ is read as "_$S$ is defined to be the set of all elements $n$ in the set of integers such that $2$ divides $n$_". As a roster, $S = \lbrace \dots, -4, -2, 0, 2, 4, \dots \rbrace$.
 
 With the axiom of extension in hand, we can sharpen our notion of a subset.
 
-**Definition 2.5.** A subset $A$ of a set $B$, i.e., $A \subseteq B$, is called a **proper subset** when $A \neq B$. This is denoted by $A \subset B$ or sometimes $A \subsetneq B$. A subset that is not proper is called an **improper subset**.
+<div class="box-definition" markdown="1">
 
-<aside><p>$B$ is then a <strong>proper superset</strong> of $A$, but this terminology is rarely used.</p></aside>
+**Definition 2.5.** A subset $A$ of a set $B$, i.e., $A \subseteq B$, is called a **proper subset**<d-footnote>$B$ is then a <strong>proper superset</strong> of $A$, but this terminology is rarely used.</d-footnote> when $A \neq B$. This is denoted by $A \subset B$ or sometimes $A \subsetneq B$. A subset that is not proper is called an **improper subset**.
+
+</div>
 
 Fair warning: plenty of books use $\subset$ to mean $\subseteq$. Always check a book's conventions before trusting its symbols.
 
+<div class="box-theorem" markdown="1">
+
 **Theorem 2.3.** Every set has a unique **improper subset**, namely the set itself.
+
+</div>
 
 {% details Proof %}
 Let $B$ be a set.
@@ -198,7 +232,11 @@ Many other answers are equally valid. Five singletons such as $\lbrace 1 \rbrace
 
 Now for a theorem that a lot of textbooks would rather you didn't hear about.
 
+<div class="box-theorem" markdown="1">
+
 **Theorem 2.4.** There exists no **universal set** $U$ that contains all possible sets.
+
+</div>
 
 {% details Proof %}
 We will prove this by contradiction. Suppose such a set $U$ exists. By the **axiom of specification** with the predicate $P(x) :\iff x \notin x$, we have the set $R := \lbrace x \in U : x \notin x \rbrace$. Since $U$ contains every set, $R$ contains every set that is not a member of itself, and nothing else. But Theorem 2.2 says no such set exists. This is a contradiction, so $U$ cannot be a set. $\square$
@@ -206,13 +244,15 @@ We will prove this by contradiction. Suppose such a set $U$ exists. By the **axi
 
 **Remark 2.5.** Many older texts, and some newer ones whose authors either do not know the subject or cannot do some basic research, suggest the existence of such a **universal set**. Theorem 2.4 settles that. What we can do instead is define something quite similar, relative to the sets we actually care about.
 
+<div class="box-definition" markdown="1">
+
 **Definition 2.6.** A set $U$ is a **universal set** for a given set $S$ if and only if every element of $S$ is a subset of $U$, i.e., $\forall X : (X \in S \implies X \subseteq U)$.
+
+</div>
 
 **Remark 2.6.** This definition presupposes that we already have a set of sets $S$, and the **axiom of union** guarantees that a universal set for it exists: the set containing every element of every $X \in S$ will do. In problems involving sets, we can intuitively imagine the universal set to be some set that simply includes all elements of the sets given to us. In principle, it can contain even more elements.
 
-**Example 2.9.** For $S := \lbrace \lbrace 1, 2 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 4, 5 \rbrace \rbrace$, the set $U = \lbrace 1, 2, 3, 4, 5 \rbrace$ is a universal set.
-
-<aside><p>A universal set for the given set $S$, that is, not a universal set for everything.</p></aside>
+**Example 2.9.** For $S := \lbrace \lbrace 1, 2 \rbrace, \lbrace 2, 3 \rbrace, \lbrace 4, 5 \rbrace \rbrace$, the set $U = \lbrace 1, 2, 3, 4, 5 \rbrace$ is a universal set<d-footnote>For the given set $S$, that is, not a universal set for everything.</d-footnote>.
 
 **Exercise 2.3.** Verify that the claim made in Example 2.9 satisfies our definition of a universal set.
 
