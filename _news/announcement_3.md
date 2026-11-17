@@ -6,8 +6,6 @@ inline: false
 related_posts: false
 ---
 
-## June 2025
-
 ## Past Events
 
 ### 1. Careers in Science
@@ -20,6 +18,6 @@ related_posts: false
 ### 2. Covalence 2025
 
 - **Organised by:** [Tamil Nadu Science Forum](https://en.wikipedia.org/wiki/Tamil_Nadu_Science_Forum).
-- **Event Type:** Two Day Summer Camp (Bilungual)
+- **Event Type:** Two Day Summer Camp (Bilingual)
 - **Location:** [Institute of Mathematical Sciences](https://www.imsc.res.in/), Chennai, India.
 - **Dates:** 30-31 May, 2025. Schedule linked [here](/assets/pdf/Covalence2025.pdf).
