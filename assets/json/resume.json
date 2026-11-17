@@ -1,18 +1,17 @@
 {
   "basics": {
     "name": "Sangeet Srinivasan",
-    "label": "",
+    "label": "Physicist & Educator",
     "image": "",
     "email": "sangeets@rishivalley.org",
     "phone": "(+91) 9X4-X81X-4XX",
     "url": "https://songofphysics.github.io/",
-    "summary": "Computational Physicist and Physics Educator.",
+    "summary": "Mathematical & Computational Physicist and Physics Educator.",
     "location": {
       "address": "129, CTH Road, Kochar Panchsheel Apartments",
       "postalCode": "600098",
       "city": "Chennai",
-      "countryCode": "IN",
-      "region": "Tamil Nadu"
+      "countryCode": "IN"
     },
     "profiles": [
       {
