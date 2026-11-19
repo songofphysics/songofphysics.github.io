@@ -1,0 +1,47 @@
+{%- comment -%}
+  One horizontally scrolling gallery of book cards for a single subject.
+  Usage in a post:  {% include library_gallery.liquid subject="Analysis 1 (Real)" %}
+  A book is shown here if its `subject` matches, or if the subject is listed under its `also`.
+  Optional fields left as "" are hidden (Liquid treats "" as true, hence the != "" checks).
+  Book data lives in _data/library.yml. Covers live in assets/img/library/<slug>.jpg.
+{%- endcomment -%}
+<div class="lib-gallery">
+  <div class="lib-controls">
+    <span class="lib-count"></span><button class="lib-nav lib-prev" type="button" aria-label="Previous book">&#8249;</button
+    ><button class="lib-nav lib-next" type="button" aria-label="Next book">&#8250;</button>
+  </div>
+  <div class="lib-track" tabindex="0">
+    {%- for book in site.data.library -%}
+      {%- if book.subject == include.subject or book.also contains include.subject %}
+        <article class="lib-card">
+          <img
+            class="lib-cover"
+            src="{{ '/assets/img/library/' | append: book.slug | append: '.jpg' | relative_url }}"
+            alt="Cover of {{ book.title | escape }}"
+            loading="lazy"
+          >
+          <div class="lib-body">
+            <p class="lib-meta">
+              <strong
+                ><em>{{ book.title }}</em></strong
+              >, {{ book.authors }}.{% if book.edition and book.edition != '' %} {{ book.edition }}{% endif -%}
+              {%- if book.publisher and book.publisher != '' %}, {{ book.publisher }}{% endif -%}
+              {%- if book.year and book.year != '' %}, {{ book.year }}{% endif %}.
+            </p>
+            <div class="lib-blurb">{{ book.blurb | markdownify }}</div>
+            <p class="lib-links">
+              {% if book.review_url and book.review_url != '' -%}
+                <a href="{{ book.review_url }}">Review</a>
+              {%- else -%}
+                <span class="review-tbd">Review to follow.</span>
+              {%- endif -%}
+              {%- if book.free_url and book.free_url != '' %}
+                · <a href="{{ book.free_url }}">Free online</a>
+              {%- endif %}
+            </p>
+          </div>
+        </article>
+      {%- endif -%}
+    {%- endfor %}
+  </div>
+</div>

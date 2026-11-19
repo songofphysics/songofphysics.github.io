@@ -1,0 +1,1850 @@
+# The Autodidact's Bookshelf: the books shown in the galleries of _posts/2025-10-18-library.md
+#
+# HOW TO ADD A BOOK
+#   1. Make its cover: a 600x900 JPEG saved as assets/img/library/<slug>.jpg
+#      (the cover uploader page does the resizing for you).
+#   2. Copy any block below (from "- slug:" down to the end of its blurb) and paste it
+#      where you want the book to appear. Order in this file = order in the gallery.
+#      A book with an "also" subject shows in that second gallery at its position in
+#      this file too, so a few books sit outside their own subject's group on purpose.
+#   3. Edit the fields:
+#        slug       file name of the cover, without .jpg (lowercase, hyphens, unique)
+#        title      the book's title
+#        authors    as they should be shown
+#        edition    e.g. "3rd ed." or "Lecture notes" (leave "" to omit)
+#        publisher  leave "" to omit
+#        year       leave "" to omit
+#        subject    must match one of the gallery subjects used in the post EXACTLY,
+#                   e.g. "Analysis 1 (Real)" or "Physics 3 (Quantum Systems)"
+#        also       optional list of further subjects to show the same card under
+#        free_url   optional link to a legal free copy ("" for none)
+#        review_url optional link to a review ("" shows "Review to follow.")
+#        blurb      the text; keep it indented under "blurb: |-"
+#                   (Markdown and $maths$ work; leave an empty line to start a new paragraph)
+#   4. Keep the two-space indentation. Never use tabs.
+#
+# To add a whole new subject, add a "### Subject name" heading and an
+#   {% include library_gallery.liquid subject="Subject name" %}
+# line inside the right phase in the post, then give books that subject.
+
+- slug: hammack-proof
+  title: "Book of Proof"
+  authors: "Richard Hammack"
+  edition: "3rd ed."
+  publisher: "self-published"
+  year: "2018"
+  subject: "High School & Bridge"
+  free_url: "https://richardhammack.github.io/BookOfProof/"
+  review_url: ""
+  blurb: |-
+    Hammack's book is simply the best free introduction to mathematical logic and proofs. It also
+    helps that it assumes we have already seen some calculus, as many high schoolers have, so its
+    examples can lean on familiar ground. He spends just enough time on sets, logic and counting to
+    get going, then gives each proof technique (direct proof, contrapositive, contradiction,
+    induction) its own chapter with dozens of worked examples, before putting them to use on
+    relations, functions and cardinality. The later chapter on proofs in calculus is a gentle first
+    taste of the epsilons and deltas waiting for us in Phase 1. Odd-numbered exercises have
+    solutions at the back, so it works well for self-study.
+
+- slug: doerr-levasseur-ads
+  title: "Applied Discrete Structures"
+  authors: "Al Doerr, Ken Levasseur"
+  edition: "Version 3.14"
+  publisher: "self-published (Lulu)"
+  year: "2026"
+  subject: "High School & Bridge"
+  free_url: "https://discretemath.org/"
+  review_url: ""
+  blurb: |-
+    This one started life as a textbook for computer science students, and it shows in the best way.
+    Alongside the usual logic, combinatorics, relations, graphs and recursion, it pushes on into
+    algebraic structures (groups, monoids, Boolean algebras, rings) and automata, which most
+    discrete mathematics books never reach. The free online version comes with live Sage cells, so
+    we can run and modify the computations right on the page. It is a good choice if we want
+    discrete mathematics as a doorway into algebra rather than as a collection of counting tricks,
+    and it pairs nicely with Hammack, who supplies the proof-writing habits it takes for granted.
+
+- slug: stitz-zeager-precalc
+  title: "Precalculus"
+  authors: "Carl Stitz, Jeff Zeager"
+  edition: "Edition 4i"
+  publisher: "self-published"
+  year: ""
+  subject: "High School & Bridge"
+  free_url: "https://stitz-zeager.com/"
+  review_url: ""
+  blurb: |-
+    Why bother with precalculus after school? Because school usually teaches it as a list of
+    formulae, and Stitz and Zeager teach it as the study of functions. Every family of functions
+    (polynomial, rational, exponential, logarithmic, trigonometric) is examined for its domain, its
+    behaviour and its graph, with worked examples that show every step and a mountain of exercises
+    with answers. The book is long and wordy, so it is better used to fill specific gaps than read
+    cover to cover. The newer 4i edition adds some introductory calculus. Anyone who feels shaky
+    about trigonometric identities or logarithms should spend a few weeks here before touching
+    analysis.
+
+- slug: piskunov-calc
+  title: "Differential and Integral Calculus, Vol. 1"
+  authors: "N. Piskunov"
+  edition: "2nd ed. (transl. Yankovsky), 2 vols"
+  publisher: "Mir (Indian reprint: Aargon Press 2018)"
+  year: "1974"
+  subject: "High School & Bridge"
+  free_url: "https://mirtitles.org/2022/05/29/differential-and-integral-calculus-volumes-1-2-piskunov/"
+  review_url: ""
+  blurb: |-
+    Piskunov wrote for Soviet engineering colleges, and the book has been a fixture of Indian
+    engineering libraries for decades thanks to Mir and its reprints. It is not a rigorous analysis
+    text and does not pretend to be one. What it offers is calculus as a working tool, with clear
+    geometric and physical motivation and an enormous number of fully worked problems. The first
+    volume covers limits, differentiation, the study of functions and integration with its
+    applications. Use it alongside Hammack. Piskunov teaches us to compute fluently, Hammack teaches
+    us to prove, and Phase 1 needs both.
+
+- slug: hrk-physics
+  title: "Physics, Vol. 1"
+  authors: "David Halliday, Robert Resnick, Kenneth S. Krane"
+  edition: "5th ed."
+  publisher: "Wiley"
+  year: "2002"
+  subject: "High School & Bridge"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Not to be confused with the 'Fundamentals' edition that every coaching institute hands out. This
+    is the original, more demanding Halliday–Resnick line, revised by Krane, and it uses calculus
+    freely and without apology. Derivations are given in full, concepts are discussed before
+    formulae appear, and the problems range from routine to genuinely hard. The first volume covers
+    mechanics, waves, fluids and thermodynamics. Reading it next to Piskunov makes a strong case for
+    learning calculus properly, because we watch every idea in one book being used immediately in
+    the other.
+
+- slug: piskunov-calc-2
+  title: "Differential and Integral Calculus, Vol. 2"
+  authors: "N. Piskunov"
+  edition: "2nd ed. (transl. Yankovsky), 2 vols"
+  publisher: "Mir (Indian reprint: Aargon Press 2018)"
+  year: "1974"
+  subject: "High School & Bridge"
+  free_url: "https://mirtitles.org/2022/05/29/differential-and-integral-calculus-volumes-1-2-piskunov/"
+  review_url: ""
+  blurb: |-
+    The second volume is where Piskunov becomes indispensable for a budding physicist. It covers
+    ordinary differential equations, multiple, line and surface integrals, series including Fourier
+    series, the classic equations of mathematical physics, and even short chapters on operational
+    calculus, probability and matrices. Again the emphasis is on method and worked examples rather
+    than proof. When a physics text casually says 'integrating over the surface' and we have no idea
+    how, this is the book to open.
+
+- slug: hrk-physics-2
+  title: "Physics, Vol. 2"
+  authors: "David Halliday, Robert Resnick, Kenneth S. Krane"
+  edition: "5th ed."
+  publisher: "Wiley"
+  year: "2002"
+  subject: "High School & Bridge"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The second volume covers electricity, magnetism, optics and the beginnings of modern physics.
+    Electromagnetism is where school physics usually collapses into memorised formulae, and Krane's
+    careful use of vector calculus is the antidote. Students preparing for olympiads will find that
+    the problems here sit comfortably between the textbook exercises and Irodov.
+
+- slug: goldrei-set
+  title: "Classic Set Theory: For Guided Independent Study"
+  authors: "Derek Goldrei"
+  edition: "1st ed."
+  publisher: "Chapman & Hall/CRC (Routledge reprint 2017)"
+  year: "1996"
+  subject: "Foundations 1 (Sets)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Goldrei wrote this for the Open University, which means it was designed from the start for
+    people studying alone. The structure shows it. Each idea is introduced with a motivating
+    question, developed in short steps, and immediately tested with exercises, many of which come
+    with solutions. The book constructs the real numbers from the rationals and the natural numbers
+    from sets, explains why the paradoxes forced mathematicians to axiomatise, and then works
+    through the ZF axioms, the axiom of choice, ordinals and cardinals. It is gentler than most set
+    theory books and far more honest than the half-page 'sets and relations' chapter we met at
+    school.
+
+- slug: lebl-ba-1
+  title: "Basic Analysis I: Introduction to Real Analysis, Volume I"
+  authors: "Jiří Lebl"
+  edition: "Version 6.3"
+  publisher: "self-published"
+  year: "2026"
+  subject: "Analysis 1 (Real)"
+  free_url: "https://www.jirka.org/ra/"
+  review_url: ""
+  blurb: |-
+    Lebl wrote this for his own course at Oklahoma State, keeps it free online and revises it as
+    errata come in. It stays on the real line for as long as possible, through sequences and series,
+    continuity, the derivative and the Riemann integral (done the Darboux way), and saves metric
+    spaces for the final chapter. His reasoning is that abstraction sinks in better once the
+    concrete case feels familiar. There are over 500 exercises, with WeBWorK sets available online,
+    but no answers, so it works best with a course or a study group, or with Cummings and Abbott
+    nearby for a second explanation. It assumes a proof course, so Hammack comes first.
+
+- slug: cummings-ra
+  title: "Real Analysis: A Long-Form Mathematics Textbook"
+  authors: "Jay Cummings"
+  edition: "2nd ed. (2 + ε, 2024 update)"
+  publisher: "Independently published"
+  year: "2019"
+  subject: "Analysis 1 (Real)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Cummings writes the way a good teacher talks at the board, which is exactly what most analysis
+    books refuse to do. Ideas are motivated, examples are discussed at length, and proofs are often
+    preceded by the rough 'scratch work' that shows how one actually finds a proof before writing it
+    up neatly. That last habit alone makes the book valuable, because nobody else shows it. It
+    covers the standard first course (the real numbers, sequences, series, continuity,
+    differentiation, integration, sequences of functions). Read it first if analysis feels
+    intimidating, then move to Abbott for a tighter treatment.
+
+- slug: abbott-ua
+  title: "Understanding Analysis"
+  authors: "Stephen Abbott"
+  edition: "2nd ed."
+  publisher: "Springer (UTM)"
+  year: "2015"
+  subject: "Analysis 1 (Real)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Abbott's great trick is to open every chapter with a discussion of why we should care, usually a
+    puzzle or a paradox about infinite sums or strange functions, before any definition appears. The
+    proofs that follow are clean and the exercises are excellent. The book is deliberately limited
+    to one variable and to a first course, but the closing chapter and the end-of-chapter projects
+    (on topics such as Euler's sum, the Weierstrass approximation theorem and the gamma function)
+    give a taste of what lies beyond. It makes a lovely, lighter companion to Zorich.
+
+- slug: zorich-1
+  title: "Mathematical Analysis I"
+  authors: "Vladimir A. Zorich"
+  edition: "2nd ed."
+  publisher: "Springer (Universitext)"
+  year: "2015"
+  subject: "Analysis 1 (Real)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    If I had to recommend a single analysis book, it would be this one, for its comprehensiveness
+    and its constant attention to applications (I am a physicist by trade, after all). Zorich's
+    course comes from Moscow State University, and it is the most complete analysis text on this
+    shelf. Where most books stop at proofs, Zorich keeps going with remarks, physical applications,
+    historical comments and problems that link analysis to mechanics and the natural sciences. The
+    first volume covers the real numbers, limits, continuity, differential calculus in one variable,
+    integration and the start of calculus in several variables. Its MAA reviewer called it overkill.
+    I know, I know, it is a lot. But a book that keeps showing us why the theorems matter outside
+    mathematics is worth every extra page, and Cummings and Abbott are right there whenever we need
+    a gentler second explanation.
+
+- slug: axler-ladr
+  title: "Linear Algebra Done Right"
+  authors: "Sheldon Axler"
+  edition: "4th ed."
+  publisher: "Springer (UTM)"
+  year: "2024"
+  subject: "Algebra 1 (Linear)"
+  free_url: "https://linear.axler.net/"
+  review_url: ""
+  blurb: |-
+    Axler's book is built on a single provocative idea, that determinants obscure more than they
+    explain. So eigenvalues are proved to exist without them, operators take centre stage instead of
+    matrices, and determinants appear only at the end, defined in a way that makes their properties
+    obvious. The payoff is a beautiful treatment of inner product spaces and the spectral theorem,
+    which is exactly the linear algebra that quantum mechanics and functional analysis need. The
+    latest edition adds multilinear algebra and is open access, with Axler's own videos online. The
+    one drawback is that it is light on computation, so pair it with Treil or Shilov for practice
+    with actual matrices.
+
+- slug: treil-ladw
+  title: "Linear Algebra Done Wrong"
+  authors: "Sergei Treil"
+  edition: "2017 revision"
+  publisher: "self-published"
+  year: "2017"
+  subject: "Algebra 1 (Linear)"
+  free_url: "https://www.math.brown.edu/streil/papers/LADW/LADW.html"
+  review_url: ""
+  blurb: |-
+    The title is a joke at Axler's expense, and the book is a useful counterweight to him. Treil,
+    who wrote it for an honours course at Brown, keeps determinants in their traditional place and
+    is far more willing to work with matrices, while still being rigorous. He also covers material
+    that many first courses skip, such as bilinear and quadratic forms and the structure of
+    operators in inner product spaces. Read the two side by side and we get both the elegant
+    operator viewpoint and the practical matrix one.
+
+- slug: fis-la
+  title: "Linear Algebra"
+  authors: "Stephen H. Friedberg, Arnold J. Insel, Lawrence E. Spence"
+  edition: "5th ed."
+  publisher: "Pearson"
+  year: "2019"
+  subject: "Algebra 1 (Linear)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Friedberg, Insel and Spence is the standard proof-based linear algebra text in many
+    universities, and for good reason. It is complete, careful and full of exercises, going all the
+    way to the Jordan and rational canonical forms, with short application sections (Markov chains,
+    least squares, differential equations) along the way. The style is dry and the book can feel
+    like a reference rather than a story. Use it as the main text if we want everything in one
+    place, or as the problem bank to go alongside Axler.
+
+- slug: shilov-la
+  title: "Linear Algebra"
+  authors: "Georgi E. Shilov"
+  edition: "Dover reprint"
+  publisher: "Dover"
+  year: "1977"
+  subject: "Algebra 1 (Linear)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Shilov represents the classical Russian route through linear algebra, starting with determinants
+    and systems of linear equations and climbing steadily to linear spaces, quadratic forms,
+    Euclidean and unitary spaces and the canonical forms of operators. It is terse, it is thorough,
+    and it is one of the cheapest serious mathematics books in print. Use it when Axler's elegance
+    leaves us wanting more concrete computation, or when we simply want a second explanation of a
+    hard section.
+
+- slug: hubbard-vc
+  title: "Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach"
+  authors: "John H. Hubbard, Barbara Burke Hubbard"
+  edition: "5th ed."
+  publisher: "Matrix Editions"
+  year: "2015"
+  subject: "Algebra 1 (Linear)"
+  also: ["Analysis 2 (Manifolds)"]
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The Hubbards refuse to separate linear algebra from multivariable calculus, and once we have
+    read the book it is hard to see why anyone does. Matrices appear because derivatives of
+    functions of several variables are linear maps, and the whole book builds towards differential
+    forms and the general Stokes' theorem. It is unusually honest about rigour and about computation
+    at once. The inverse and implicit function theorems, for instance, are proved through Newton's
+    method, which turns an abstract existence result into an algorithm. It is long and demanding,
+    and it makes a natural bridge from Phase 1 into manifolds.
+
+- slug: blitzstein-hwang
+  title: "Introduction to Probability"
+  authors: "Joseph K. Blitzstein, Jessica Hwang"
+  edition: "2nd ed."
+  publisher: "CRC Press"
+  year: "2019"
+  subject: "Statistics 1 (Probability)"
+  free_url: "https://probabilitybook.net/"
+  review_url: ""
+  blurb: |-
+    Blitzstein and Hwang teach probability the way it is actually used. Every idea comes with a
+    'story' that explains what it models, many results are proved with clever counting arguments
+    rather than heavy algebra, and each chapter ends with R code so we can simulate what we just
+    proved. The book grew out of Harvard's Stat 110, and the full set of lectures and practice
+    problems with solutions is free online. It stops short of measure theory, which is exactly right
+    for a first course. Start here, and come back to Feller later for depth.
+
+- slug: feller-1
+  title: "An Introduction to Probability Theory and Its Applications, Vol. I"
+  authors: "William Feller"
+  edition: "3rd ed."
+  publisher: "Wiley"
+  year: "1968"
+  subject: "Statistics 1 (Probability)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Feller's first volume never uses measure theory, yet it goes deeper into discrete probability
+    than almost anything written since. Its chapter on fluctuations in coin tossing, with the arc
+    sine law, overturns most of what we think we know about luck. Random walks, generating
+    functions, recurrent events and Markov chains are all treated by a master. The notation is
+    old-fashioned and the pace is not gentle. Read it after Blitzstein and Hwang, slowly, and with a
+    pencil.
+
+- slug: cs50x
+  title: "CS50x: Introduction to Computer Science"
+  authors: "David J. Malan et al."
+  edition: "Online course"
+  publisher: "Harvard University"
+  year: ""
+  subject: "Computing"
+  free_url: "https://cs50.harvard.edu/x/"
+  review_url: ""
+  blurb: |-
+    Harvard's introductory computer science course, free online and taught by David Malan with
+    remarkable energy. It begins with Scratch, spends several weeks in C, where we learn how memory
+    and pointers actually work, and then moves on to Python, SQL and the web. It is not mathematics,
+    but the problem sets teach the same precision a proof demands, and few things humble us faster
+    than a program that refuses to do what we were sure we told it to do.
+
+- slug: langtangen-primer
+  title: "A Primer on Scientific Programming with Python"
+  authors: "Hans Petter Langtangen"
+  edition: "5th ed."
+  publisher: "Springer (TCSE)"
+  year: "2016"
+  subject: "Computing"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Langtangen wrote this for science students, not programmers, and every example is a scientific
+    computation rather than a toy. The book starts from scratch with variables and loops and builds
+    up to functions, files, classes, numerical arrays, plotting and simple simulations of
+    differential equations, with the object-oriented ideas introduced only when they solve a real
+    problem. If we want to check a series numerically, plot a phase portrait or simulate a random
+    walk from Feller, this is how we learn to do it.
+
+- slug: lebl-ba-2
+  title: "Basic Analysis II: Introduction to Real Analysis, Volume II"
+  authors: "Jiří Lebl"
+  edition: "Version 6.3"
+  publisher: "self-published"
+  year: "2026"
+  subject: "Analysis 2 (Manifolds)"
+  free_url: "https://www.jirka.org/ra/"
+  review_url: ""
+  blurb: |-
+    The second volume carries on exactly where the first stops, even down to the chapter numbers. It
+    covers differential calculus in several variables up to the inverse and implicit function
+    theorems, then two topics many courses skip, differentiation under the integral sign and path
+    integrals, before the multivariable Riemann integral and a basic case of Green's theorem. A
+    final chapter treats power series, Arzelà–Ascoli, Stone–Weierstrass and Fourier series. Lebl
+    says the first volume plus the first three chapters of this one prepare us for graduate real and
+    complex analysis. It stays in Euclidean space, so Hubbard and Tu take over for differential
+    forms and manifolds.
+
+- slug: tu-manifolds
+  title: "An Introduction to Manifolds"
+  authors: "Loring W. Tu"
+  edition: "2nd ed."
+  publisher: "Springer (Universitext)"
+  year: "2011"
+  subject: "Analysis 2 (Manifolds)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Tu wrote this as the prerequisite for Bott and Tu's famous book on differential forms in
+    algebraic topology, and it is designed to need almost nothing beyond calculus and linear
+    algebra. Every definition is motivated by an example in Euclidean space before being
+    generalised, every proof is complete, and the book builds steadily from manifolds and tangent
+    spaces through vector fields, Lie groups and differential forms to Stokes' theorem and de Rham
+    cohomology. It is about as gentle as a serious introduction to manifolds can be, and a new
+    edition is on its way.
+
+- slug: zorich-2
+  title: "Mathematical Analysis II"
+  authors: "Vladimir A. Zorich"
+  edition: "2nd ed."
+  publisher: "Springer (Universitext)"
+  year: "2016"
+  subject: "Analysis 2 (Manifolds)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The second volume is where Zorich really separates himself from the competition. It moves to
+    metric and normed spaces, then redoes differential calculus in that general setting, before
+    covering multiple integrals, surfaces, differential forms, line and surface integrals and
+    integration on manifolds, and finally series of functions, integrals depending on a parameter,
+    Fourier series and the Fourier transform, and asymptotic expansions. Physicists will recognise
+    vector analysis and field theory treated properly for once. Use it alongside Tu or Hubbard, and
+    keep it as the reference for everything analysis has to say about calculus.
+
+- slug: judson-aata
+  title: "Abstract Algebra: Theory and Applications"
+  authors: "Thomas W. Judson"
+  edition: "2026 edition"
+  publisher: "Orthogonal Publishing"
+  year: "2026"
+  subject: "Algebra 2 (Abstract)"
+  free_url: "https://judsonbooks.org/aata-files/aata-html/aata.html"
+  review_url: ""
+  blurb: |-
+    Judson's book is free, open-source and updated regularly, and it is a serious undergraduate
+    algebra text in its own right. It goes from groups through rings and fields to Galois theory,
+    and stands out for its applications chapters on cryptography, coding theory and Gröbner bases,
+    which show algebra doing real work. The online version includes Sage exercises we can run in the
+    browser. Use it as a free main text or as a second voice next to Silverman or Artin.
+
+- slug: silverman-aa
+  title: "Abstract Algebra: An Integrated Approach"
+  authors: "Joseph H. Silverman"
+  edition: "1st ed."
+  publisher: "AMS (Pure and Applied Undergraduate Texts 55)"
+  year: "2022"
+  subject: "Algebra 2 (Abstract)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Most algebra courses teach groups for a semester, then rings, then fields, as if they had
+    nothing to do with one another. Silverman develops all three side by side, so that cosets and
+    ideals, quotient groups and quotient rings, appear together and illuminate each other. The book
+    covers a full year of undergraduate algebra with exercises after every section, and it is
+    written in a clear and friendly voice. It works very well as a main text.
+
+- slug: artin-algebra
+  title: "Algebra"
+  authors: "Michael Artin"
+  edition: "2nd ed."
+  publisher: "Pearson"
+  year: "2011"
+  subject: "Algebra 2 (Abstract)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Artin's algebra is built around linear algebra and symmetry, which makes it ideal for anyone
+    heading towards physics. Groups appear first as matrix groups and as symmetries of plane
+    figures, group actions do much of the heavy lifting, and there are whole chapters on linear
+    groups (SU(2) and the rotation group) and on group representations that most algebra texts leave
+    out. The second half covers rings, factorisation, modules and Galois theory. It is opinionated
+    and occasionally idiosyncratic, but few algebra books make the subject feel so concrete.
+
+# Algebra 1 book (also Algebra 2), placed here so it comes last in both galleries.
+- slug: gorodentsev-1
+  title: "Algebra I: Textbook for Students of Mathematics"
+  authors: "Alexey L. Gorodentsev"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2016"
+  subject: "Algebra 1 (Linear)"
+  also: ["Algebra 2 (Abstract)"]
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Gorodentsev's two volumes come from the intensive algebra course at the Independent University
+    of Moscow, and they cover in two years what many universities spread over four. Volume I runs
+    from integers, polynomials and fields through vector spaces, duality, matrices, bilinear forms
+    and projective geometry to a first look at groups and modules. The style is compact and the
+    problems are hard, in the Russian tradition. This is not a gentle first book. It is the book for
+    students who have already met linear algebra once and want to see how much further it goes.
+
+- slug: mendelson-top
+  title: "Introduction to Topology"
+  authors: "Bert Mendelson"
+  edition: "3rd ed."
+  publisher: "Dover"
+  year: "1990"
+  subject: "Topology 1 (General)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Mendelson is a slim Dover book that eases us into topology from familiar ground. It starts with
+    metric spaces, which we already know from analysis, uses them to motivate topological spaces,
+    and then covers connectedness and compactness before finishing with homotopy and the fundamental
+    group. It does far less than Munkres, but it is short enough to finish in a few weeks, which
+    makes it a good first pass before the real thing.
+
+- slug: munkres-top
+  title: "Topology"
+  authors: "James R. Munkres"
+  edition: "2nd ed."
+  publisher: "Prentice Hall / Pearson"
+  year: "2000"
+  subject: "Topology 1 (General)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Munkres is the book most of us learn topology from, and it deserves its reputation. Part I
+    treats point-set topology with great care, covering connectedness, compactness, the countability
+    and separation axioms, Urysohn's lemma, the metrisation theorems and Tychonoff's theorem. Part
+    II introduces the fundamental group, covering spaces, the Seifert–van Kampen theorem and the
+    classification of surfaces. The exercises are excellent and the exposition never skips a step.
+    It works well as the main text, with Jänich nearby for the pictures.
+
+- slug: janich-top
+  title: "Topology"
+  authors: "Klaus Jänich"
+  edition: "1st ed. English"
+  publisher: "Springer (UTM)"
+  year: "1984"
+  subject: "Topology 1 (General)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Jänich's book is short, informal and full of drawings, and it answers the question most topology
+    books never ask, namely what topologists actually picture when they talk. It explains why
+    quotient spaces, homotopy, CW complexes and covering spaces matter before (or instead of)
+    proving everything about them. It will not replace Munkres, but read alongside Munkres it makes
+    the abstract definitions feel alive.
+
+# Topology 2 book, placed here so it comes before Friedl in the Topology 2 gallery.
+- slug: hatcher-at
+  title: "Algebraic Topology"
+  authors: "Allen Hatcher"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2002"
+  subject: "Topology 2 (Algebraic)"
+  free_url: "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html"
+  review_url: ""
+  blurb: |-
+    Hatcher's book has become the standard first course in algebraic topology, and its strongly
+    geometric style is the reason. Ideas are motivated by pictures and examples before they are
+    formalised. It covers the fundamental group and covering spaces, simplicial, singular and
+    cellular homology, cohomology, cup products and Poincaré duality, and an introduction to
+    homotopy theory, with many optional sections on further topics. The proofs are sometimes
+    informal, so it is worth keeping Lee or Friedl nearby for the details. Hatcher keeps it free on
+    his website.
+
+- slug: friedl-top
+  title: "Topology"
+  authors: "Stefan Friedl"
+  edition: "Lecture notes"
+  publisher: "AMS Open Math Notes"
+  year: "2023"
+  subject: "Topology 1 (General)"
+  also: ["Topology 2 (Algebraic)"]
+  free_url: "https://www.ams.org/open-math-notes/omn-view-listing?listingId=111368"
+  review_url: ""
+  blurb: |-
+    Stefan Friedl's topology notes are freely available through the AMS and run to thousands of
+    pages, which makes them a reference rather than a textbook. They are the place to look when
+    Munkres or Hatcher skips a step. Use the table of contents to jump straight to what we need.
+
+- slug: steen-seebach
+  title: "Counterexamples in Topology"
+  authors: "Lynn Arthur Steen, J. Arthur Seebach Jr."
+  edition: "Dover reprint of 2nd"
+  publisher: "Dover"
+  year: "1995"
+  subject: "Topology 1 (General)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    This is not a textbook but a catalogue of 143 topological spaces, many of them deeply strange,
+    together with tables showing which spaces satisfy which properties. Its purpose is to answer the
+    question every topology student eventually asks, which is whether one property really implies
+    another or whether there is a counterexample. Keep it next to Munkres and look up the relevant
+    space whenever a definition starts to feel obvious. It usually is not.
+
+- slug: lee-tm
+  title: "Introduction to Topological Manifolds"
+  authors: "John M. Lee"
+  edition: "2nd ed."
+  publisher: "Springer (GTM 202)"
+  year: "2011"
+  subject: "Topology 1 (General)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Lee teaches general and algebraic topology with manifolds as the motivating example throughout,
+    which gives every abstract idea a reason to exist. The book covers the point-set topology a
+    geometer actually needs, cell complexes, the fundamental group, covering spaces, the
+    classification of surfaces and an introduction to singular homology. Lee's writing is
+    exceptionally clear and his exercises are well chosen. It is the natural bridge between Munkres
+    and Lee's own smooth manifolds book in Phase 3.
+
+- slug: hsd-ode
+  title: "Differential Equations, Dynamical Systems, and an Introduction to Chaos"
+  authors: "Morris W. Hirsch, Stephen Smale, Robert L. Devaney"
+  edition: "3rd ed."
+  publisher: "Academic Press"
+  year: "2013"
+  subject: "Differential Equations 1 (ODE)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The original Hirsch and Smale of 1974 was famous for treating differential equations as
+    dynamical systems, and this edition, rewritten with Devaney, keeps that spirit while being far
+    more applied. Instead of a catalogue of solution techniques, we get linear systems understood
+    through their eigenvalues, phase portraits, stability, bifurcations, and eventually the Lorenz
+    system and chaos, with applications to predator–prey models, epidemics and circuits. It is the
+    book to read after years of being told to recognise the equation and apply the trick.
+
+- slug: arnold-ode
+  title: "Ordinary Differential Equations"
+  authors: "Vladimir I. Arnold"
+  edition: "3rd ed. (transl. Cooke)"
+  publisher: "Springer (Universitext)"
+  year: "1992"
+  subject: "Differential Equations 1 (ODE)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Arnold's book on ordinary differential equations is unlike any other. There are almost no
+    recipes for solving equations. Instead, an equation is a vector field, a solution is a curve
+    following it, and the theorems on existence, uniqueness, dependence on initial conditions and
+    stability are all statements about geometry. The pictures are wonderful and the problems are
+    thought-provoking. Read it alongside Hirsch, Smale and Devaney, who supply the examples, while
+    Arnold supplies the way of thinking.
+
+- slug: hmc-stats
+  title: "Introduction to Mathematical Statistics"
+  authors: "Robert V. Hogg, Joseph W. McKean, Allen T. Craig"
+  edition: "8th ed."
+  publisher: "Pearson"
+  year: "2019"
+  subject: "Statistics 2 (Inference)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Hogg, McKean and Craig has been teaching mathematical statistics since 1959, and the current
+    edition covers much of the same ground as Casella and Berger at a gentler, undergraduate pace.
+    It includes sections on nonparametric and Bayesian methods and on linear models. Use it as the
+    first pass through statistical theory, and move to Casella and Berger when it starts to feel
+    easy.
+
+- slug: wasserman-aos
+  title: "All of Statistics"
+  authors: "Larry Wasserman"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2004"
+  subject: "Statistics 2 (Inference)"
+  free_url: "https://www.stat.cmu.edu/~brian/valerie/617-2022/0%20-%20books/2004%20-%20wasserman%20-%20all%20of%20statistics.pdf"
+  review_url: ""
+  blurb: |-
+    Wasserman wrote this for graduate students in computer science and machine learning who needed
+    statistics quickly, and it covers in about 400 pages what usually takes several courses. It
+    moves from probability through the bootstrap, nonparametric methods, Bayesian inference,
+    graphical models and causal inference. The price of that speed is terseness. As its MAA reviewer
+    pointed out, it is not ideal for self-study, so use it as a map of modern statistics and fill in
+    the details from Casella and Berger.
+
+- slug: casella-berger
+  title: "Statistical Inference"
+  authors: "George Casella, Roger L. Berger"
+  edition: "2nd ed. (CRC reprint)"
+  publisher: "Chapman & Hall/CRC"
+  year: "2024"
+  subject: "Statistics 2 (Inference)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Casella and Berger is the standard first-year graduate text in statistical theory, and the book
+    that most qualifying exams are written from. The first half develops probability and
+    distribution theory carefully, and the second half treats sufficiency, the likelihood principle,
+    point estimation, hypothesis testing, interval estimation and asymptotics, ending with ANOVA and
+    regression. The exercises are numerous and excellent. It is demanding, so we should be
+    comfortable with calculus and Phase 1 probability before starting.
+
+- slug: axler-mira
+  title: "Measure, Integration & Real Analysis"
+  authors: "Sheldon Axler"
+  edition: "1st ed."
+  publisher: "Springer (GTM 282)"
+  year: "2020"
+  subject: "Analysis 3 (Measures)"
+  free_url: "https://measure.axler.net/"
+  review_url: ""
+  blurb: |-
+    Axler's measure theory book does for real analysis what his linear algebra book does for linear
+    algebra. It strips the subject back to its main ideas and presents them with unusual clarity. It
+    covers Lebesgue measure and integration, product measures, $L^p$ spaces, Hilbert and Banach
+    spaces, the spectral theorem for compact operators, Fourier analysis and a closing chapter on
+    probability. That makes it a single route from the Lebesgue integral to the mathematics of
+    quantum mechanics. It is open access, and the colour-coded definition and theorem boxes make it
+    very easy to navigate. It makes a natural first text for the subject.
+
+- slug: kolmogorov-fomin
+  title: "Introductory Real Analysis"
+  authors: "A. N. Kolmogorov, S. V. Fomin"
+  edition: "Dover (transl. Silverman)"
+  publisher: "Dover"
+  year: "1975"
+  subject: "Analysis 3 (Measures)"
+  free_url: "https://archive.org/details/kolmogorov-fomin-introductory-real-analysis"
+  review_url: ""
+  blurb: |-
+    Kolmogorov and Fomin wrote the Moscow course that taught generations to think of analysis in
+    terms of spaces and operators. The book begins with metric and topological spaces, moves to
+    normed spaces, linear functionals and operators, and only then develops measure, the Lebesgue
+    integral and $L^2$, ending with integral equations. Measure theory is treated briefly and there
+    are few examples, but the functional-analytic viewpoint is introduced earlier and more naturally
+    than in any Western text. Read it after Axler for a different angle on the same material.
+
+- slug: billingsley-pm
+  title: "Probability and Measure"
+  authors: "Patrick Billingsley"
+  edition: "Anniversary"
+  publisher: "Wiley"
+  year: "2012"
+  subject: "Analysis 3 (Measures)"
+  free_url: "https://www.colorado.edu/amath/sites/default/files/attached-files/billingsley.pdf"
+  review_url: ""
+  blurb: |-
+    Billingsley develops measure theory and probability together, and the probability motivates the
+    measure theory rather than the other way round. The book famously opens with Borel's normal
+    number theorem and with gambling systems, so we see why we need countable additivity before we
+    are asked to accept it. From there it covers integration, random variables, convergence in
+    distribution, conditional probability and expectation, and stochastic processes. The examples
+    and exercises are among the best in any probability book. For anyone whose real interest is
+    probability, this is the measure theory book to read.
+
+- slug: schuller-qm
+  title: "Lectures on Quantum Theory"
+  authors: "Frederic P. Schuller (lectures); Simon Rea (notes)"
+  edition: "Lecture course"
+  publisher: "FAU Erlangen–Nürnberg"
+  year: "2015"
+  subject: "Analysis 3 (Measures)"
+  also: ["Physics 3 (Quantum Systems)"]
+  free_url: "https://tales.mbivert.com/Lectures_on_Quantum_Theory_complete.pdf"
+  review_url: ""
+  blurb: |-
+    Schuller's 2015 lectures at Erlangen take a radical approach. They start from the axioms of
+    quantum mechanics and then develop, in full, the mathematics needed to make sense of them. That
+    means Banach and Hilbert spaces, measure theory and the Lebesgue integral, self-adjoint
+    operators and their domains, and the spectral theorem, before returning to physics with spin,
+    composite systems, the harmonic oscillator and periodic potentials. We finally see why
+    physicists' casual manipulations of unbounded operators can go wrong. The written notes are by
+    Simon Rea, based on the recorded lectures.
+
+- slug: royden-ra
+  title: "Real Analysis"
+  authors: "H. L. Royden, P. M. Fitzpatrick"
+  edition: "5th ed."
+  publisher: "Pearson"
+  year: "2023"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Royden has been the standard first-year graduate analysis text for decades, and the fifth
+    edition, revised by Fitzpatrick, greatly expands the material on $L^p$ spaces, Banach spaces and
+    linear operators. The book is organised in three parts, covering Lebesgue integration on the
+    real line, then abstract metric, topological and Banach spaces, and finally general measure and
+    integration theory. It is terse and short on examples, as its MAA reviewer complained, but it is
+    thorough and has enough exercises for three semesters. Use Axler to learn and Royden to drill.
+
+- slug: junghenn-pa
+  title: "Principles of Analysis: Measure, Integration, Functional Analysis, and Applications"
+  authors: "Hugo D. Junghenn"
+  edition: "1st ed. (pbk 2023)"
+  publisher: "CRC Press"
+  year: "2018"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Junghenn wrote this for PhD students preparing for qualifying exams, and it reads like a
+    carefully organised course. It covers metric and topological preliminaries, Lebesgue integration
+    and Fourier analysis, measures on locally compact spaces, Banach, Hilbert and locally convex
+    spaces, Banach algebras, and applications to harmonic analysis, probability and operator theory,
+    with nearly 700 exercises. It is less elegant than Axler and less complete than Bogachev, but it
+    is an excellent source of practice problems at this level.
+
+- slug: riesz-nagy
+  title: "Functional Analysis"
+  authors: "Frigyes Riesz, Béla Sz.-Nagy"
+  edition: "Dover reprint"
+  publisher: "Dover"
+  year: "1990"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Riesz and Sz.-Nagy wrote this in the early 1950s, when functional analysis was still being
+    built, and Riesz was one of its architects. The first part develops differentiation and
+    integration from scratch, using Riesz's own elegant methods. The rest covers integral equations,
+    completely continuous operators and the spectral theory of bounded and unbounded self-adjoint
+    operators, which is precisely the mathematics behind quantum mechanics. There are no exercises
+    and some terminology is dated, but no modern book explains these ideas with such clarity or such
+    a sense of where they came from.
+
+- slug: bogachev-mt
+  title: "Measure Theory, Vol. I"
+  authors: "Vladimir I. Bogachev"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2007"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Bogachev's two volumes are the most complete treatment of measure theory in existence. Every
+    result we might need is somewhere in them, along with extensive historical and bibliographical
+    commentary and an enormous collection of exercises with hints. Volume I covers the construction
+    and extension of measures, the Lebesgue integral, product measures, $L^p$ spaces and the
+    relation between the integral and the derivative. It is not a first text. Use it when Axler or
+    Royden leaves a gap, or when we need the strongest version of a theorem.
+
+- slug: bogachev-mt-2
+  title: "Measure Theory, Vol. II"
+  authors: "Vladimir I. Bogachev"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2007"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Volume II moves beyond the usual graduate course into Borel, Baire and Souslin sets, measures on
+    topological spaces, weak convergence of measures, transformations and isomorphisms of measures,
+    and conditional measures and expectations. This is the material probability theory and
+    mathematical physics actually depend on, and it is hard to find collected anywhere else. The
+    bibliographical notes alone are worth the price.
+
+- slug: kallenberg-fmp
+  title: "Foundations of Modern Probability"
+  authors: "Olav Kallenberg"
+  edition: "3rd ed."
+  publisher: "Springer (Probability Theory and Stochastic Modelling 99)"
+  year: "2021"
+  subject: "Analysis 3 (Measures)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Kallenberg's book aims to cover all of modern probability theory in one place, from
+    measure-theoretic foundations through martingales, Brownian motion, Lévy processes, Markov
+    processes and stochastic calculus to his own specialities such as random measures and
+    exchangeability. The third edition is so large that its print version comes in two volumes. The
+    writing is famously compressed, with every proof reduced to its essentials. It is not a book to
+    learn from first. It is the reference we graduate into after Billingsley, and the one we keep on
+    the desk for the rest of our lives.
+
+- slug: stein-shakarchi-ca
+  title: "Complex Analysis"
+  authors: "Elias M. Stein, Rami Shakarchi"
+  edition: "1st ed."
+  publisher: "Princeton University Press"
+  year: "2003"
+  subject: "Analysis 4 (Complex)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    This is the second of the four Princeton Lectures in Analysis, and its great strength is that
+    complex analysis is constantly connected to the rest of mathematics. Alongside the standard
+    Cauchy theory, it uses complex methods for the Fourier transform, develops entire functions, the
+    gamma and zeta functions, proves the prime number theorem, and ends with elliptic functions and
+    theta functions applied to the problem of writing numbers as sums of squares. The exercises come
+    with helpful hints. It makes a very rewarding first rigorous course.
+
+- slug: ablowitz-fokas
+  title: "Complex Variables: Introduction and Applications"
+  authors: "Mark J. Ablowitz, Athanassios S. Fokas"
+  edition: "2nd ed."
+  publisher: "Cambridge University Press"
+  year: "2003"
+  subject: "Analysis 4 (Complex)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Ablowitz and Fokas wrote complex analysis for scientists and engineers who need to use it, and
+    that makes it exactly what physicists want. The first part covers the standard theory
+    efficiently. The second part is the real reason to read the book, with asymptotic evaluation of
+    integrals by steepest descent, conformal mapping applied to fluid flow, and Riemann–Hilbert and
+    Wiener–Hopf problems. These techniques appear constantly in physics papers and almost never in
+    mathematics courses.
+
+- slug: marshall-ca
+  title: "Complex Analysis"
+  authors: "Donald E. Marshall"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2019"
+  subject: "Analysis 4 (Complex)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Marshall builds complex analysis from power series, in the tradition of Weierstrass, rather than
+    from Cauchy's integral theorem, which gives the subject a very concrete feel. The book starts
+    with an engaging historical introduction and goes well beyond a first course, through normal
+    families and conformal mapping to two different proofs of the Riemann mapping theorem. The
+    exercises are graded A, B and C by difficulty, with hints, which makes it particularly good for
+    working on our own.
+
+- slug: ahlfors-ca
+  title: "Complex Analysis"
+  authors: "Lars V. Ahlfors"
+  edition: "3rd ed. (AMS Chelsea reprint)"
+  publisher: "AMS Chelsea"
+  year: "2021"
+  subject: "Analysis 4 (Complex)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Ahlfors was one of the first two Fields medallists, and his textbook reads like it, concise,
+    elegant and without a wasted word. It covers complex functions and conformality, Cauchy's
+    theorem in its general form, series and product expansions, harmonic functions and the Dirichlet
+    problem, the Riemann mapping theorem, elliptic functions and global analytic functions. Ahlfors
+    assumes a mature reader and leaves much to the exercises, so it is hard going alone. Read Stein
+    and Shakarchi first, then Ahlfors to see how a master thinks.
+
+- slug: zakeri-ca
+  title: "A Course in Complex Analysis"
+  authors: "Saeed Zakeri"
+  edition: "1st ed."
+  publisher: "Princeton University Press"
+  year: "2021"
+  subject: "Analysis 4 (Complex)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Zakeri's course is modern, geometric and beautifully written, with historical notes running down
+    the margins. Its distinctive feature is that it builds up to the uniformisation theorem, which
+    most textbooks only mention, and treats the hyperbolic and topological sides of the subject
+    seriously. As its MAA reviewer said, it is not for beginners. It assumes a solid background in
+    topology and analysis, and the exercises are hard and have no solutions. Read it after a first
+    course for a glimpse of where complex analysis is heading.
+
+- slug: steinberg-rep
+  title: "Representation Theory of Finite Groups: An Introductory Approach"
+  authors: "Benjamin Steinberg"
+  edition: "1st ed."
+  publisher: "Springer (Universitext)"
+  year: "2012"
+  subject: "Algebra 3 (Representation Theory)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Steinberg's book needs nothing more than linear algebra and basic group theory, and it avoids
+    modules and tensor products entirely. Representations of finite groups are treated as Fourier
+    analysis on the group, which makes the theory feel natural rather than mysterious, and the
+    applications range from random walks on groups to spectral graph theory. It is short and clear,
+    and very well suited to self-study.
+
+- slug: hall-lie
+  title: "Lie Groups, Lie Algebras, and Representations"
+  authors: "Brian C. Hall"
+  edition: "2nd ed."
+  publisher: "Springer (GTM 222)"
+  year: "2015"
+  subject: "Algebra 3 (Representation Theory)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Most books on Lie groups demand differential geometry first. Hall works only with matrix groups,
+    which means linear algebra and some analysis are enough to reach Lie algebras, the exponential
+    map and the Baker–Campbell–Hausdorff formula. He then works through
+    $\mathfrak{sl}(3,\mathbb{C})$ in full detail before the general theory, so that root systems and
+    the Weyl character formula arrive with a concrete example already in hand. It is especially well
+    suited to physicists, who meet SU(2), SU(3) and the Lorentz group long before they meet
+    manifolds.
+
+- slug: gorodentsev-2
+  title: "Algebra II: Textbook for Students of Mathematics"
+  authors: "Alexey L. Gorodentsev"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2017"
+  subject: "Algebra 3 (Representation Theory)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The second volume of Gorodentsev's course covers modules, tensor and multilinear algebra,
+    representation theory, categories, Galois theory, commutative algebra and the beginnings of
+    algebraic geometry. It is listed here for its representation theory, but it is really a panorama
+    of the algebra a working mathematician needs. Its MAA reviewer found it terse, light on examples
+    and written for mathematicians rather than students, which is fair. Use it after Steinberg and
+    Hall, when we want to see representation theory in its wider algebraic setting.
+
+- slug: choksi-pde
+  title: "Partial Differential Equations: A First Course"
+  authors: "Rustum Choksi"
+  edition: "1st ed."
+  publisher: "AMS (Pure and Applied Undergraduate Texts 54)"
+  year: "2022"
+  subject: "Differential Equations 2 (PDE)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Most first courses in partial differential equations amount to separation of variables and
+    Fourier series. Choksi takes the Dirac delta as a unifying theme and builds a genuine theory of
+    distributions, so that Green's functions, fundamental solutions and the Fourier transform all
+    make proper sense. The book is clear and modular, with many exercises, and its examples lean
+    heavily on physics. It is the right first book for anyone who wants to understand, rather than
+    merely solve, the equations of mathematical physics.
+
+- slug: evans-pde
+  title: "Partial Differential Equations"
+  authors: "Lawrence C. Evans"
+  edition: "2nd ed."
+  publisher: "AMS (GSM 19)"
+  year: "2010"
+  subject: "Differential Equations 2 (PDE)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Evans is the standard graduate text on partial differential equations. Part I covers
+    representation formulae for the classical linear equations and first-order nonlinear equations.
+    Part II develops Sobolev spaces and the theory of second-order elliptic, parabolic and
+    hyperbolic equations. Part III treats the calculus of variations, Hamilton–Jacobi equations and
+    conservation laws. It is comprehensive and surprisingly approachable, with many exercises,
+    although its size can be intimidating. Read Choksi first, then Evans.
+
+- slug: arnold-pde
+  title: "Lectures on Partial Differential Equations"
+  authors: "Vladimir I. Arnold"
+  edition: "1st ed. English"
+  publisher: "Springer"
+  year: "2004"
+  subject: "Differential Equations 2 (PDE)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Arnold's twelve lectures on partial differential equations are short, unconventional and full of
+    geometric and physical insight. Rather than building a systematic theory, they explore the
+    Laplace, wave and heat equations and related problems, always asking why things are the way they
+    are. They end with problems from Arnold's own Moscow exams. Read them alongside Evans to see the
+    subject through the eyes of one of the great mathematicians of the twentieth century.
+
+- slug: schuller-gatp
+  title: "Lectures on the Geometric Anatomy of Theoretical Physics"
+  authors: "Frederic P. Schuller (lectures); Simon Rea (notes)"
+  edition: "Lecture course"
+  publisher: "FAU Erlangen–Nürnberg"
+  year: "2013–14"
+  subject: "Geometry 1 (Differential)"
+  also: ["Physics 1 (Classical Particles)"]
+  free_url: "https://tales.mbivert.com/Lectures_on_Geometric_Anatomy_of_Theoretical_Physics.pdf"
+  review_url: ""
+  blurb: |-
+    Schuller's Erlangen lectures build the mathematics of theoretical physics from the ground up.
+    They begin with logic, set theory and topology, then develop manifolds, tensors, Lie groups and
+    Lie algebras, principal and associated bundles, connections and curvature, and end with quantum
+    mechanics on curved spaces and spin structures. Nothing is waved away. Every structure is
+    defined before it is used, and every definition is motivated by the physics it will eventually
+    support. The written notes are by Simon Rea, based on the recorded lectures.
+
+- slug: lee-sm
+  title: "Introduction to Smooth Manifolds"
+  authors: "John M. Lee"
+  edition: "2nd ed."
+  publisher: "Springer (GTM 218)"
+  year: "2012"
+  subject: "Geometry 1 (Differential)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Lee's book is the standard graduate text on smooth manifolds. Over 700 pages it covers tangent
+    and cotangent bundles, submanifolds, Sard's theorem and transversality, vector bundles, tensors,
+    differential forms and integration, de Rham cohomology, Lie groups and their actions, flows,
+    foliations and an introduction to symplectic geometry. The writing is careful and clear, and the
+    exercises are excellent. It assumes a course in topology at the level of Lee's own topological
+    manifolds book, and it leads naturally into his Riemannian geometry.
+
+- slug: spivak-dg
+  title: "A Comprehensive Introduction to Differential Geometry, Vol. 1"
+  authors: "Michael Spivak"
+  edition: "3rd ed."
+  publisher: "Publish or Perish"
+  year: "1999"
+  subject: "Geometry 1 (Differential)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Spivak's five-volume work is one of the great textbooks of mathematics, partly because of its
+    ambition and partly because of its voice. He is chatty, funny and opinionated, and he never lets
+    us forget why the definitions are the way they are. Volume 1 covers the foundations, namely
+    manifolds, vector bundles, tensors, differential forms, integration and de Rham cohomology, Lie
+    groups and Riemannian metrics. Use it as a companion to Lee when we want a second, more
+    discursive explanation.
+
+- slug: tu-dg
+  title: "Differential Geometry: Connections, Curvature, and Characteristic Classes"
+  authors: "Loring W. Tu"
+  edition: "1st ed."
+  publisher: "Springer (GTM 275)"
+  year: "2017"
+  subject: "Geometry 1 (Differential)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Tu's sequel to his manifolds book is a concise route from Gauss's Theorema Egregium and the
+    Gauss–Bonnet theorem to connections and curvature on vector bundles and principal bundles, and
+    finally the Chern–Weil theory of characteristic classes. It was written for both mathematics and
+    physics students, and its treatment of connections on principal bundles is exactly what gauge
+    theory needs. It is short enough to read in a semester, which is rare for this material.
+
+- slug: spivak-dg-2
+  title: "A Comprehensive Introduction to Differential Geometry, Vol. 2"
+  authors: "Michael Spivak"
+  edition: "3rd ed."
+  publisher: "Publish or Perish"
+  year: "1999"
+  subject: "Geometry 1 (Differential)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Volume 2 is where the geometry begins, and it is unique among textbooks in teaching the subject
+    historically. Spivak includes translations of Gauss's paper on curved surfaces and Riemann's
+    inaugural lecture on the foundations of geometry, and then shows how each of their ideas becomes
+    a modern definition of connections and curvature. Reading Gauss and Riemann in their own words,
+    with Spivak as our guide, is an unforgettable experience.
+
+- slug: spivak-dg-3
+  title: "A Comprehensive Introduction to Differential Geometry, Vol. 3"
+  authors: "Michael Spivak"
+  edition: "3rd ed."
+  publisher: "Publish or Perish"
+  year: "1999"
+  subject: "Geometry 1 (Differential)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Volume 3 returns to classical differential geometry, covering curves and surfaces in Euclidean
+    space and the classical theory of surfaces, all seen with the machinery of the first two
+    volumes. It is the clearest illustration of how much modern geometry is already hiding in the
+    classical theory of surfaces.
+
+- slug: fulton-curves
+  title: "Algebraic Curves: An Introduction to Algebraic Geometry"
+  authors: "William Fulton"
+  edition: "3rd ed. (free 2008 version)"
+  publisher: "self-published (orig. Addison-Wesley)"
+  year: "2008"
+  subject: "Geometry 2 (Algebraic)"
+  free_url: "https://tqft.net/web/notes/load.php?name=books/20180618-Algebraic-Curves-An-Introduction-to-Algebraic-Geometry"
+  review_url: ""
+  blurb: |-
+    Fulton's book on algebraic curves is short (around 120 pages) and remains a standard
+    introduction to the classical theory. It covers affine and projective plane curves, intersection
+    numbers and Bézout's theorem, Max Noether's fundamental theorem, resolution of singularities and
+    the Riemann–Roch theorem, with several hundred problems. It needs only a semester of abstract
+    algebra. Fulton has made the latest edition freely available.
+
+- slug: garrity-ag
+  title: "Algebraic Geometry: A Problem Solving Approach"
+  authors: "Thomas Garrity et al."
+  edition: "1st ed."
+  publisher: "AMS (Student Mathematical Library 66)"
+  year: "2013"
+  subject: "Geometry 2 (Algebraic)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    This book teaches algebraic geometry almost entirely through problems. It begins with conics,
+    which a strong high school student can follow, moves through cubic curves and the group law on
+    elliptic curves, then higher-degree curves and varieties, and ends with a first look at sheaves
+    and cohomology. Each section states its goals clearly and the annotated bibliography is a fine
+    guide to further reading. There are no solutions, so it works best in a study group, and it is a
+    friendly way into a notoriously forbidding subject.
+
+- slug: smith-ag
+  title: "An Invitation to Algebraic Geometry"
+  authors: "Karen E. Smith et al."
+  edition: "1st ed."
+  publisher: "Springer (Universitext)"
+  year: "2000"
+  subject: "Geometry 2 (Algebraic)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Smith and her co-authors wrote a short book whose purpose is to show beginners what algebraic
+    geometry is about and where it is going. It assumes little beyond linear algebra and some ring
+    theory, explains varieties, smoothness, birational geometry and maps to projective space
+    informally, and constantly connects elementary ideas to current research. It does not prove
+    everything, nor does it try to. Read it before Bosch or Fulton to get a sense of the landscape.
+
+- slug: bosch-ag
+  title: "Algebraic Geometry and Commutative Algebra"
+  authors: "Siegfried Bosch"
+  edition: "2nd ed."
+  publisher: "Springer (Universitext)"
+  year: "2022"
+  subject: "Geometry 2 (Algebraic)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Bosch develops commutative algebra and algebraic geometry together, so that every algebraic tool
+    (localisation, integral extensions, dimension theory) is introduced just before it is needed
+    geometrically. The book ends with Grothendieck's schemes, treated rigorously and with detailed
+    proofs. The second edition is a careful revision of the first. It is the most self-contained
+    route to modern algebraic geometry, and gentler than the standard references.
+
+- slug: shastri-bat
+  title: "Basic Algebraic Topology"
+  authors: "Anant R. Shastri"
+  edition: "1st ed."
+  publisher: "CRC Press"
+  year: "2013"
+  subject: "Topology 2 (Algebraic)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Anant Shastri of IIT Bombay wrote a full year of algebraic topology that goes much further than
+    most first texts. After the fundamental group, covering spaces, homology and cohomology, it
+    covers manifolds and Poincaré duality, de Rham theory, higher homotopy, obstruction theory,
+    fibrations, characteristic classes and spectral sequences, with historical remarks throughout.
+    Its MAA reviewer admired how much wonderful material it covers, while warning that it covers it
+    tersely. Use it after Hatcher as the next step towards research.
+
+- slug: lawvere-schanuel
+  title: "Conceptual Mathematics: A First Introduction to Categories"
+  authors: "F. William Lawvere, Stephen H. Schanuel"
+  edition: "2nd ed."
+  publisher: "Cambridge University Press"
+  year: "2009"
+  subject: "Foundations 2 (Categories)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Lawvere and Schanuel wrote an introduction to category theory that assumes only school algebra.
+    Using sets and maps, they develop composition, isomorphisms, universal properties and eventually
+    toposes, with dialogues between teacher and students that anticipate our confusions. It looks
+    simple, and it is, but it also gives a deep sense of why category theory is a natural way to
+    think about mathematics. Read it first, and then move to Riehl.
+
+- slug: riehl-ctic
+  title: "Category Theory in Context"
+  authors: "Emily Riehl"
+  edition: "1st ed."
+  publisher: "Dover"
+  year: "2016"
+  subject: "Foundations 2 (Categories)"
+  free_url: "https://math.jhu.edu/~eriehl/context/"
+  review_url: ""
+  blurb: |-
+    Riehl's book is a first serious course in category theory. It covers categories, functors and
+    natural transformations, universal properties and the Yoneda lemma, limits and colimits,
+    adjunctions, monads and Kan extensions, and almost every idea is illustrated with examples from
+    algebra and topology that we already know from earlier phases. The chapters on monads and Kan
+    extensions are particularly clear. Riehl keeps the book free on her website.
+
+- slug: milne-ant
+  title: "Algebraic Number Theory"
+  authors: "James S. Milne"
+  edition: "Course notes, v3.08"
+  publisher: "self-published"
+  year: "2020"
+  subject: "Algebra 4 (Numbers)"
+  free_url: "https://jmilne.org/math/CourseNotes/ant.html"
+  review_url: ""
+  blurb: |-
+    Milne's course notes on algebraic number theory are free, regularly updated and about as clear
+    as course notes get. They cover rings of integers, Dedekind domains, the finiteness of the class
+    number, the unit theorem, cyclotomic fields and Fermat's last theorem for regular primes,
+    valuations and local fields, and global fields, with solutions to the exercises at the end. They
+    assume some commutative algebra. This is the right place to start algebraic number theory,
+    before Weil.
+
+- slug: weil-bnt
+  title: "Basic Number Theory"
+  authors: "André Weil"
+  edition: "3rd ed."
+  publisher: "Springer (Classics in Mathematics)"
+  year: "1995"
+  subject: "Algebra 4 (Numbers)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Weil's book treats algebraic number theory and class field theory uniformly for number fields
+    and function fields, which he calls A-fields, through locally compact fields, adeles, ideles and
+    zeta functions. Class field theory is developed by way of simple algebras, an approach found
+    almost nowhere else. The style is famously austere. It is not for beginners, but once we are
+    comfortable with Milne, Weil shows how the whole subject fits together.
+
+- slug: spivak-mech
+  title: "Physics for Mathematicians: Mechanics I"
+  authors: "Michael Spivak"
+  edition: "1st ed."
+  publisher: "Publish or Perish"
+  year: "2010"
+  subject: "Physics 1 (Classical Particles)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Spivak wrote this for mathematicians who want to understand classical mechanics, and it answers
+    all the questions that physics courses never address. What exactly is a force? Why does the
+    principle of least action work? How should we think about rigid bodies and constraints? It goes
+    from Newton's laws through rigid body motion, Lagrangian and Hamiltonian mechanics to
+    Hamilton–Jacobi theory, rigorously and with Spivak's usual humour.
+
+- slug: arnold-mmcm
+  title: "Mathematical Methods of Classical Mechanics"
+  authors: "Vladimir I. Arnold"
+  edition: "2nd ed."
+  publisher: "Springer (GTM 60)"
+  year: "1989"
+  subject: "Physics 1 (Classical Particles)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Arnold's book is how a generation of physicists should have learned classical mechanics. For the
+    most part they did not, and most still do not, which is a real shame. Newtonian mechanics leads
+    to Lagrangian mechanics on manifolds, which leads to Hamiltonian mechanics as symplectic
+    geometry, with differential forms introduced along the way as the natural language. The
+    appendices go further still, into Riemannian curvature, the motion of rigid bodies as geodesics
+    on Lie groups, and perturbation theory. Read it after a standard mechanics course and the
+    differential geometry of Phase 3. Then we will never see a Poisson bracket the same way again.
+
+- slug: schuller-gl
+  title: "Lectures on Gravity and Light"
+  authors: "Frederic P. Schuller (lectures)"
+  edition: "Lecture course"
+  publisher: "WE-Heraeus International Winter School on Gravity and Light, Linz"
+  year: "2015"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: "https://tales.mbivert.com/on-heraeus-winter-school-tutorials/"
+  review_url: ""
+  blurb: |-
+    Schuller's lectures from the 2015 WE-Heraeus winter school in Linz build general relativity from
+    first principles, starting with topology and manifolds and developing bundles, connections and
+    curvature before reaching Einstein's equations, the Schwarzschild solution and cosmology. The
+    lectures were accompanied by tutorial problems, and the whole course is freely available. For
+    students who want to see general relativity done with full mathematical honesty, this is the
+    place to start.
+
+- slug: garrity-em
+  title: "Electricity and Magnetism for Mathematicians"
+  authors: "Thomas A. Garrity"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2015"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Garrity uses Maxwell's equations as a gateway to a surprising amount of modern mathematics.
+    Starting from the equations in vector calculus form, he develops special relativity,
+    differential forms and the Hodge star, gauge theory, connections and curvature, and finally
+    Yang–Mills theory. The book is short and brisk, as its MAA reviewer noted, and assumes fluency
+    in vector calculus. It makes a natural bridge from the physics of Phase 0 to the geometry of
+    Phase 3.
+
+- slug: sasane-gr
+  title: "A Mathematical Introduction to General Relativity"
+  authors: "Amol Sasane"
+  edition: "2nd ed."
+  publisher: "World Scientific"
+  year: "2025"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Sasane wrote a proof-based introduction to general relativity for mathematics undergraduates.
+    Part I develops differential geometry from scratch, using Lorentzian examples throughout. Part
+    II covers the energy–momentum tensor, Einstein's equation, the Newtonian limit, geodesics, black
+    holes and cosmology. Its great virtue is that all of its exercises come with full solutions,
+    which makes it ideal for self-study. The second edition adds new exercises and fixes the slips
+    of the first.
+
+# Physics 1 book (also Physics 2), placed here so it comes last in Physics 1 and after Sasane in Physics 2.
+- slug: thirring-cmp
+  title: "Classical Mathematical Physics: Dynamical Systems and Field Theories"
+  authors: "Walter Thirring"
+  edition: "3rd ed."
+  publisher: "Springer"
+  year: "1997"
+  subject: "Physics 1 (Classical Particles)"
+  also: ["Physics 2 (Classical Fields)"]
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Thirring wrote a four-volume course in mathematical physics, and this book combines the first
+    two volumes on classical dynamical systems and classical field theory. It is rigorous and
+    written throughout in the language of differential forms, and it includes topics most mechanics
+    books omit, such as scattering theory and relativistic motion, including orbits in the
+    Schwarzschild geometry. One reviewer called it a mathematical physicist's Landau and Lifshitz,
+    which captures both its scope and its density.
+
+- slug: hehl-obukhov
+  title: "Foundations of Classical Electrodynamics: Charge, Flux, and Metric"
+  authors: "Friedrich W. Hehl, Yuri N. Obukhov"
+  edition: "1st ed."
+  publisher: "Birkhäuser"
+  year: "2003"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Hehl and Obukhov rebuild classical electrodynamics from a small set of axioms based on
+    conservation of charge and magnetic flux, using exterior calculus throughout. The metric of
+    spacetime enters only at the very end, through the constitutive law relating fields to
+    excitations. The result shows precisely which parts of Maxwell's theory depend on geometry and
+    which do not. It is graduate-level and demanding, but it gives the clearest picture of the
+    logical structure of electromagnetism available.
+
+- slug: oneill-srg
+  title: "Semi-Riemannian Geometry with Applications to Relativity"
+  authors: "Barrett O'Neill"
+  edition: "1st ed."
+  publisher: "Academic Press"
+  year: "1983"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    O'Neill develops semi-Riemannian geometry, the geometry of spacetime, with care and
+    completeness, and then applies it to special relativity, the Schwarzschild geometry,
+    Robertson–Walker cosmology and causality, ending with the singularity theorems. It is
+    mathematically rigorous and treats Lorentzian geometry on its own terms rather than as a variant
+    of Riemannian geometry. It approaches general relativity firmly from the mathematics first.
+
+- slug: wald-gr
+  title: "General Relativity"
+  authors: "Robert M. Wald"
+  edition: "1st ed."
+  publisher: "University of Chicago Press"
+  year: "1984"
+  subject: "Physics 2 (Classical Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Wald is the standard graduate text on general relativity for readers who want the mathematics
+    done properly. Part I covers manifolds, curvature, Einstein's equation, the Schwarzschild
+    solution and cosmology, using the abstract index notation that has since become standard. Part
+    II covers causal structure, singularity theorems, black holes and quantum effects in curved
+    spacetime. The appendices fill in the mathematics. Its treatment of linearised gravity is thin,
+    so supplement it there.
+
+- slug: gross-qm
+  title: "Quantum Mechanics"
+  authors: "David Gross"
+  edition: "Lecture notes"
+  publisher: "Universität zu Köln"
+  year: ""
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: "https://www.thp.uni-koeln.de/gross/files/qm.pdf"
+  review_url: ""
+  blurb: |-
+    David Gross's notes for the first course in quantum mechanics at the University of Cologne cover
+    wave mechanics, the Hilbert space framework, two-body problems, symmetries, angular momentum,
+    central potentials and perturbation theory, with appendices on complex analysis and
+    distributions. They are written by a mathematical physicist for physics students, which makes
+    them an excellent middle ground between the standard physics texts and the rigorous books on
+    this shelf.
+
+- slug: hall-qtfm
+  title: "Quantum Theory for Mathematicians"
+  authors: "Brian C. Hall"
+  edition: "1st ed."
+  publisher: "Springer (GTM 267)"
+  year: "2013"
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Hall wrote quantum mechanics for mathematicians, and it is the book to read if we want to
+    understand what physicists are doing without accepting any hand-waving. It goes from classical
+    mechanics through the spectral theorem and unbounded operators to the Stone–von Neumann theorem,
+    Lie groups and angular momentum, the hydrogen atom, the WKB approximation, path integrals and
+    geometric quantisation. Each topic is treated rigorously, but always with the physics in view.
+
+- slug: woit-qtgr
+  title: "Quantum Theory, Groups and Representations: An Introduction"
+  authors: "Peter Woit"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2017"
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Woit organises quantum mechanics around symmetry. Lie groups and their representations take us
+    from U(1) and SU(2) through the Heisenberg group and the harmonic oscillator, Clifford algebras
+    and spinors, and the Poincaré group, all the way to free quantum fields and Yang–Mills theory.
+    It assumes some quantum mechanics and shows better than most how much of physics is
+    representation theory in disguise.
+
+- slug: gross-aqm
+  title: "Advanced Quantum Mechanics"
+  authors: "David Gross"
+  edition: "Lecture notes"
+  publisher: "Universität zu Köln"
+  year: ""
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: "https://www.thp.uni-koeln.de/gross/files/aqm.pdf"
+  review_url: ""
+  blurb: |-
+    The sequel to Gross's first course begins with density operators, entanglement and Bell
+    inequalities, reflecting his background in quantum information. It then covers identical
+    particles and second quantisation, the quantised electromagnetic field, symmetries, the
+    Klein–Gordon and Dirac equations and scattering theory. It is a modern advanced course in a form
+    rarely found in textbooks.
+
+- slug: gustafson-sigal
+  title: "Mathematical Concepts of Quantum Mechanics"
+  authors: "Stephen J. Gustafson, Israel Michael Sigal"
+  edition: "3rd ed."
+  publisher: "Springer (Universitext)"
+  year: "2020"
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Gustafson and Sigal are active researchers in mathematical physics, and their book is a concise
+    graduate introduction to the mathematics of quantum mechanics as it is actually practised. It
+    covers Schrödinger operators, spectral theory, bound states, scattering theory and many-body
+    systems, and later chapters reach quantum fields, path integrals and open quantum systems. It
+    moves faster than Hall and assumes some functional analysis.
+
+- slug: moretti-stqm
+  title: "Spectral Theory and Quantum Mechanics"
+  authors: "Valter Moretti"
+  edition: "2nd ed."
+  publisher: "Springer (Unitext 110)"
+  year: "2017"
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Moretti's book is the most complete treatment of the mathematical foundations of quantum
+    mechanics available. It develops Hilbert spaces and the spectral theory of bounded and unbounded
+    operators in full, then uses them to treat the axioms of quantum mechanics, Gleason's theorem,
+    symmetries through Wigner's and Kadison's theorems, superselection rules and the algebraic
+    formulation. At around 950 pages it is enormous, and each edition is larger than the last. Use
+    it as the reference that answers every 'but is that actually true?' question.
+
+- slug: moretti-fmsqt
+  title: "Fundamental Mathematical Structures of Quantum Theory"
+  authors: "Valter Moretti"
+  edition: "1st ed."
+  publisher: "Springer"
+  year: "2019"
+  subject: "Physics 3 (Quantum Systems)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    This is a more compact companion to Moretti's larger book, focusing on the spectral theory of
+    unbounded operators, the foundational structure of quantum theory, symmetries and the C*- and
+    von Neumann algebraic formulation. Its MAA reviewer praised it as a resource for spectral theory
+    but noted it is not entirely standalone and works best alongside the larger book. A second
+    edition has been announced.
+
+- slug: woit-qft
+  title: "Quantum Field Theory"
+  authors: "Peter Woit"
+  edition: "Lecture notes"
+  publisher: "Columbia University"
+  year: ""
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: "https://www.math.columbia.edu/~woit/QFT/qftmath.pdf"
+  review_url: ""
+  blurb: |-
+    Woit's lecture notes on quantum field theory are written for mathematicians and continue in the
+    spirit of his book on quantum theory and representations, with symmetry and representation
+    theory leading the way.
+
+- slug: zirnbauer-qft
+  title: "Quantum Field Theory I"
+  authors: "Martin Zirnbauer"
+  edition: "Lecture notes, WS 2023/24"
+  publisher: "Universität zu Köln"
+  year: "2024"
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: "https://www.thp.uni-koeln.de/zirn/011_Website_Martin_Zirnbauer/3_Teaching/LectureNotes/All-Lectures-QFT1_WS23-24.pdf"
+  review_url: ""
+  blurb: |-
+    Martin Zirnbauer's lecture notes for the first half of the quantum field theory sequence at the
+    University of Cologne.
+
+- slug: talagrand-qft
+  title: "What Is a Quantum Field Theory?"
+  authors: "Michel Talagrand"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2022"
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Talagrand, who received the Abel Prize in 2024, came to quantum field theory as an outsider and
+    wrote the book he wished he had found. The result is a careful introduction for mathematicians
+    with no physics background, covering special relativity, quantum mechanics, free and interacting
+    fields and, at unusual length, renormalisation, with about 300 exercises. Every step is stated
+    precisely, which makes it easy to see exactly where the physics goes beyond what mathematics can
+    yet prove.
+
+- slug: zirnbauer-qft2
+  title: "Quantum Field Theory II"
+  authors: "Martin Zirnbauer"
+  edition: "Lecture notes, WS 2020/21"
+  publisher: "Universität zu Köln"
+  year: "2021"
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: "https://www.thp.uni-koeln.de/zirn/011_Website_Martin_Zirnbauer/3_Teaching/LectureNotes/QFT2-WS2021.pdf"
+  review_url: ""
+  blurb: |-
+    The lecture notes for the second half of Zirnbauer's quantum field theory sequence.
+
+- slug: altland-simons
+  title: "Condensed Matter Field Theory"
+  authors: "Alexander Altland, Ben Simons"
+  edition: "3rd ed."
+  publisher: "Cambridge University Press"
+  year: "2023"
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Altland and Simons is the standard graduate text on field-theoretic methods in condensed matter
+    physics. The first part covers second quantisation, functional integrals, perturbation theory,
+    broken symmetry and the renormalisation group. The second part covers gauge theory, topological
+    and relativistic quantum matter and nonequilibrium physics. The problems come with worked
+    answers. This is where most of us first see a functional integral actually earn its keep.
+
+- slug: haag-lqp
+  title: "Local Quantum Physics: Fields, Particles, Algebras"
+  authors: "Rudolf Haag"
+  edition: "2nd ed."
+  publisher: "Springer"
+  year: "1996"
+  subject: "Physics 4 (Quantum Fields)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Haag was one of the founders of algebraic quantum field theory, and this book is his account of
+    it. Quantum fields are described through nets of local algebras of observables, and the book
+    develops particles and scattering, superselection sectors and the theory of thermal states (to
+    which Haag himself contributed) from that starting point. It is research-level and demanding,
+    but it explains unusually clearly what a quantum field theory is, as opposed to how to calculate
+    with one.
+
+- slug: sethna-eopc
+  title: "Entropy, Order Parameters, and Complexity"
+  authors: "James P. Sethna"
+  edition: "2nd ed."
+  publisher: "Oxford University Press"
+  year: "2021"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: "https://sethna.lassp.cornell.edu/StatMech/"
+  review_url: ""
+  blurb: |-
+    Sethna's book is statistical mechanics for anyone, physicist or not, and its exercises are among
+    the best in any physics book, drawing on biology, computation, economics and engineering as well
+    as physics. It covers random walks, entropy and information, free energies, quantum statistical
+    mechanics, computational methods, order parameters and topological defects, correlations and
+    response, and phase transitions. The treatment of topological defects through homotopy theory is
+    unusual and wonderful. As its Physics Today reviewer noted, it works better as a course text
+    than for self-study. The author keeps a free version on his website.
+
+- slug: friedli-velenik
+  title: "Statistical Mechanics of Lattice Systems: A Concrete Mathematical Introduction"
+  authors: "Sacha Friedli, Yvan Velenik"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2017"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: "https://www.unige.ch/~velenik/smbook/"
+  review_url: ""
+  blurb: |-
+    Friedli and Velenik wrote a rigorous introduction to equilibrium statistical mechanics that is
+    also remarkably concrete. Each idea is developed through specific models, namely the Curie–Weiss
+    and Ising models, the Gaussian free field and models with continuous symmetry, before the
+    general theory of Gibbs measures, cluster expansions, Pirogov–Sinai theory and reflection
+    positivity. The book is full of figures and complements that connect the material to current
+    research. It assumes only measure-theoretic probability. The authors keep a free version online.
+
+- slug: kardar-particles
+  title: "Statistical Physics of Particles"
+  authors: "Mehran Kardar"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2007"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Kardar's two volumes come from his MIT graduate course. The first covers thermodynamics,
+    probability, kinetic theory, classical and quantum statistical mechanics and interacting
+    particles. Their distinctive feature is that the problems come with worked solutions, so much of
+    the teaching happens through them. It is the standard modern graduate text for the conventional,
+    non-rigorous approach.
+
+- slug: kardar-fields
+  title: "Statistical Physics of Fields"
+  authors: "Mehran Kardar"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2007"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    The second volume covers statistical field theory, building from Landau–Ginzburg theory through
+    scaling and universality to the perturbative and position-space renormalisation group, the
+    Kosterlitz–Thouless transition, and dissipative dynamics. Its Physics Today reviewer called the
+    first eight chapters stunning, and the treatment of the renormalisation group is as clear as any
+    available.
+
+- slug: ruelle-smrr
+  title: "Statistical Mechanics: Rigorous Results"
+  authors: "David Ruelle"
+  edition: "Reprint"
+  publisher: "World Scientific / Imperial College Press"
+  year: "1999"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Ruelle's book from 1969 founded rigorous statistical mechanics as a field. It proves the
+    existence of the thermodynamic limit, treats the ensembles and correlation functions for
+    classical and quantum systems, studies lattice systems and introduces the algebraic approach
+    using C*-algebras. Much of the later research literature builds on this book, and it remains
+    essential reading.
+
+- slug: georgii-gibbs
+  title: "Gibbs Measures and Phase Transitions"
+  authors: "Hans-Otto Georgii"
+  edition: "2nd ed."
+  publisher: "De Gruyter"
+  year: "2011"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Georgii's book is the standard reference on Gibbs measures and phase transitions, built on the
+    Dobrushin–Lanford–Ruelle formulation. It covers the general theory, Markov chains and Gaussian
+    fields, shift-invariant measures and reflection-positive models, and needs only measure theory
+    and probability. Its bibliographical notes, with hundreds of annotated references, are a guide
+    to the whole field. Read it after Friedli and Velenik.
+
+- slug: bovier-disordered
+  title: "Statistical Mechanics of Disordered Systems: A Mathematical Perspective"
+  authors: "Anton Bovier"
+  edition: "1st ed."
+  publisher: "Cambridge University Press"
+  year: "2006"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Bovier gives a rigorous treatment of disordered systems, from the random-field Ising model and
+    the random energy models to the Hopfield model of neural networks and the
+    Sherrington–Kirkpatrick spin glass with its Parisi solution. This is where statistical mechanics
+    meets the hardest open problems in probability, and Bovier is one of its main contributors.
+
+- slug: bratteli-robinson-1
+  title: "Operator Algebras and Quantum Statistical Mechanics 1: C*- and W*-Algebras, Symmetry Groups, Decomposition of States"
+  authors: "Ola Bratteli, Derek W. Robinson"
+  edition: "2nd ed."
+  publisher: "Springer"
+  year: "1987"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Bratteli and Robinson's two volumes are the standard reference on the operator-algebraic
+    approach to quantum statistical mechanics. Volume 1 develops the necessary mathematics, namely
+    C*- and von Neumann algebras, groups and semigroups of automorphisms (which describe dynamics),
+    and the decomposition theory of states. It is research-level mathematics, but it is clearly
+    written and complete.
+
+- slug: bratteli-robinson-2
+  title: "Operator Algebras and Quantum Statistical Mechanics 2"
+  authors: "Ola Bratteli, Derek W. Robinson"
+  edition: "2nd ed."
+  publisher: "Springer"
+  year: "1997"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Volume 2 applies the theory of Volume 1 to physics. It develops the KMS condition for
+    equilibrium states and its relation to stability, and then treats quantum spin systems and
+    continuous systems in detail, including the canonical commutation and anticommutation relations.
+    It has been the standard reference for decades and goes naturally with Haag.
+
+- slug: glimm-jaffe
+  title: "Quantum Physics: A Functional Integral Point of View"
+  authors: "James Glimm, Arthur Jaffe"
+  edition: "2nd ed."
+  publisher: "Springer"
+  year: "1987"
+  subject: "Physics 5 (Statistical Physics)"
+  free_url: ""
+  review_url: ""
+  blurb: |-
+    Glimm and Jaffe founded constructive quantum field theory, the effort to prove that interacting
+    quantum field theories actually exist. This book presents that programme through the Euclidean
+    functional integral, which turns quantum field theory into statistical mechanics. It develops
+    lattice approximations, correlation inequalities and cluster expansions, and constructs
+    interacting field theories in two dimensions. It is demanding, but it is the bridge between
+    Physics 4 and Physics 5.
